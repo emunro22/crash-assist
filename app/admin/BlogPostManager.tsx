@@ -16,29 +16,12 @@ export default function BlogPostManager({ posts, onRefresh }: Props) {
   const [editing, setEditing] = useState<BlogPost | null>(null)
   const [creating, setCreating] = useState(false)
   const [form, setForm] = useState(EMPTY)
-  const [uploading, setUploading] = useState(false)
   const [saving, setSaving] = useState(false)
   const [seeding, setSeeding] = useState(false)
 
   const openCreate = () => { setCreating(true); setEditing(null); setForm(EMPTY) }
   const openEdit = (p: BlogPost) => { setEditing(p); setCreating(false); setForm({ title: p.title, slug: p.slug, excerpt: p.excerpt, content: p.content, category: p.category, published: p.published, cover_image_url: p.cover_image_url ?? '' }) }
   const closeForm = () => { setCreating(false); setEditing(null) }
-
-  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0]
-    if (!file) return
-    setUploading(true)
-    try {
-      const res = await fetch('/api/admin/blog/upload-url', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ filename: file.name, contentType: file.type }),
-      })
-      const { url, uploadUrl } = await res.json()
-      await fetch(uploadUrl, { method: 'PUT', body: file, headers: { 'Content-Type': file.type } })
-      setForm(f => ({ ...f, cover_image_url: url }))
-    } catch { alert('Upload failed') } finally { setUploading(false) }
-  }
 
   const handleSave = async () => {
     setSaving(true)
@@ -108,14 +91,8 @@ export default function BlogPostManager({ posts, onRefresh }: Props) {
         </div>
 
         <div>
-          <label className="admin-label">Cover Image</label>
-          <div className="flex gap-3 items-start">
-            <input className="admin-input" placeholder="Image URL..." value={form.cover_image_url} onChange={e => setForm(f => ({ ...f, cover_image_url: e.target.value }))} />
-            <label className="admin-btn-secondary whitespace-nowrap cursor-pointer">
-              {uploading ? 'Uploading...' : 'Upload'}
-              <input type="file" className="hidden" accept="image/*" onChange={handleImageUpload} />
-            </label>
-          </div>
+          <label className="admin-label">Cover Image URL</label>
+          <input className="admin-input" placeholder="Paste image URL..." value={form.cover_image_url} onChange={e => setForm(f => ({ ...f, cover_image_url: e.target.value }))} />
           {form.cover_image_url && <Image src={form.cover_image_url} alt="cover" width={200} height={100} className="mt-2 object-cover" />}
         </div>
 

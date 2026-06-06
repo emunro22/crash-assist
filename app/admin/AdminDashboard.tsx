@@ -18,7 +18,6 @@ export default function AdminDashboard() {
 
   const [newCustomer, setNewCustomer] = useState({ name: '', phone: '', job_date: '', notes: '' })
   const [newImage, setNewImage] = useState({ title: '', tag: 'General', url: '' })
-  const [uploadingImg, setUploadingImg] = useState(false)
 
   const fetchPosts = useCallback(async () => {
     const r = await fetch('/api/admin/blog')
@@ -43,18 +42,6 @@ export default function AdminDashboard() {
     setLoggingOut(true)
     await fetch('/api/admin/logout', { method: 'POST' })
     router.refresh()
-  }
-
-  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0]
-    if (!file) return
-    setUploadingImg(true)
-    try {
-      const res = await fetch('/api/admin/images/upload-url', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ filename: file.name, contentType: file.type }) })
-      const { url, uploadUrl } = await res.json()
-      await fetch(uploadUrl, { method: 'PUT', body: file, headers: { 'Content-Type': file.type } })
-      setNewImage(i => ({ ...i, url }))
-    } catch { alert('Upload failed') } finally { setUploadingImg(false) }
   }
 
   const handleAddImage = async () => {
@@ -154,14 +141,8 @@ export default function AdminDashboard() {
                   </select>
                 </div>
                 <div>
-                  <label className="admin-label">Image</label>
-                  <div className="flex gap-2">
-                    <input className="admin-input" placeholder="Or paste URL..." value={newImage.url} onChange={e => setNewImage(i => ({ ...i, url: e.target.value }))} />
-                    <label className="admin-btn-secondary cursor-pointer whitespace-nowrap">
-                      {uploadingImg ? '...' : 'Upload'}
-                      <input type="file" className="hidden" accept="image/*" onChange={handleImageUpload} />
-                    </label>
-                  </div>
+                  <label className="admin-label">Image URL</label>
+                  <input className="admin-input" placeholder="Paste image URL..." value={newImage.url} onChange={e => setNewImage(i => ({ ...i, url: e.target.value }))} />
                 </div>
               </div>
               {newImage.url && <Image src={newImage.url} alt="preview" width={80} height={60} className="object-cover" />}
