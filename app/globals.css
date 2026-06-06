@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-100 antialiased;
+    font-family: var(--font-dm-sans), 'DM Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-barlow), 'Barlow Condensed', sans-serif;
+    @apply font-bold leading-tight tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-orange-500 text-white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-zinc-950;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-orange-500 rounded-full;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-20 lg:py-28;
+  }
+
+  .section-tag {
+    @apply inline-flex items-center gap-3 text-orange-500 font-semibold text-xs uppercase tracking-[0.25em] mb-5;
+  }
+
+  .section-tag::before {
+    content: '';
+    @apply block w-10 h-0.5 bg-orange-500;
+  }
+
+  .section-title {
+    font-family: var(--font-barlow), 'Barlow Condensed', sans-serif;
+    @apply text-5xl sm:text-6xl lg:text-7xl font-black text-white uppercase leading-none mb-6;
+  }
+
+  .section-body {
+    @apply text-zinc-400 text-lg leading-relaxed;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-bold py-3.5 px-8 uppercase tracking-wider text-sm transition-all duration-200 cursor-pointer;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border-2 border-zinc-700 hover:border-orange-500 text-zinc-300 hover:text-orange-500 font-bold py-3.5 px-8 uppercase tracking-wider text-sm transition-all duration-200 cursor-pointer;
+  }
+
+  .card {
+    @apply bg-zinc-900 border border-zinc-800 hover:border-orange-500/40 transition-all duration-300;
+  }
+
+  .orange-line {
+    @apply block w-12 h-0.5 bg-orange-500;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs font-semibold uppercase tracking-wider px-3 py-1.5;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #F97316 0%, #FBBF24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  }
+
+  .glow-orange {
+    box-shadow: 0 0 30px rgba(249, 115, 22, 0.3);
+  }
+
+  .border-gradient {
+    border-image: linear-gradient(135deg, #F97316, #FBBF24) 1;
+  }
+}
+
+/* Blog markdown styles */
+.prose-crash h1,
+.prose-crash h2,
+.prose-crash h3 {
+  font-family: var(--font-barlow), 'Barlow Condensed', sans-serif;
+  @apply font-black text-white uppercase mb-4 mt-8;
+}
+.prose-crash h1 { @apply text-4xl; }
+.prose-crash h2 { @apply text-3xl; }
+.prose-crash h3 { @apply text-2xl; }
+.prose-crash p { @apply text-zinc-400 leading-relaxed mb-4; }
+.prose-crash ul { @apply list-none space-y-2 mb-6; }
+.prose-crash ul li { @apply text-zinc-400 pl-5 relative; }
+.prose-crash ul li::before { content: '▸'; @apply absolute left-0 text-orange-500; }
+.prose-crash ol { @apply list-decimal list-inside space-y-2 mb-6 text-zinc-400; }
+.prose-crash strong { @apply text-white font-semibold; }
+.prose-crash a { @apply text-orange-500 hover:text-orange-400 underline underline-offset-2; }
+.prose-crash blockquote { @apply border-l-4 border-orange-500 pl-4 py-1 my-6 text-zinc-300 italic; }
+.prose-crash code { @apply bg-zinc-800 text-orange-300 px-1.5 py-0.5 text-sm; }
+
+/* Admin panel styles */
+.admin-tab {
+  @apply px-5 py-3 font-heading font-bold uppercase text-sm tracking-wide text-zinc-500 hover:text-white border-b-2 border-transparent hover:border-zinc-600 transition-all duration-200 cursor-pointer;
+}
+.admin-tab.active {
+  @apply text-orange-500 border-orange-500;
+}
+
+.admin-input {
+  @apply w-full bg-zinc-800 border border-zinc-700 text-white placeholder-zinc-500 px-4 py-3 text-sm focus:outline-none focus:border-orange-500 transition-colors duration-200;
+}
+
+.admin-label {
+  @apply block text-xs font-semibold uppercase tracking-wide text-zinc-400 mb-2;
+}
+
+.admin-btn {
+  @apply inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold uppercase tracking-wide transition-all duration-200 cursor-pointer;
+}
+.admin-btn-primary {
+  @apply admin-btn bg-orange-500 hover:bg-orange-600 text-white;
+}
+.admin-btn-secondary {
+  @apply admin-btn bg-zinc-700 hover:bg-zinc-600 text-white;
+}
+.admin-btn-danger {
+  @apply admin-btn bg-red-900/40 hover:bg-red-900/70 text-red-400 border border-red-800/40;
+}
