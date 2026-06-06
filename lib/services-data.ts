@@ -8,6 +8,7 @@ export type Service = {
   faqs: { question: string; answer: string }[]
   image: string
   category: string
+  icon: string
 }
 
 export const services: Service[] = [
@@ -47,6 +48,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
     category: 'Emergency Services',
+    icon: '🚨',
   },
   {
     slug: 'breakdown-recovery',
@@ -80,6 +82,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1549924231-f129b911e442?w=800&q=80',
     category: 'Breakdown',
+    icon: '🔧',
   },
   {
     slug: 'motorway-recovery',
@@ -113,6 +116,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1504222114039-e0a7e0f7ee72?w=800&q=80',
     category: 'Motorway',
+    icon: '🛣️',
   },
   {
     slug: 'flatbed-towing',
@@ -142,6 +146,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1596435163881-8f3d3c0c3ea7?w=800&q=80',
     category: 'Towing',
+    icon: '🚛',
   },
   {
     slug: 'accident-claims',
@@ -171,6 +176,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80',
     category: 'Claims',
+    icon: '📋',
   },
   {
     slug: 'long-distance-recovery',
@@ -200,6 +206,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&q=80',
     category: 'Long Distance',
+    icon: '📍',
   },
   {
     slug: 'motorcycle-recovery',
@@ -229,6 +236,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&q=80',
     category: 'Specialist',
+    icon: '🏍️',
   },
   {
     slug: 'commercial-vehicle-recovery',
@@ -258,6 +266,7 @@ export const services: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?w=800&q=80',
     category: 'Commercial',
+    icon: '🚚',
   },
 ]
 
