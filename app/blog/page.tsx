@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogCard from '@/components/BlogCard'
-import { getBlogPosts } from '@/lib/db'
+import { getBlogPosts, type BlogPost } from '@/lib/db'
 
 export const metadata: Metadata = {
   title: 'Blog & Guides',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export const revalidate = 3600
 
 export default async function BlogPage() {
-  let posts = []
+  let posts: BlogPost[] = []
   try {
     posts = await getBlogPosts(true)
   } catch {}
