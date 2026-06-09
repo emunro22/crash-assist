@@ -13,11 +13,11 @@
 
   body {
     @apply bg-zinc-950 text-zinc-100 antialiased;
-    font-family: var(--font-dm-sans), 'DM Sans', sans-serif;
+    font-family: var(--font-inter), 'Inter', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-barlow), 'Barlow Condensed', sans-serif;
+    font-family: var(--font-montserrat), 'Montserrat', sans-serif;
     @apply font-bold leading-tight tracking-tight;
   }
 
@@ -55,8 +55,8 @@
   }
 
   .section-title {
-    font-family: var(--font-barlow), 'Barlow Condensed', sans-serif;
-    @apply text-5xl sm:text-6xl lg:text-7xl font-black text-white uppercase leading-none mb-6;
+    font-family: var(--font-montserrat), 'Montserrat', sans-serif;
+    @apply text-4xl sm:text-5xl lg:text-6xl font-black text-white uppercase leading-none mb-6;
   }
 
   .section-body {
@@ -64,15 +64,15 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-bold py-3.5 px-8 uppercase tracking-wider text-sm transition-all duration-200 cursor-pointer;
+    @apply inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-bold py-3.5 px-8 uppercase tracking-wider text-sm transition-all duration-200 cursor-pointer rounded-sm;
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center gap-2 border-2 border-zinc-700 hover:border-orange-500 text-zinc-300 hover:text-orange-500 font-bold py-3.5 px-8 uppercase tracking-wider text-sm transition-all duration-200 cursor-pointer;
+    @apply inline-flex items-center justify-center gap-2 border-2 border-zinc-700 hover:border-orange-500 text-zinc-300 hover:text-orange-500 font-bold py-3.5 px-8 uppercase tracking-wider text-sm transition-all duration-200 cursor-pointer rounded-sm;
   }
 
   .card {
-    @apply bg-zinc-900 border border-zinc-800 hover:border-orange-500/40 transition-all duration-300;
+    @apply bg-zinc-900 border border-zinc-800 hover:border-orange-500/40 transition-all duration-300 rounded-sm;
   }
 
   .orange-line {
@@ -80,7 +80,7 @@
   }
 
   .badge {
-    @apply inline-flex items-center gap-1.5 bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs font-semibold uppercase tracking-wider px-3 py-1.5;
+    @apply inline-flex items-center gap-1.5 bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-sm;
   }
 }
 
@@ -109,7 +109,7 @@
 .prose-crash h1,
 .prose-crash h2,
 .prose-crash h3 {
-  font-family: var(--font-barlow), 'Barlow Condensed', sans-serif;
+  font-family: var(--font-montserrat), 'Montserrat', sans-serif;
   @apply font-black text-white uppercase mb-4 mt-8;
 }
 .prose-crash h1 { @apply text-4xl; }

@@ -1,8 +1,24 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+
+const SLIDES = [
+  {
+    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80',
+    alt: 'Crash Assist recovery truck responding to roadside emergency',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=1920&q=75',
+    alt: 'Professional vehicle recovery on Scottish motorway',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=1920&q=75',
+    alt: 'Emergency roadside assistance and accident recovery Scotland',
+  },
+]
 
 const stats = [
   { value: '24/7', label: 'Always On' },
@@ -12,166 +28,149 @@ const stats = [
 ]
 
 export default function Hero() {
+  const [current, setCurrent] = useState(0)
+  const [paused, setPaused] = useState(false)
+
+  useEffect(() => {
+    if (paused) return
+    const id = setInterval(() => setCurrent((p) => (p + 1) % SLIDES.length), 5000)
+    return () => clearInterval(id)
+  }, [paused])
+
   return (
-    <section className="relative min-h-screen bg-zinc-950 flex items-center overflow-hidden pt-20">
-      {/* Background geometric split */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute right-0 top-0 w-[45%] h-full bg-zinc-900" />
-        {/* Diagonal separator */}
-        <div
-          className="absolute top-0 h-full w-32"
-          style={{
-            right: '43%',
-            background: 'linear-gradient(to bottom right, transparent 50%, #18181B 50%)',
-            transform: 'skewX(-2deg)',
-          }}
-        />
-        {/* Orange corner accent */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-orange-500/3 rounded-full blur-2xl" />
+    <section
+      className="relative min-h-screen flex items-center overflow-hidden pt-20"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
+      {/* Background slideshow */}
+      <div className="absolute inset-0">
+        {SLIDES.map((slide, i) => (
+          <div
+            key={slide.src}
+            className="absolute inset-0 transition-opacity duration-1000"
+            style={{ opacity: i === current ? 1 : 0 }}
+          >
+            <Image
+              src={slide.src}
+              alt={slide.alt}
+              fill
+              className="object-cover"
+              priority={i === 0}
+              sizes="100vw"
+            />
+          </div>
+        ))}
+        {/* Dark gradient overlay — heavier at top/bottom for readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/75 via-zinc-950/55 to-zinc-950/85" />
+        {/* Side vignette */}
+        <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/60 via-transparent to-zinc-950/30" />
       </div>
 
-      <div className="container relative z-10 py-16 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left: Content */}
-          <div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="section-tag mb-6"
-            >
-              Scotland&apos;s Emergency Recovery Specialists
-            </motion.div>
-
-            <motion.h1
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.1 }}
-              className="font-heading text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-black text-white uppercase leading-none mb-6"
-            >
-              Crash
-              <br />
-              <span className="text-orange-500">Assist</span>
-              <br />
-              Recovery
-            </motion.h1>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.25 }}
-              className="section-body max-w-md mb-10"
-            >
-              Fast, professional vehicle recovery and accident assistance across Scotland.
-              We are on the scene in under an hour — day or night, every single day.
-            </motion.p>
-
-            {/* CTA Buttons */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.35 }}
-              className="flex flex-col sm:flex-row gap-4 mb-14"
-            >
-              <a href="tel:08009991234" className="btn-primary text-base py-4 px-8 animate-pulse-orange">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-                </svg>
-                Emergency: 0800 999 1234
-              </a>
-              <Link href="/claims" className="btn-outline text-base py-4 px-8">
-                Start a Claim
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-            </motion.div>
-
-            {/* Stats row */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              className="grid grid-cols-4 gap-0 border border-zinc-800"
-            >
-              {stats.map((stat, i) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.5 + i * 0.08 }}
-                  className={`py-4 px-3 text-center ${i < stats.length - 1 ? 'border-r border-zinc-800' : ''}`}
-                >
-                  <div className="font-heading text-xl sm:text-2xl font-black text-orange-500 leading-none">
-                    {stat.value}
-                  </div>
-                  <div className="text-zinc-500 text-xs uppercase tracking-wide mt-1">{stat.label}</div>
-                </motion.div>
-              ))}
-            </motion.div>
+      {/* Main content */}
+      <div className="container relative z-10 py-20 lg:py-28">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="max-w-3xl"
+        >
+          <div className="section-tag mb-6">
+            Scotland&apos;s Emergency Recovery Specialists
           </div>
 
-          {/* Right: Image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.9, delay: 0.2 }}
-            className="relative hidden lg:block"
-          >
-            <div className="relative aspect-[4/5] overflow-hidden">
-              <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80"
-                alt="Crash Assist Recovery — emergency recovery truck on Scottish road"
-                fill
-                className="object-cover"
-                priority
-              />
-              {/* Orange colour overlay */}
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-600/20 via-transparent to-zinc-950/60" />
-              {/* Geometric frame */}
-              <div className="absolute inset-4 border border-orange-500/25 pointer-events-none" />
-              <div className="absolute top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-orange-500" />
-              <div className="absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-orange-500" />
-            </div>
+          <h1 className="font-heading text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-white uppercase leading-none mb-6">
+            Crash
+            <br />
+            <span className="text-orange-500">Assist</span>
+            <br />
+            Recovery
+          </h1>
 
-            {/* Floating availability badge */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.9 }}
-              className="absolute -left-6 top-12 bg-zinc-950 border border-orange-500/50 px-4 py-3 shadow-xl shadow-black/60"
-            >
-              <div className="flex items-center gap-3">
-                <span className="w-2.5 h-2.5 rounded-full bg-orange-500 animate-pulse" />
-                <div>
-                  <div className="font-heading font-black text-sm text-white uppercase">Live Dispatch</div>
-                  <div className="text-orange-500 text-xs">Available now</div>
+          <p className="section-body max-w-xl mb-10">
+            Fast, professional vehicle recovery and accident assistance across Scotland.
+            We are on the scene in under an hour — day or night, every single day.
+          </p>
+
+          {/* CTAs */}
+          <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <a href="tel:08009991234" className="btn-primary text-base py-4 px-8 animate-pulse-orange">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+              </svg>
+              Emergency: 0800 999 1234
+            </a>
+            <Link href="/claims" className="btn-outline text-base py-4 px-8">
+              Start a Claim
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+
+          {/* Stats bar */}
+          <div className="grid grid-cols-4 max-w-sm sm:max-w-md border border-zinc-700/60 overflow-hidden backdrop-blur-sm">
+            {stats.map((stat, i) => (
+              <div
+                key={stat.label}
+                className={`bg-zinc-950/70 py-3 px-2 sm:px-4 text-center ${i < stats.length - 1 ? 'border-r border-zinc-700/60' : ''}`}
+              >
+                <div className="font-heading text-lg sm:text-2xl font-black text-orange-500 leading-none">
+                  {stat.value}
+                </div>
+                <div className="text-zinc-400 text-[10px] sm:text-xs uppercase tracking-wide mt-1">
+                  {stat.label}
                 </div>
               </div>
-            </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      </div>
 
-            {/* Floating stat badge */}
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 1.1 }}
-              className="absolute -right-4 bottom-16 bg-orange-500 px-4 py-3 shadow-xl"
-            >
-              <div className="font-heading font-black text-2xl text-white leading-none">No.1</div>
-              <div className="text-orange-100 text-xs uppercase tracking-wide">in Scotland</div>
-            </motion.div>
-          </motion.div>
+      {/* Floating live dispatch badge */}
+      <motion.div
+        initial={{ opacity: 0, x: 30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1.0, duration: 0.6 }}
+        className="absolute right-8 top-36 hidden xl:flex items-center gap-3 bg-zinc-950/90 border border-orange-500/50 px-4 py-3 shadow-2xl z-20"
+      >
+        <span className="w-2.5 h-2.5 rounded-full bg-orange-500 animate-pulse flex-shrink-0" />
+        <div>
+          <div className="font-heading font-black text-sm text-white uppercase tracking-wide">Live Dispatch</div>
+          <div className="text-orange-500 text-xs">Available now</div>
         </div>
+      </motion.div>
+
+      {/* No.1 badge */}
+      <motion.div
+        initial={{ opacity: 0, x: 30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1.2, duration: 0.6 }}
+        className="absolute right-8 bottom-36 hidden xl:block bg-orange-500 px-4 py-3 shadow-2xl z-20"
+      >
+        <div className="font-heading font-black text-2xl text-white leading-none">No.1</div>
+        <div className="text-orange-100 text-xs uppercase tracking-wide">in Scotland</div>
+      </motion.div>
+
+      {/* Slide indicators */}
+      <div className="absolute bottom-20 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+        {SLIDES.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => setCurrent(i)}
+            className={`h-0.5 transition-all duration-500 ${i === current ? 'w-8 bg-orange-500' : 'w-4 bg-zinc-600 hover:bg-zinc-400'}`}
+            aria-label={`Go to slide ${i + 1}`}
+          />
+        ))}
       </div>
 
       {/* Scroll cue */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-7 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10"
         animate={{ y: [0, 6, 0] }}
-        transition={{ repeat: Infinity, duration: 2 }}
+        transition={{ repeat: Infinity, duration: 2, ease: 'easeInOut' }}
       >
-        <span className="text-zinc-600 text-xs uppercase tracking-widest">Scroll</span>
+        <span className="text-zinc-500 text-xs uppercase tracking-widest">Scroll</span>
         <svg className="w-4 h-4 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>

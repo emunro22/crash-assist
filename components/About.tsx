@@ -34,9 +34,11 @@ export default function About() {
           >
             <div className="relative aspect-[5/6] overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80"
-                alt="Crash Assist Recovery professional team"
+                src="https://images.unsplash.com/photo-1563720223523-d7b5f8e9fd43?w=800&q=80"
+                alt="Crash Assist Recovery professional fleet and team"
                 fill
+                loading="lazy"
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent" />

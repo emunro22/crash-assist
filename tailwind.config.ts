@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['var(--font-barlow)', 'Barlow Condensed', 'sans-serif'],
-        body: ['var(--font-dm-sans)', 'DM Sans', 'sans-serif'],
+        heading: ['var(--font-montserrat)', 'Montserrat', 'sans-serif'],
+        body: ['var(--font-inter)', 'Inter', 'sans-serif'],
       },
       colors: {
         brand: '#F97316',

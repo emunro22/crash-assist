@@ -1,21 +1,21 @@
 import type { Metadata } from 'next'
-import { Barlow_Condensed, DM_Sans } from 'next/font/google'
+import { Montserrat, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import Schema from '@/components/Schema'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import StickyCallBar from '@/components/StickyCallBar'
 import './globals.css'
 
-const barlowCondensed = Barlow_Condensed({
+const montserrat = Montserrat({
   weight: ['400', '600', '700', '800', '900'],
   subsets: ['latin'],
-  variable: '--font-barlow',
+  variable: '--font-montserrat',
   display: 'swap',
 })
 
-const dmSans = DM_Sans({
+const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-dm-sans',
+  variable: '--font-inter',
   display: 'swap',
 })
 
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${barlowCondensed.variable} ${dmSans.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${inter.variable}`}>
       <head>
         <Schema />
       </head>

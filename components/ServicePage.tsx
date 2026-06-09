@@ -50,7 +50,7 @@ export default function ServicePage({ service }: { service: Service }) {
                   transition={{ delay: 0.2 }}
                   className="relative aspect-[16/9] mb-10 overflow-hidden"
                 >
-                  <Image src={service.image} alt={service.title} fill className="object-cover" />
+                  <Image src={service.image} alt={service.title} fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                   <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-orange-500" />
                   <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-orange-500" />
                 </motion.div>
