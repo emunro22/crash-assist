@@ -7,7 +7,6 @@ const Ticker = dynamic(() => import('@/components/Ticker'))
 const About = dynamic(() => import('@/components/About'))
 const Services = dynamic(() => import('@/components/Services'))
 const Pricing = dynamic(() => import('@/components/Pricing'))
-const Testimonials = dynamic(() => import('@/components/Testimonials'))
 const CallbackForm = dynamic(() => import('@/components/CallbackForm'))
 const FAQ = dynamic(() => import('@/components/FAQ'))
 const CoverageMap = dynamic(() => import('@/components/CoverageMap'))
@@ -25,7 +24,6 @@ export default function HomePage() {
         <Services />
         <Pricing />
         <Gallery />
-        <Testimonials />
         <CallbackForm />
         <FAQ />
         <CoverageMap />

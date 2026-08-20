@@ -78,8 +78,8 @@ export default function AreasPage() {
               Not Sure if We Cover You?
             </h2>
             <p className="section-body mb-8">Call us — if we can reach you, we will.</p>
-            <a href="tel:08009991234" className="btn-primary text-base py-4 px-10">
-              Call: 0800 999 1234
+            <a href="tel:+447564016582" className="btn-primary text-base py-4 px-10">
+              Call: +44 7564 016582
             </a>
           </div>
         </section>

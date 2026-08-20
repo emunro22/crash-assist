@@ -1,9 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import Link from 'next/link'
 import type { Area } from '@/lib/areas-data'
+import BrandPanel from './BrandPanel'
 
 export default function AreaPage({ area }: { area: Area }) {
   return (
@@ -27,8 +27,8 @@ export default function AreaPage({ area }: { area: Area }) {
             <h1 className="section-title mb-6">{area.headline}</h1>
             <p className="section-body max-w-2xl mb-8">{area.description}</p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:08009991234" className="btn-primary">
-                Emergency Call: 0800 999 1234
+              <a href="tel:+447564016582" className="btn-primary">
+                Emergency Call: +44 7564 016582
               </a>
               <Link href="/contact" className="btn-outline">Request a Callback</Link>
             </div>
@@ -41,15 +41,12 @@ export default function AreaPage({ area }: { area: Area }) {
         <div className="container">
           <div className="grid lg:grid-cols-[2fr_1fr] gap-16">
             <div>
-              {/* Image */}
-              {area.image && (
-                <div className="relative aspect-[16/9] mb-10 overflow-hidden">
-                  <Image src={area.image} alt={`Vehicle recovery in ${area.name}`} fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/40 to-transparent" />
-                  <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-orange-500" />
-                  <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-orange-500" />
-                </div>
-              )}
+              {/* Brand panel */}
+              <div className="relative aspect-[16/9] mb-10 overflow-hidden">
+                <BrandPanel className="absolute inset-0" />
+                <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-orange-500" />
+                <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-orange-500" />
+              </div>
 
               {/* Long description */}
               <div className="prose-crash">
@@ -107,8 +104,8 @@ export default function AreaPage({ area }: { area: Area }) {
               <div className="bg-orange-500 p-6">
                 <h3 className="font-heading font-black text-white uppercase text-xl mb-3">Broken Down in {area.name}?</h3>
                 <p className="text-orange-100 text-sm mb-5">Call us now for immediate dispatch to your location.</p>
-                <a href="tel:08009991234" className="block bg-white text-orange-600 font-heading font-black uppercase text-center py-3 px-6 hover:bg-zinc-100 transition-colors">
-                  0800 999 1234
+                <a href="tel:+447564016582" className="block bg-white text-orange-600 font-heading font-black uppercase text-center py-3 px-6 hover:bg-zinc-100 transition-colors">
+                  +44 7564 016582
                 </a>
               </div>
 

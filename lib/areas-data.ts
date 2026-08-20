@@ -7,7 +7,6 @@ export type Area = {
   postcodes: string[]
   features: string[]
   faqs: { question: string; answer: string }[]
-  image: string
 }
 
 export const areas: Area[] = [
@@ -23,7 +22,6 @@ export const areas: Area[] = [
       { question: 'How fast can you reach central Glasgow?', answer: 'For central Glasgow postcodes (G1, G2, G3), we typically arrive within 30–40 minutes. Outer Glasgow postcodes may take up to 60 minutes depending on time of day and traffic.' },
       { question: 'Do you recover vehicles from Glasgow car parks?', answer: 'Yes, we recover vehicles from multi-storey car parks, basement car parks and any other enclosed or restricted access location throughout Glasgow.' },
     ],
-    image: 'https://images.unsplash.com/photo-1584467735815-8b9fd61a6e62?w=800&q=80',
   },
   {
     slug: 'edinburgh',
@@ -37,7 +35,6 @@ export const areas: Area[] = [
       { question: 'Can you reach Edinburgh from Glasgow quickly?', answer: "Yes — we have extended our coverage to Edinburgh and can typically reach the city within 60–75 minutes. For faster response, we have partner operators in Edinburgh's area who can dispatch simultaneously." },
       { question: 'Do you cover the Edinburgh City Bypass (A720)?', answer: 'The A720 Edinburgh City Bypass is one of our key operational roads in Edinburgh. We have dedicated experience with A-road and dual carriageway recovery in the Edinburgh area.' },
     ],
-    image: 'https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=800&q=80',
   },
   {
     slug: 'paisley',
@@ -51,7 +48,6 @@ export const areas: Area[] = [
       { question: 'Can you recover hire cars near Glasgow Airport?', answer: 'Yes, we regularly assist hire car customers who have broken down near Glasgow Airport. We can deliver the vehicle to the hire company depot or another location of your choice.' },
       { question: 'How long to reach Paisley from Glasgow?', answer: 'Paisley is typically within 20–30 minutes of our Glasgow base, making it one of our fastest response areas.' },
     ],
-    image: 'https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&q=80',
   },
   {
     slug: 'hamilton',
@@ -64,7 +60,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'Do you cover Blantyre and Burnbank as well as Hamilton?', answer: "Yes, our Hamilton coverage extends to all surrounding areas including Blantyre, Burnbank, Ferniegair, Quarter and the wider ML3 postcode district." },
     ],
-    image: 'https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=800&q=80',
   },
   {
     slug: 'motherwell',
@@ -77,7 +72,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'Do you cover Wishaw and Bellshill as well as Motherwell?', answer: 'Yes — our Motherwell coverage encompasses the entire ML1 and ML2 postcode areas, including Wishaw, Bellshill, New Stevenston and Carfin.' },
     ],
-    image: 'https://images.unsplash.com/photo-1470114716159-e389f8712fda?w=800&q=80',
   },
   {
     slug: 'livingston',
@@ -90,7 +84,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'How quickly can you reach Livingston?', answer: 'Livingston is well-positioned between our Glasgow and Edinburgh operations. We typically achieve a 40–55 minute response time for most Livingston postcodes.' },
     ],
-    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80',
   },
   {
     slug: 'falkirk',
@@ -103,7 +96,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'Do you cover Grangemouth and Stenhousemuir?', answer: 'Yes, our Falkirk coverage extends across the full FK postcode area, including Grangemouth, Stenhousemuir, Larbert, Bonnybridge and Denny.' },
     ],
-    image: 'https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?w=800&q=80',
   },
   {
     slug: 'stirling',
@@ -116,7 +108,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'Can you recover vehicles from rural roads near Stirling?', answer: 'Yes, we specialise in rural road recovery, which can present unique challenges like limited access and narrow lanes. Our team has the right vehicles and experience for rural Stirlingshire recovery.' },
     ],
-    image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80',
   },
   {
     slug: 'ayr',
@@ -129,7 +120,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'Do you cover the A77 between Glasgow and Ayr?', answer: 'The A77 is one of our key operational routes, and we provide rapid response along the entire length from Glasgow down to Ayr, Girvan and beyond.' },
     ],
-    image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=80',
   },
   {
     slug: 'kilmarnock',
@@ -142,7 +132,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'How quickly can you reach Kilmarnock?', answer: 'Kilmarnock is approximately 35–45 minutes from our Central Scotland base. For urgent calls, we dispatch immediately and aim to beat the estimated arrival time.' },
     ],
-    image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&q=80',
   },
   {
     slug: 'dumfries',
@@ -155,7 +144,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'Can you reach vehicles on the A75 towards Stranraer?', answer: "Yes — the A75 is a critical route for ferry traffic to Northern Ireland and we provide coverage along its full length. Response times to remote sections may be longer, but we will reach you." },
     ],
-    image: 'https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=800&q=80',
   },
   {
     slug: 'perth',
@@ -168,7 +156,6 @@ export const areas: Area[] = [
     faqs: [
       { question: 'Do you cover the A9 north of Perth?', answer: "Yes, we cover the A9 from Perth heading north. This is one of Scotland's busiest and most important routes and we maintain priority response capability along it." },
     ],
-    image: 'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80',
   },
 ]
 

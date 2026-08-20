@@ -45,14 +45,14 @@ export default function CallbackForm() {
             </p>
             <p className="section-body mb-10">
               For <strong className="text-white">emergencies</strong>, always call us directly on{' '}
-              <a href="tel:08009991234" className="text-orange-500 font-bold hover:underline">0800 999 1234</a>.
+              <a href="tel:+447564016582" className="text-orange-500 font-bold hover:underline">+44 7564 016582</a>.
             </p>
 
             <div className="space-y-4">
               {[
-                { icon: '📞', label: 'Emergency Line', value: '0800 999 1234', href: 'tel:08009991234' },
+                { icon: '📞', label: 'Emergency Line', value: '+44 7564 016582', href: 'tel:+447564016582' },
                 { icon: '✉️', label: 'Email', value: 'info@crashassistrecovery.co.uk', href: 'mailto:info@crashassistrecovery.co.uk' },
-                { icon: '🟢', label: 'WhatsApp', value: 'Chat with us', href: 'https://wa.me/447700900123' },
+                { icon: '🟢', label: 'WhatsApp', value: 'Chat with us', href: 'https://wa.me/447564016582' },
               ].map((c) => (
                 <a
                   key={c.label}
@@ -80,7 +80,7 @@ export default function CallbackForm() {
               <div className="bg-zinc-900 border border-zinc-800 p-10 text-center">
                 <div className="text-5xl mb-4">✅</div>
                 <h3 className="font-heading text-2xl font-black text-white uppercase mb-3">Request Received</h3>
-                <p className="text-zinc-400">We will call you back within 30 minutes. For emergencies, call 0800 999 1234.</p>
+                <p className="text-zinc-400">We will call you back within 30 minutes. For emergencies, call +44 7564 016582.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="bg-zinc-900 border border-zinc-800 p-8 space-y-5">
@@ -141,7 +141,7 @@ export default function CallbackForm() {
                 </div>
 
                 {status === 'error' && (
-                  <p className="text-red-400 text-sm">Something went wrong. Please call us directly on 0800 999 1234.</p>
+                  <p className="text-red-400 text-sm">Something went wrong. Please call us directly on +44 7564 016582.</p>
                 )}
 
                 <button
@@ -153,7 +153,7 @@ export default function CallbackForm() {
                 </button>
 
                 <p className="text-zinc-600 text-xs text-center">
-                  For emergencies, call <a href="tel:08009991234" className="text-orange-500 hover:underline">0800 999 1234</a> directly.
+                  For emergencies, call <a href="tel:+447564016582" className="text-orange-500 hover:underline">+44 7564 016582</a> directly.
                 </p>
               </form>
             )}

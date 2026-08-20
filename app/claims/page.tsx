@@ -36,7 +36,7 @@ export default function ClaimsPage() {
                   Our expert claims team handles every step, from documentation to settlement.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="tel:08009991234" className="btn-primary">Start Your Claim</a>
+                  <a href="tel:+447564016582" className="btn-primary">Start Your Claim</a>
                   <a href="#form" className="btn-outline">Free Consultation</a>
                 </div>
               </div>

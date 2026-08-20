@@ -30,13 +30,13 @@ export default function Footer() {
             <p className="text-orange-100 text-sm mt-1">Available 24/7 · 365 days · Across Scotland</p>
           </div>
           <a
-            href="tel:08009991234"
+            href="tel:+447564016582"
             className="flex-shrink-0 bg-white text-orange-600 font-heading font-black text-lg uppercase px-8 py-4 hover:bg-zinc-100 transition-colors flex items-center gap-3"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
             </svg>
-            0800 999 1234
+            +44 7564 016582
           </a>
         </div>
       </div>
@@ -64,11 +64,11 @@ export default function Footer() {
               Scotland&apos;s trusted 24/7 emergency vehicle recovery and accident assistance specialists.
             </p>
             <div className="space-y-2 text-sm">
-              <a href="tel:08009991234" className="flex items-center gap-2.5 text-zinc-400 hover:text-orange-500 transition-colors">
+              <a href="tel:+447564016582" className="flex items-center gap-2.5 text-zinc-400 hover:text-orange-500 transition-colors">
                 <svg className="w-4 h-4 text-orange-500 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
                 </svg>
-                0800 999 1234
+                +44 7564 016582
               </a>
               <a href="mailto:info@crashassistrecovery.co.uk" className="flex items-center gap-2.5 text-zinc-400 hover:text-orange-500 transition-colors">
                 <svg className="w-4 h-4 text-orange-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -166,7 +166,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-zinc-900 py-6">
         <div className="container flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-600">
-          <p>© {new Date().getFullYear()} Crash Assist Recovery. All rights reserved. Registered in Scotland.</p>
+          <p>© {new Date().getFullYear()} Crash Assist Limited. Company No. SC870113. Registered in Scotland.</p>
           <div className="flex gap-5">
             <Link href="/privacy" className="hover:text-orange-500 transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-orange-500 transition-colors">Terms of Service</Link>

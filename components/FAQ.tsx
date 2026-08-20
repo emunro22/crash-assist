@@ -109,8 +109,8 @@ export default function FAQ() {
             <p className="section-body mb-8">
               Can&apos;t find your answer here? Call us directly — we are always happy to talk.
             </p>
-            <a href="tel:08009991234" className="btn-primary text-sm">
-              Call: 0800 999 1234
+            <a href="tel:+447564016582" className="btn-primary text-sm">
+              Call: +44 7564 016582
             </a>
           </div>
 

@@ -68,7 +68,7 @@ export default function Hero() {
       </div>
 
       {/* Main content */}
-      <div className="container relative z-10 py-20 lg:py-28">
+      <div className="container relative z-10 pt-8 pb-24 lg:pt-12 lg:pb-32">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -94,11 +94,11 @@ export default function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <a href="tel:08009991234" className="btn-primary text-base py-4 px-8 animate-pulse-orange">
+            <a href="tel:+447564016582" className="btn-primary text-base py-4 px-8 animate-pulse-orange">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
               </svg>
-              Emergency: 0800 999 1234
+              Emergency: +44 7564 016582
             </a>
             <Link href="/claims" className="btn-outline text-base py-4 px-8">
               Start a Claim
@@ -109,16 +109,20 @@ export default function Hero() {
           </div>
 
           {/* Stats bar */}
-          <div className="grid grid-cols-4 max-w-sm sm:max-w-md border border-zinc-700/60 overflow-hidden backdrop-blur-sm">
+          <div className="grid grid-cols-2 sm:grid-cols-4 max-w-xs sm:max-w-md border border-zinc-700/60 overflow-hidden backdrop-blur-sm">
             {stats.map((stat, i) => (
               <div
                 key={stat.label}
-                className={`bg-zinc-950/70 py-3 px-2 sm:px-4 text-center ${i < stats.length - 1 ? 'border-r border-zinc-700/60' : ''}`}
+                className={`bg-zinc-950/70 py-3 px-3 sm:px-4 text-center border-zinc-700/60 ${
+                  i % 2 === 0 ? 'border-r' : ''
+                } ${i < 2 ? 'border-b sm:border-b-0' : ''} ${
+                  i !== stats.length - 1 ? 'sm:border-r' : ''
+                }`}
               >
-                <div className="font-heading text-lg sm:text-2xl font-black text-orange-500 leading-none">
+                <div className="font-heading text-xl sm:text-2xl font-black text-orange-500 leading-none">
                   {stat.value}
                 </div>
-                <div className="text-zinc-400 text-[10px] sm:text-xs uppercase tracking-wide mt-1">
+                <div className="text-zinc-400 text-[11px] sm:text-xs uppercase tracking-wide mt-1">
                   {stat.label}
                 </div>
               </div>
@@ -139,17 +143,6 @@ export default function Hero() {
           <div className="font-heading font-black text-sm text-white uppercase tracking-wide">Live Dispatch</div>
           <div className="text-orange-500 text-xs">Available now</div>
         </div>
-      </motion.div>
-
-      {/* No.1 badge */}
-      <motion.div
-        initial={{ opacity: 0, x: 30 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute right-8 bottom-36 hidden xl:block bg-orange-500 px-4 py-3 shadow-2xl z-20"
-      >
-        <div className="font-heading font-black text-2xl text-white leading-none">No.1</div>
-        <div className="text-orange-100 text-xs uppercase tracking-wide">in Scotland</div>
       </motion.div>
 
       {/* Slide indicators */}

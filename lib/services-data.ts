@@ -6,7 +6,6 @@ export type Service = {
   longDescription: string
   features: string[]
   faqs: { question: string; answer: string }[]
-  image: string
   category: string
   icon: string
 }
@@ -46,7 +45,6 @@ export const services: Service[] = [
         answer: 'Absolutely. We are fully trained and equipped for motorway recovery operations. We follow all statutory motorway safety protocols to ensure you and our team stay safe during the recovery.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
     category: 'Emergency Services',
     icon: '🚨',
   },
@@ -80,7 +78,6 @@ export const services: Service[] = [
         answer: 'Stay in your vehicle with your seatbelt on if it is safe to do so. Turn on your hazard lights. If you must exit the vehicle, move well away from traffic. Never stand on the carriageway.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1549924231-f129b911e442?w=800&q=80',
     category: 'Breakdown',
     icon: '🔧',
   },
@@ -114,7 +111,6 @@ export const services: Service[] = [
         answer: 'We cover the entire Scottish motorway network including M8, M74, M77, M73, M80, M9, M876, and all connecting A-roads. We also extend to cross-border motorways when required.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1504222114039-e0a7e0f7ee72?w=800&q=80',
     category: 'Motorway',
     icon: '🛣️',
   },
@@ -144,7 +140,6 @@ export const services: Service[] = [
         answer: 'Absolutely. We regularly transport prestige vehicles including BMW, Mercedes, Audi, Porsche and others on our flatbeds. We understand how valuable your vehicle is and treat it accordingly.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1596435163881-8f3d3c0c3ea7?w=800&q=80',
     category: 'Towing',
     icon: '🚛',
   },
@@ -174,7 +169,6 @@ export const services: Service[] = [
         answer: 'For personal injury claims in Scotland, you generally have 3 years from the date of the accident. For vehicle damage claims, it is important to notify your insurer promptly — ideally within 24 hours.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80',
     category: 'Claims',
     icon: '📋',
   },
@@ -204,7 +198,6 @@ export const services: Service[] = [
         answer: 'Yes, this is one of our most common long-distance requests. We regularly recover vehicles from across England and Wales back to Scotland for our customers.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&q=80',
     category: 'Long Distance',
     icon: '📍',
   },
@@ -234,7 +227,6 @@ export const services: Service[] = [
         answer: 'Our primary service is recovery and transportation. For minor issues such as flat tyres, we may be able to assist at the roadside. For mechanical repairs, we will transport you to a specialist motorcycle garage.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&q=80',
     category: 'Specialist',
     icon: '🏍️',
   },
@@ -264,7 +256,6 @@ export const services: Service[] = [
         answer: 'Our primary fleet handles vehicles up to 7.5 tonnes. For heavier vehicles, we have partner operators with heavy recovery capability. Contact us and we will arrange the right recovery solution.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?w=800&q=80',
     category: 'Commercial',
     icon: '🚚',
   },

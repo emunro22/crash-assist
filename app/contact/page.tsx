@@ -5,7 +5,7 @@ import CallbackForm from '@/components/CallbackForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: "Get in touch with Crash Assist Recovery. Available 24/7 for emergency vehicle recovery across Scotland. Call 0800 999 1234.",
+  description: "Get in touch with Crash Assist Recovery. Available 24/7 for emergency vehicle recovery across Scotland. Call +44 7564 016582.",
 }
 
 export default function ContactPage() {

@@ -86,7 +86,7 @@
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #F97316 0%, #FBBF24 100%);
+    background: linear-gradient(135deg, #DE1415 0%, #F17979 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -97,11 +97,11 @@
   }
 
   .glow-orange {
-    box-shadow: 0 0 30px rgba(249, 115, 22, 0.3);
+    box-shadow: 0 0 30px rgba(222, 20, 21, 0.3);
   }
 
   .border-gradient {
-    border-image: linear-gradient(135deg, #F97316, #FBBF24) 1;
+    border-image: linear-gradient(135deg, #DE1415, #F17979) 1;
   }
 }
 

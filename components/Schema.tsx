@@ -6,10 +6,12 @@ export default function Schema() {
         '@type': 'LocalBusiness',
         '@id': 'https://crashassistrecovery.co.uk/#business',
         name: 'Crash Assist Recovery',
+        legalName: 'Crash Assist Limited',
+        identifier: 'SC870113',
         description:
           "Scotland's trusted 24/7 emergency vehicle recovery and accident assistance specialists. Fast response across Glasgow, Edinburgh and Central Scotland.",
         url: 'https://crashassistrecovery.co.uk',
-        telephone: '08009991234',
+        telephone: '+447564016582',
         email: 'info@crashassistrecovery.co.uk',
         image: 'https://crashassistrecovery.co.uk/og-image.jpg',
         priceRange: '££',
@@ -23,17 +25,6 @@ export default function Schema() {
           dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
           opens: '00:00',
           closes: '23:59',
-        },
-        address: {
-          '@type': 'PostalAddress',
-          addressRegion: 'Scotland',
-          addressCountry: 'GB',
-        },
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '600',
-          bestRating: '5',
         },
         hasMap: 'https://www.google.com/maps/search/Crash+Assist+Recovery+Scotland',
         knowsAbout: [

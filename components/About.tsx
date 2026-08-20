@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 const stats = [
   { value: '15+', label: 'Years in Business', desc: 'Serving Scotland since 2009' },
-  { value: '10k+', label: 'Recoveries Completed', desc: 'Across Central Scotland' },
-  { value: '99%', label: 'Customer Satisfaction', desc: 'Based on verified reviews' },
+  { value: '500+', label: 'Recoveries Completed', desc: 'Across Central Scotland' },
+  { value: '99%', label: 'Customer Satisfaction', desc: 'Every job, every time' },
   { value: '< 1hr', label: 'Average Response', desc: 'Across our coverage area' },
 ]
 
@@ -34,8 +34,8 @@ export default function About() {
           >
             <div className="relative aspect-[5/6] overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1563720223523-d7b5f8e9fd43?w=800&q=80"
-                alt="Crash Assist Recovery professional fleet and team"
+                src="/gallery/ranger-flatbed-recovery-dusk.jpg"
+                alt="Crash Assist Recovery flatbed truck on the job"
                 fill
                 loading="lazy"
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -62,7 +62,7 @@ You must notify your insurance company promptly even if you do not intend to mak
 
 If your vehicle is not driveable, call us. We will dispatch a recovery vehicle immediately, handle the safe removal of your car from the scene and deliver it to your chosen garage or our secure storage facility.
 
-**0800 999 1234** — available 24 hours, 7 days a week.
+**+44 7564 016582** — available 24 hours, 7 days a week.
 
 ## Step 8: Seek Medical Attention
 
@@ -205,7 +205,7 @@ We work with you and your insurance company to ensure the recovery process suppo
 - Liaise directly with your insurer's appointed recovery agent
 - Connect you with trusted claims management partners
 
-**Call us 24/7 on 0800 999 1234**`,
+**Call us 24/7 on +44 7564 016582**`,
   },
   {
     title: 'Motorway Breakdown: A Step-by-Step Safety Guide',
@@ -247,7 +247,7 @@ As soon as you notice a problem — a warning light, strange noise, loss of powe
 
 ## Calling for Help
 
-Use the orange SOS telephone boxes (located every mile) or call Crash Assist Recovery on **0800 999 1234**. Tell us:
+Use the orange SOS telephone boxes (located every mile) or call Crash Assist Recovery on **+44 7564 016582**. Tell us:
 
 - Your location (use the marker posts on the central reservation — they show the road number and location reference)
 - The nature of your vehicle's problem
@@ -273,7 +273,7 @@ Many Scottish motorways are being converted to smart motorways where the hard sh
 - If you must stop in a live lane, call 999, not just breakdown recovery
 - The overhead gantry signs will show a red X if your lane is closed by emergency services
 
-**Crash Assist Recovery operates on all Scottish motorways 24/7. Call 0800 999 1234.**`,
+**Crash Assist Recovery operates on all Scottish motorways 24/7. Call +44 7564 016582.**`,
   },
   {
     title: 'Why You Should Never Move Your Vehicle After an Accident',
@@ -330,7 +330,7 @@ Our flatbed recovery vehicles are designed to transport damaged vehicles without
 1. Switch on hazard lights
 2. Photograph the positions of all vehicles
 3. Exchange details with all parties
-4. Call Crash Assist Recovery on **0800 999 1234**
+4. Call Crash Assist Recovery on **+44 7564 016582**
 5. Wait in a safe location until we arrive
 
 We will handle everything from there — safely, professionally and in a way that supports your claim.`,
@@ -389,7 +389,7 @@ Crash Assist Recovery answers yes to all of these questions.
 
 Knowing that you have access to a professional recovery service at any hour of the day or night means you can drive with confidence. Whether it is a long night drive on the A9 or an early morning motorway commute, we are always on standby.
 
-**Save our number now: 0800 999 1234** — before you need it.`,
+**Save our number now: +44 7564 016582** — before you need it.`,
   },
   {
     title: 'Common Causes of Vehicle Breakdowns and How to Prevent Them',
@@ -453,7 +453,7 @@ Locking keys in the car or losing them is more common than you might think — p
 
 No matter how diligent you are with maintenance, breakdowns can still happen. When they do, Crash Assist Recovery is one phone call away.
 
-**0800 999 1234** — available 24/7, 365 days a year.`,
+**+44 7564 016582** — available 24/7, 365 days a year.`,
   },
   {
     title: 'How Long Does a Vehicle Recovery Take?',
@@ -518,7 +518,7 @@ The full process from your call to vehicle delivery is typically 1.5–3 hours f
 - Have your vehicle keys ready
 - Know your insurance company and policy number (if relevant)
 
-**To request a recovery, call 0800 999 1234 now.**`,
+**To request a recovery, call +44 7564 016582 now.**`,
   },
   {
     title: 'Towing vs. Flatbed Transport: Which Does Your Vehicle Need?',
@@ -581,7 +581,7 @@ Our operators are trained to assess your vehicle's condition and configuration b
 
 If in any doubt, we default to flatbed — your vehicle's safety is always our priority.
 
-**Call 0800 999 1234 to discuss the right recovery for your vehicle.**`,
+**Call +44 7564 016582 to discuss the right recovery for your vehicle.**`,
   },
   {
     title: 'Winter Driving in Scotland: Breakdown Prevention Tips',
@@ -650,7 +650,7 @@ For winter journeys, particularly in rural Scotland or on Highland routes, carry
 
 Crash Assist Recovery operates throughout the Scottish winter, including during adverse weather events. We have the experience and equipment to reach you safely.
 
-**0800 999 1234** — 24/7, every day of the year.`,
+**+44 7564 016582** — 24/7, every day of the year.`,
   },
   {
     title: 'Understanding Accident Claims: No Win No Fee Explained',
@@ -709,7 +709,7 @@ Compensation in a road traffic accident claim can include:
 
 At the time of recovery, we can connect you with our trusted network of claims management partners and solicitors. We work with legal professionals who specialise in road traffic accident claims in Scotland and who operate on a genuine no win no fee basis.
 
-**Call us on 0800 999 1234** — we will help you understand your options from the moment of your accident.`,
+**Call us on +44 7564 016582** — we will help you understand your options from the moment of your accident.`,
   },
   {
     title: 'How to Document an Accident Scene for Insurance',
@@ -793,7 +793,7 @@ If the other driver refuses to provide details, note their registration and call
 
 Crash Assist Recovery can assist with evidence documentation during the recovery process. Our drivers are trained to photograph vehicles before and after loading.
 
-**Call 0800 999 1234 any time.**`,
+**Call +44 7564 016582 any time.**`,
   },
   {
     title: 'Roadside Safety: What to Do While Waiting for Recovery',
@@ -862,7 +862,7 @@ In cold or wet conditions:
 - Follow all instructions from our driver — they have been trained in live-road working safety
 - Do not attempt to help with loading unless specifically asked
 
-**We will always confirm your safety before beginning any recovery. Call 0800 999 1234.**`,
+**We will always confirm your safety before beginning any recovery. Call +44 7564 016582.**`,
   },
   {
     title: 'The Benefits of Choosing a Local Recovery Service',
@@ -919,7 +919,7 @@ To be fair to national breakdown services — they do offer advantages for membe
 
 If you are a frequent traveller or have a history of vehicle problems, a national breakdown membership is worth having as your primary cover. But save our number as a backup — particularly for serious accidents or complex recoveries where local expertise and speed of response matters most.
 
-**Crash Assist Recovery: 0800 999 1234** — saving that number now is the smartest thing you can do before you need it.`,
+**Crash Assist Recovery: +44 7564 016582** — saving that number now is the smartest thing you can do before you need it.`,
   },
   {
     title: 'Electric Vehicle Recovery: What You Need to Know',
@@ -983,7 +983,7 @@ When you call about an EV breakdown or accident:
 3. If there has been a collision, tell us if you have noticed any unusual sounds, smells or heat from the vehicle
 4. Do not attempt to charge a vehicle that has been in an accident
 
-**Call 0800 999 1234** — our team will ask the right questions to ensure we send the right equipment.`,
+**Call +44 7564 016582** — our team will ask the right questions to ensure we send the right equipment.`,
   },
   {
     title: 'How Recovery Services Work with Insurance Companies',
@@ -1049,7 +1049,7 @@ Beware of third-party capture — where the at-fault driver's insurer contacts y
 
 You are under no obligation to accept a third party insurer's recovery offer. You can always call Crash Assist Recovery directly.
 
-**For impartial accident recovery and claims support, call 0800 999 1234.**`,
+**For impartial accident recovery and claims support, call +44 7564 016582.**`,
   },
   {
     title: 'Top 10 Emergency Items to Keep in Your Car',
@@ -1107,7 +1107,7 @@ If you are stuck waiting for recovery in summer heat, dehydration can quickly be
 
 ## Bonus: Know Crash Assist Recovery's Number
 
-Save **0800 999 1234** in your phone contacts now. When you need us, you will not be searching for a number.`,
+Save **+44 7564 016582** in your phone contacts now. When you need us, you will not be searching for a number.`,
   },
   {
     title: 'Understanding Recovery Vehicle Classifications',
@@ -1165,7 +1165,7 @@ Our fleet includes:
 
 When you call us, we will identify the right vehicle for your situation before dispatch, ensuring the vehicle that arrives can handle your recovery safely and efficiently.
 
-**0800 999 1234** — available 24/7.`,
+**+44 7564 016582** — available 24/7.`,
   },
   {
     title: 'What Happens to Your Car After an Accident Recovery',
@@ -1237,7 +1237,7 @@ During the repair period, you may be entitled to a courtesy car. This depends on
 
 For non-fault accidents, you are typically entitled to a like-for-like hire vehicle at no cost to you.
 
-**Crash Assist Recovery is there from the first moment to the last. Call 0800 999 1234.**`,
+**Crash Assist Recovery is there from the first moment to the last. Call +44 7564 016582.**`,
   },
   {
     title: 'How to Choose the Best Vehicle Recovery Service',
@@ -1305,7 +1305,7 @@ Check Google Reviews, Trustpilot and Facebook for consistent, genuine customer f
 
 Crash Assist Recovery operates its own fleet, employs trained and certified drivers, and provides transparent pricing. We are available every hour of every day, and we have the flatbed and winch capability to handle complex recoveries.
 
-**Call 0800 999 1234 to discuss your needs before you need us.**`,
+**Call +44 7564 016582 to discuss your needs before you need us.**`,
   },
   {
     title: 'The Hidden Costs of Using the Wrong Recovery Service',
@@ -1370,7 +1370,7 @@ If a recovery service damages your vehicle, you are entitled to compensation. Ho
 
 Professional services like Crash Assist Recovery carry full insurance and have clear complaints procedures. Many informal operators do not.
 
-**Choose right the first time. Call Crash Assist Recovery: 0800 999 1234.**`,
+**Choose right the first time. Call Crash Assist Recovery: +44 7564 016582.**`,
   },
   {
     title: "Scotland's Motorway Network: A Driver's Safety Guide",
@@ -1432,13 +1432,13 @@ Short but vital section connecting the M8/M9 corridor with the M80 and the Grang
 Regardless of which motorway you are on:
 
 1. Call 999 for any injury accident or when life is at risk
-2. Call Crash Assist Recovery on **0800 999 1234** for breakdown or non-injury accident recovery
+2. Call Crash Assist Recovery on **+44 7564 016582** for breakdown or non-injury accident recovery
 3. Give your location using the green marker posts on the central reservation
 4. If you can see a junction number, report that — it is the fastest way to identify your location
 5. Stay behind the barrier and away from the carriageway
 
 Crash Assist Recovery is certified to operate on all Scottish motorways and our drivers know each road's specific characteristics and emergency protocols.
 
-**24/7 motorway recovery across Scotland: 0800 999 1234.**`,
+**24/7 motorway recovery across Scotland: +44 7564 016582.**`,
   },
 ]

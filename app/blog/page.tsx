@@ -62,8 +62,8 @@ export default async function BlogPage() {
             <p className="section-body mb-8">
               For emergencies, call us directly. We are available 24/7.
             </p>
-            <a href="tel:08009991234" className="btn-primary text-base py-4 px-10">
-              Emergency: 0800 999 1234
+            <a href="tel:+447564016582" className="btn-primary text-base py-4 px-10">
+              Emergency: +44 7564 016582
             </a>
           </div>
         </section>

@@ -101,8 +101,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 <div className="bg-orange-500 p-6">
                   <h3 className="font-heading font-black text-white uppercase text-xl mb-3">Need Recovery Now?</h3>
                   <p className="text-orange-100 text-sm mb-4">Available 24/7 across Scotland.</p>
-                  <a href="tel:08009991234" className="block bg-white text-orange-600 font-heading font-black uppercase text-center py-3 hover:bg-zinc-100 transition-colors">
-                    0800 999 1234
+                  <a href="tel:+447564016582" className="block bg-white text-orange-600 font-heading font-black uppercase text-center py-3 hover:bg-zinc-100 transition-colors">
+                    +44 7564 016582
                   </a>
                 </div>
 
