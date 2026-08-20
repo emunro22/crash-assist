@@ -20,7 +20,7 @@ const COORDS: Record<string, { lat: number; lng: number }> = {
   perth: { lat: 56.3958, lng: -3.4308 },
 }
 
-const HQ = { lat: 55.8462, lng: -4.1194, name: 'Central Scotland HQ' } // Bellshill / North Lanarkshire — geographic centre of coverage
+const HQ = { lat: 55.8462, lng: -4.1194, name: 'Central Scotland HQ' } // Bellshill / North Lanarkshire, geographic centre of coverage
 
 export default function CoverageMap() {
   const mapRef = useRef<HTMLDivElement>(null)
@@ -49,7 +49,7 @@ export default function CoverageMap() {
         maxZoom: 19,
       }).addTo(map)
 
-      // Outer ring — extended / UK-wide capability
+      // Outer ring: extended / UK-wide capability
       L.circle([HQ.lat, HQ.lng], {
         radius: 120700, // ~75 miles
         color: '#DE1415',
@@ -59,7 +59,7 @@ export default function CoverageMap() {
         dashArray: '10 8',
       }).addTo(map)
 
-      // Inner ring — core rapid-response area
+      // Inner ring: core rapid-response area
       L.circle([HQ.lat, HQ.lng], {
         radius: 48280, // 30 miles
         color: '#DE1415',
@@ -117,11 +117,11 @@ export default function CoverageMap() {
           <p className="section-body">
             Based in Central Scotland, our core rapid-response area covers Glasgow, Edinburgh
             and the surrounding central belt with a 45–60 minute arrival guarantee. We also
-            operate further afield — wherever you need us, just give us a call.
+            operate further afield, wherever you need us, just give us a call.
           </p>
         </div>
 
-        <div className="relative border border-zinc-800">
+        <div className="relative border border-zinc-800 overflow-hidden">
           <div ref={mapRef} className="w-full h-[420px] sm:h-[480px]" aria-label="Coverage map" />
           <div className="absolute bottom-4 left-4 bg-zinc-950/90 border border-zinc-800 backdrop-blur-sm p-4 space-y-2 text-xs text-zinc-400 hidden sm:block">
             <div className="flex items-center gap-2">

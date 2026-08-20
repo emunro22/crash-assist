@@ -20,7 +20,7 @@ const services = [
     slug: 'motorway-recovery',
     icon: '🛣️',
     title: 'Motorway Recovery',
-    description: 'Certified operators on all Scottish motorways — M8, M74, M77, M73, M80 and more. Safety first, always.',
+    description: 'Certified operators on all Scottish motorways: M8, M74, M77, M73, M80 and more. Safety first, always.',
   },
   {
     slug: 'flatbed-towing',

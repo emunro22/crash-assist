@@ -99,7 +99,7 @@ export default function ServicePage({ service }: { service: Service }) {
               {/* CTA card */}
               <div className="bg-orange-500 p-6">
                 <h3 className="font-heading font-black text-white uppercase text-xl mb-3">Need Help Now?</h3>
-                <p className="text-orange-100 text-sm mb-5">Available 24/7 — call us immediately for emergency assistance.</p>
+                <p className="text-orange-100 text-sm mb-5">Available 24/7, call us immediately for emergency assistance.</p>
                 <a href="tel:+447564016582" className="block bg-white text-orange-600 font-heading font-black uppercase text-center py-3 px-6 hover:bg-zinc-100 transition-colors">
                   +44 7564 016582
                 </a>

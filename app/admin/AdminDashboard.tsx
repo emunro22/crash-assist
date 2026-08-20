@@ -130,7 +130,7 @@ export default function AdminDashboard() {
               <div className="grid sm:grid-cols-3 gap-3">
                 <div>
                   <label className="admin-label">Title</label>
-                  <input className="admin-input" value={newImage.title} onChange={e => setNewImage(i => ({ ...i, title: e.target.value }))} placeholder="Accident recovery — M74" />
+                  <input className="admin-input" value={newImage.title} onChange={e => setNewImage(i => ({ ...i, title: e.target.value }))} placeholder="Accident recovery on M74" />
                 </div>
                 <div>
                   <label className="admin-label">Tag</label>
@@ -210,7 +210,7 @@ export default function AdminDashboard() {
                 <tbody className="divide-y divide-zinc-900">
                   {customers.map(c => (
                     <tr key={c.id} className="hover:bg-zinc-900/50">
-                      <td className="py-3 text-white">{c.name || '—'}</td>
+                      <td className="py-3 text-white">{c.name || 'N/A'}</td>
                       <td className="py-3 text-zinc-300 font-mono text-xs">{c.phone}</td>
                       <td className="py-3 text-zinc-400 text-xs">{c.job_date}</td>
                       <td className="py-3">
@@ -218,7 +218,7 @@ export default function AdminDashboard() {
                           {c.source}
                         </span>
                       </td>
-                      <td className="py-3 text-zinc-500 text-xs max-w-[160px] truncate">{c.notes || '—'}</td>
+                      <td className="py-3 text-zinc-500 text-xs max-w-[160px] truncate">{c.notes || 'N/A'}</td>
                       <td className="py-3">
                         <button onClick={() => handleDeleteCustomer(c.id)} className="admin-btn-danger text-xs py-1 px-2">Del</button>
                       </td>

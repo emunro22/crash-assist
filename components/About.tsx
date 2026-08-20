@@ -79,7 +79,7 @@ export default function About() {
             </p>
             <p className="section-body mb-10">
               Since 2009 we have built our reputation across Scotland by consistently delivering on
-              that promise — arriving fast, handling vehicles with care, and treating every customer
+              that promise, arriving fast, handling vehicles with care, and treating every customer
               as we would want to be treated ourselves.
             </p>
 

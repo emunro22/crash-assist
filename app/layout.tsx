@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | Crash Assist Recovery',
   },
   description:
-    "Scotland's trusted 24/7 emergency vehicle recovery and accident assistance specialists. Fast response across Glasgow, Edinburgh and Central Scotland. Call us anytime — we never close.",
+    "Scotland's trusted 24/7 emergency vehicle recovery and accident assistance specialists. Fast response across Glasgow, Edinburgh and Central Scotland. Call us anytime, we never close.",
   keywords:
     'crash assist recovery, vehicle recovery Scotland, accident recovery Glasgow, breakdown recovery Scotland, 24 hour recovery, tow truck Glasgow, motorway recovery Scotland, emergency recovery',
   openGraph: {

@@ -69,7 +69,7 @@ export default function AdminLogin() {
         </div>
 
         <p className="text-center text-zinc-700 text-xs mt-6">
-          Crash Assist Recovery — Admin Portal
+          Crash Assist Recovery: Admin Portal
         </p>
       </div>
     </div>

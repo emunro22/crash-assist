@@ -54,7 +54,7 @@ export default function Pricing() {
           </h2>
           <p className="section-body">
             No hidden fees, no surprises. Every job is quoted clearly on the phone before we
-            dispatch — you&apos;ll know exactly what you&apos;re paying before we set off.
+            dispatch, so you&apos;ll know exactly what you&apos;re paying before we set off.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export default function Pricing() {
           </svg>
           <p>
             All prices subject to VAT. Final quote depends on location, distance and vehicle
-            type — call us for an exact price before we dispatch.
+            type, so call us for an exact price before we dispatch.
           </p>
         </div>
 

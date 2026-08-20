@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export const revalidate = 3600
 
 export default async function WorkPage() {
-  // Photos dropped into /public/gallery show up automatically — no DB or admin upload needed.
+  // Photos dropped into /public/gallery show up automatically, no DB or admin upload needed.
   const staticImages = getStaticGalleryImages()
 
   let dbImages: Awaited<ReturnType<typeof getGalleryImages>> = []

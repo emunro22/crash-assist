@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-/** A generic branded placeholder used wherever we don't have a real photo — keeps every
- *  page honest (no unrelated stock photography) while still looking intentional. */
+/** A generic branded placeholder used wherever we don't have a real photo.
+ *  Keeps every page honest (no unrelated stock photography) while still looking intentional. */
 export default function BrandPanel({ className = '' }: { className?: string }) {
   return (
     <div className={`relative bg-zinc-900 overflow-hidden ${className}`}>

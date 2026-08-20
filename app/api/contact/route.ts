@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
     await resend.emails.send({
       from: fromEmail,
       to: toEmail,
-      subject: `New Callback Request — ${name || 'Unknown'} — ${service || 'General'}`,
+      subject: `New Callback Request: ${name || 'Unknown'} (${service || 'General'})`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px;">
           <h2 style="color: #DE1415;">New Callback Request</h2>
@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
       await resend.emails.send({
         from: fromEmail,
         to: phone,
-        subject: 'We received your callback request — Crash Assist Recovery',
+        subject: 'We received your callback request: Crash Assist Recovery',
         html: `<p>Hi ${name},</p><p>We have received your callback request and will contact you within 30 minutes during business hours.</p><p>For emergencies, call us immediately on <strong>+44 7564 016582</strong>.</p><p>Crash Assist Recovery Team</p>`,
       })
     }

@@ -16,7 +16,7 @@ export const services: Service[] = [
     title: 'Accident Recovery',
     headline: '24/7 Professional Accident Recovery',
     description: 'Fast, safe vehicle recovery from road traffic accidents across Scotland. We manage the scene, protect your vehicle and coordinate with all parties.',
-    longDescription: `When you're involved in a road traffic accident, the last thing you need is to worry about your vehicle. Crash Assist Recovery provides rapid, professional accident recovery services across Scotland 24 hours a day, 7 days a week, 365 days a year.\n\nOur experienced team arrives quickly, assesses the scene for safety, and uses specialist equipment to carefully recover your vehicle — whether it's a minor bump or a serious collision. We work closely with the police, insurance companies and repair garages to make the entire process as stress-free as possible.\n\nFrom Glasgow city centre to remote motorway stretches, we've seen and handled it all. No job is too complex.`,
+    longDescription: `When you're involved in a road traffic accident, the last thing you need is to worry about your vehicle. Crash Assist Recovery provides rapid, professional accident recovery services across Scotland 24 hours a day, 7 days a week, 365 days a year.\n\nOur experienced team arrives quickly, assesses the scene for safety, and uses specialist equipment to carefully recover your vehicle, whether it's a minor bump or a serious collision. We work closely with the police, insurance companies and repair garages to make the entire process as stress-free as possible.\n\nFrom Glasgow city centre to remote motorway stretches, we've seen and handled it all. No job is too complex.`,
     features: [
       'Scene safety assessment on arrival',
       'Specialist loading equipment for all vehicle types',
@@ -67,7 +67,7 @@ export const services: Service[] = [
     faqs: [
       {
         question: 'Can you repair my car at the roadside?',
-        answer: 'In many cases yes — we can handle battery issues, flat tyres, minor mechanical problems and fuel emergencies at the roadside. If the vehicle cannot be repaired on the spot, we will tow it to a garage.',
+        answer: 'In many cases yes, we can handle battery issues, flat tyres, minor mechanical problems and fuel emergencies at the roadside. If the vehicle cannot be repaired on the spot, we will tow it to a garage.',
       },
       {
         question: 'Is breakdown recovery covered by my insurance?',
@@ -95,7 +95,7 @@ export const services: Service[] = [
       'Long reach equipment for difficult recoveries',
       'Out-of-hours and bank holiday availability',
       'Works alongside Police Scotland motorway units',
-      'Competitive fixed pricing — no motorway surcharge',
+      'Competitive fixed pricing, no motorway surcharge',
     ],
     faqs: [
       {
@@ -148,7 +148,7 @@ export const services: Service[] = [
     title: 'Accident Claims Assistance',
     headline: 'Expert Accident Claims Support',
     description: 'We make it easy to navigate insurance claims after an accident. Our team guides you through every step from documentation to settlement.',
-    longDescription: `Filing an insurance claim after a road traffic accident can feel overwhelming — especially when you are already dealing with the stress of the accident itself. Crash Assist Recovery provides expert accident claims assistance to help you get the compensation and repairs you deserve.\n\nFrom gathering photographic evidence at the scene to liaising with insurers and solicitors, our team handles the paperwork so you can focus on recovering.`,
+    longDescription: `Filing an insurance claim after a road traffic accident can feel overwhelming, especially when you are already dealing with the stress of the accident itself. Crash Assist Recovery provides expert accident claims assistance to help you get the compensation and repairs you deserve.\n\nFrom gathering photographic evidence at the scene to liaising with insurers and solicitors, our team handles the paperwork so you can focus on recovering.`,
     features: [
       'Scene documentation and photography',
       'Insurance liaison on your behalf',
@@ -166,7 +166,7 @@ export const services: Service[] = [
       },
       {
         question: 'How long do I have to make an accident claim in Scotland?',
-        answer: 'For personal injury claims in Scotland, you generally have 3 years from the date of the accident. For vehicle damage claims, it is important to notify your insurer promptly — ideally within 24 hours.',
+        answer: 'For personal injury claims in Scotland, you generally have 3 years from the date of the accident. For vehicle damage claims, it is important to notify your insurer promptly, ideally within 24 hours.',
       },
     ],
     category: 'Claims',
@@ -191,7 +191,7 @@ export const services: Service[] = [
     faqs: [
       {
         question: 'How do you price long-distance recovery?',
-        answer: 'Long-distance recovery is priced per mile on a transparent scale. Call us for a quote — we will provide a fixed price before we begin so there are no surprises.',
+        answer: 'Long-distance recovery is priced per mile on a transparent scale. Call us for a quote, we will provide a fixed price before we begin so there are no surprises.',
       },
       {
         question: 'Can you recover my vehicle from England to Scotland?',

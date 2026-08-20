@@ -7,12 +7,12 @@ const faqs = [
   {
     question: 'How quickly can you reach me in an emergency?',
     answer:
-      'Our average response time across Central Scotland is 45–60 minutes. For Glasgow city centre postcodes, we often arrive in under 40 minutes. We dispatch immediately upon receiving your call — 24 hours a day, 7 days a week, every day of the year.',
+      'Our average response time across Central Scotland is 45–60 minutes. For Glasgow city centre postcodes, we often arrive in under 40 minutes. We dispatch immediately upon receiving your call, 24 hours a day, 7 days a week, every day of the year.',
   },
   {
     question: 'Are you available on Christmas Day and bank holidays?',
     answer:
-      'Yes. Crash Assist Recovery never closes. We operate with full dispatch capability on Christmas Day, New Year\'s Day and all other bank holidays. Accidents and breakdowns do not take holidays — neither do we.',
+      'Yes. Crash Assist Recovery never closes. We operate with full dispatch capability on Christmas Day, New Year\'s Day and all other bank holidays. Accidents and breakdowns do not take holidays, and neither do we.',
   },
   {
     question: 'Do you recover all types of vehicles?',
@@ -32,7 +32,7 @@ const faqs = [
   {
     question: 'Can you recover my electric vehicle?',
     answer:
-      'Yes — all EV recoveries use our flatbed vehicles, as specified by most manufacturers. Our operators are trained in EV-specific recovery procedures, including identifying battery damage warning signs and following manufacturer protocols. We cover Tesla, Nissan LEAF, BMW i-series, VW ID-series and all other EV models.',
+      'Yes, all EV recoveries use our flatbed vehicles, as specified by most manufacturers. Our operators are trained in EV-specific recovery procedures, including identifying battery damage warning signs and following manufacturer protocols. We cover Tesla, Nissan LEAF, BMW i-series, VW ID-series and all other EV models.',
   },
   {
     question: 'What areas do you cover?',
@@ -42,7 +42,7 @@ const faqs = [
   {
     question: 'How much does vehicle recovery cost?',
     answer:
-      'Pricing depends on the type of recovery, vehicle, and distance involved. We provide transparent pricing before beginning any work — no hidden fees or surprise charges. Standard local recovery starts from £120. Motorway recovery, long distance and specialist recoveries are priced accordingly. Call us for a quote.',
+      'Pricing depends on the type of recovery, vehicle, and distance involved. We provide transparent pricing before beginning any work, with no hidden fees or surprise charges. Standard local recovery starts from £120. Motorway recovery, long distance and specialist recoveries are priced accordingly. Call us for a quote.',
   },
 ]
 
@@ -107,7 +107,7 @@ export default function FAQ() {
               <span className="text-orange-500">Questions</span>
             </h2>
             <p className="section-body mb-8">
-              Can&apos;t find your answer here? Call us directly — we are always happy to talk.
+              Can&apos;t find your answer here? Call us directly, we are always happy to talk.
             </p>
             <a href="tel:+447564016582" className="btn-primary text-sm">
               Call: +44 7564 016582

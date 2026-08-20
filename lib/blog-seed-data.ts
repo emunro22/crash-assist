@@ -16,7 +16,7 @@ export const blogSeedPosts: BlogSeedPost[] = [
     cover_image_url: 'https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=1200&q=80',
     content: `# What to Do Immediately After a Road Traffic Accident
 
-A road traffic accident can happen in an instant, but the steps you take in the minutes that follow are critically important — both for your safety and for any future insurance claim or legal proceedings.
+A road traffic accident can happen in an instant, but the steps you take in the minutes that follow are critically important, both for your safety and for any future insurance claim or legal proceedings.
 
 ## Step 1: Stay Calm and Check for Injuries
 
@@ -34,7 +34,7 @@ If your vehicle is blocking traffic and it is safe to move it, do so. If not, tu
 
 ## Step 4: Exchange Information
 
-Do not admit fault or apologise — this can be used against you. Do exchange:
+Do not admit fault or apologise, this can be used against you. Do exchange:
 
 - Full name and home address
 - Vehicle registration number
@@ -52,7 +52,7 @@ Use your mobile phone to photograph:
 - Skid marks, debris and road conditions
 - Road signs, markings and traffic signals nearby
 - Any visible injuries (with consent)
-- CCTV cameras in the area — note their locations so your solicitor can request footage
+- CCTV cameras in the area, note their locations so your solicitor can request footage
 
 ## Step 6: Report to Your Insurance Company
 
@@ -62,11 +62,11 @@ You must notify your insurance company promptly even if you do not intend to mak
 
 If your vehicle is not driveable, call us. We will dispatch a recovery vehicle immediately, handle the safe removal of your car from the scene and deliver it to your chosen garage or our secure storage facility.
 
-**+44 7564 016582** — available 24 hours, 7 days a week.
+**+44 7564 016582**, available 24 hours, 7 days a week.
 
 ## Step 8: Seek Medical Attention
 
-Even if you feel fine, some injuries — particularly whiplash and soft tissue injuries — do not become apparent immediately. Visit your GP or A&E as soon as possible. Medical records created promptly after an accident are valuable evidence for any future personal injury claim.
+Even if you feel fine, some injuries, particularly whiplash and soft tissue injuries, do not become apparent immediately. Visit your GP or A&E as soon as possible. Medical records created promptly after an accident are valuable evidence for any future personal injury claim.
 
 ## FAQs
 
@@ -131,7 +131,7 @@ When you use a pay-per-use recovery service like Crash Assist Recovery, you have
 ## FAQs
 
 **Can I choose which garage my vehicle is taken to after recovery?**
-Yes — you have the right to specify your preferred garage. We will deliver to any location you nominate within a reasonable distance.
+Yes, you have the right to specify your preferred garage. We will deliver to any location you nominate within a reasonable distance.
 
 **What if my car is damaged further after a breakdown?**
 If additional damage occurs as a direct result of the breakdown (e.g., seized brakes from continued driving), this may be covered by your insurance. If it was caused by the recovery process, the recovery company's insurance should cover it.`,
@@ -150,8 +150,8 @@ Making an accident claim can seem complex, but with the right preparation and gu
 
 There are two main types of claim you may need to make after a road traffic accident:
 
-1. **Vehicle damage claim** — for the cost of repairing or replacing your vehicle
-2. **Personal injury claim** — for any physical injuries you have suffered
+1. **Vehicle damage claim**, for the cost of repairing or replacing your vehicle
+2. **Personal injury claim**, for any physical injuries you have suffered
 
 Both can be made through your own insurance company or directly against the at-fault driver's insurer.
 
@@ -165,21 +165,21 @@ The strength of your claim depends on the quality of your evidence. As soon as p
 - A copy of any police incident report number
 - Medical records and GP/A&E notes
 - Dashcam footage if available
-- CCTV footage requests (act quickly — footage is often overwritten after 30 days)
+- CCTV footage requests (act quickly, footage is often overwritten after 30 days)
 
 ## Step 2: Notify Your Insurance Company
 
-Contact your insurer as soon as possible. Provide a factual account of what happened — do not speculate or admit liability. Give them all the evidence you have gathered.
+Contact your insurer as soon as possible. Provide a factual account of what happened, do not speculate or admit liability. Give them all the evidence you have gathered.
 
-Even if the accident was not your fault, you must still notify your insurer. Many people worry this will affect their premiums — your insurer is legally required to protect your no-claims discount if you are found not at fault.
+Even if the accident was not your fault, you must still notify your insurer. Many people worry this will affect their premiums, your insurer is legally required to protect your no-claims discount if you are found not at fault.
 
 ## Step 3: Non-Fault Claims
 
 If the accident was the other driver's fault, you have two options:
 
-**Option A: Claim through your own insurer** — Your insurer handles everything and then recovers costs from the at-fault insurer. You may have to pay your excess initially, but this is recoverable.
+**Option A: Claim through your own insurer**: Your insurer handles everything and then recovers costs from the at-fault insurer. You may have to pay your excess initially, but this is recoverable.
 
-**Option B: Claim directly against the at-fault insurer** — Can be faster if liability is clear, but you will be negotiating without your insurer's backing.
+**Option B: Claim directly against the at-fault insurer**: Can be faster if liability is clear, but you will be negotiating without your insurer's backing.
 
 ## Step 4: Personal Injury Claims
 
@@ -215,16 +215,16 @@ We work with you and your insurance company to ensure the recovery process suppo
     cover_image_url: 'https://images.unsplash.com/photo-1504222114039-e0a7e0f7ee72?w=1200&q=80',
     content: `# Motorway Breakdown: A Step-by-Step Safety Guide
 
-Motorways are statistically the safest roads in Scotland — but a breakdown on one can quickly become dangerous. Vehicles travel at high speed and the hard shoulder can be a lethal place to stand. This guide tells you exactly what to do.
+Motorways are statistically the safest roads in Scotland, but a breakdown on one can quickly become dangerous. Vehicles travel at high speed and the hard shoulder can be a lethal place to stand. This guide tells you exactly what to do.
 
 ## If You Feel Your Car Failing on a Motorway
 
-As soon as you notice a problem — a warning light, strange noise, loss of power or steering — act immediately:
+As soon as you notice a problem, a warning light, strange noise, loss of power or steering, act immediately:
 
 1. **Signal left** and check your mirrors
 2. **Move to the left lane** progressively, not sharply
 3. **Aim for an Emergency Refuge Area (ERA)** or the hard shoulder
-4. **Do not brake sharply** — this can cause a rear-end collision
+4. **Do not brake sharply**, this can cause a rear-end collision
 
 ## When You Have Stopped
 
@@ -233,23 +233,23 @@ As soon as you notice a problem — a warning light, strange noise, loss of powe
 - If you cannot reach an ERA and must stop in a running lane, turn on your hazard lights and call 999 immediately
 
 **On a conventional motorway with a hard shoulder:**
-- Pull as far left as possible — ideally onto the verge
+- Pull as far left as possible, ideally onto the verge
 - Leave your wheels turned to the left so the car moves away from traffic if struck
 - Turn on hazard lights
 
 ## Getting Out of the Vehicle
 
-1. **Exit via the left-hand doors** — never into the traffic side
+1. **Exit via the left-hand doors**, never into the traffic side
 2. **Passengers should exit immediately** and stand on the embankment behind the barrier
 3. **Do not stand between the vehicle and the traffic**
-4. **Leave animals in the car** unless there is a risk to their life — do not have loose animals near motorway traffic
+4. **Leave animals in the car** unless there is a risk to their life, do not have loose animals near motorway traffic
 5. **Take your phone, keys and high-visibility jacket** if you have one
 
 ## Calling for Help
 
 Use the orange SOS telephone boxes (located every mile) or call Crash Assist Recovery on **+44 7564 016582**. Tell us:
 
-- Your location (use the marker posts on the central reservation — they show the road number and location reference)
+- Your location (use the marker posts on the central reservation, they show the road number and location reference)
 - The nature of your vehicle's problem
 - How many passengers you have
 - Any hazards at the scene
@@ -263,7 +263,7 @@ Use the orange SOS telephone boxes (located every mile) or call Crash Assist Rec
 
 ## When the Recovery Vehicle Arrives
 
-Our driver will assess the scene, set up safety warnings and only then begin the recovery. Follow their instructions at all times. Do not approach or help with the recovery unless specifically asked — your safety is the priority.
+Our driver will assess the scene, set up safety warnings and only then begin the recovery. Follow their instructions at all times. Do not approach or help with the recovery unless specifically asked, your safety is the priority.
 
 ## Smart Motorway Safety
 
@@ -293,7 +293,7 @@ Under the Road Traffic Act 1988, if an accident involves injury to any person or
 2. **Give your details** to anyone with reasonable grounds to ask
 3. **Report to a police station** within 24 hours if you cannot exchange details at the scene
 
-Driving away — even to a nearby safe location before exchanging details — can constitute leaving the scene of an accident and is a criminal offence.
+Driving away, even to a nearby safe location before exchanging details, can constitute leaving the scene of an accident and is a criminal offence.
 
 ## Insurance and Evidence Implications
 
@@ -308,9 +308,9 @@ The position of vehicles after an accident tells a story. Insurance investigator
 
 There are circumstances where you must move your vehicle for safety:
 
-- **Your vehicle is on fire** — evacuate immediately and call 999
-- **You are on a smart motorway in a live lane** — call 999 before attempting to move
-- **You or passengers are in immediate physical danger** — e.g., a vehicle is approaching at speed and cannot stop
+- **Your vehicle is on fire**, evacuate immediately and call 999
+- **You are on a smart motorway in a live lane**, call 999 before attempting to move
+- **You or passengers are in immediate physical danger**, e.g., a vehicle is approaching at speed and cannot stop
 
 Even in these circumstances, note your position before moving and photograph it immediately.
 
@@ -323,7 +323,7 @@ Beyond the legal and insurance arguments, moving a vehicle after a collision can
 - Tyre damage may go unnoticed until a further blowout
 - Brake line damage can mean total brake failure
 
-Our flatbed recovery vehicles are designed to transport damaged vehicles without any additional damage. Do not risk it — call us instead.
+Our flatbed recovery vehicles are designed to transport damaged vehicles without any additional damage. Do not risk it, call us instead.
 
 ## What to Do Instead
 
@@ -333,7 +333,7 @@ Our flatbed recovery vehicles are designed to transport damaged vehicles without
 4. Call Crash Assist Recovery on **+44 7564 016582**
 5. Wait in a safe location until we arrive
 
-We will handle everything from there — safely, professionally and in a way that supports your claim.`,
+We will handle everything from there, safely, professionally and in a way that supports your claim.`,
   },
   {
     title: 'The Importance of 24/7 Emergency Recovery Services',
@@ -343,16 +343,16 @@ We will handle everything from there — safely, professionally and in a way tha
     cover_image_url: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80',
     content: `# The Importance of 24/7 Emergency Recovery Services
 
-Vehicles break down and accidents happen at the worst possible times — midnight on a Sunday, Christmas Day, during a storm. A recovery service that only operates during business hours is not an emergency service at all.
+Vehicles break down and accidents happen at the worst possible times, midnight on a Sunday, Christmas Day, during a storm. A recovery service that only operates during business hours is not an emergency service at all.
 
 ## When Breakdowns Actually Happen
 
 Statistics from across the UK show that a disproportionate number of breakdowns and accidents occur during:
 
-- **Evening and night hours (6pm–6am)** — reduced visibility and fatigue are factors
-- **Weekend nights** — higher traffic volumes on certain roads
-- **Winter months** — cold weather causes battery failures, tyre pressure drops and engine problems
-- **Bank holidays** — roads are busier and recovery providers are harder to find
+- **Evening and night hours (6pm–6am)**, reduced visibility and fatigue are factors
+- **Weekend nights**, higher traffic volumes on certain roads
+- **Winter months**, cold weather causes battery failures, tyre pressure drops and engine problems
+- **Bank holidays**, roads are busier and recovery providers are harder to find
 
 A recovery service that is not available during these peak need periods is failing its customers at the moments they need help most.
 
@@ -369,7 +369,7 @@ Crash Assist Recovery maintains this standard every single day of the year. We n
 
 ## Response Time Matters
 
-In an emergency, every minute counts. A prolonged wait on a dark roadside — particularly on a motorway, in bad weather or in an isolated rural area — is genuinely dangerous. Hypothermia, being struck by passing vehicles and the psychological impact of isolation are all real risks.
+In an emergency, every minute counts. A prolonged wait on a dark roadside, particularly on a motorway, in bad weather or in an isolated rural area, is genuinely dangerous. Hypothermia, being struck by passing vehicles and the psychological impact of isolation are all real risks.
 
 Our target response time across Central Scotland is 45–60 minutes. We hit this target the vast majority of the time. When we cannot, we communicate proactively with you throughout your wait.
 
@@ -389,7 +389,7 @@ Crash Assist Recovery answers yes to all of these questions.
 
 Knowing that you have access to a professional recovery service at any hour of the day or night means you can drive with confidence. Whether it is a long night drive on the A9 or an early morning motorway commute, we are always on standby.
 
-**Save our number now: +44 7564 016582** — before you need it.`,
+**Save our number now: +44 7564 016582**, before you need it.`,
   },
   {
     title: 'Common Causes of Vehicle Breakdowns and How to Prevent Them',
@@ -429,7 +429,7 @@ Running low on oil causes catastrophic engine damage very quickly. An oil warnin
 
 This sounds simple but it is a surprisingly common cause of breakdown calls. Modern fuel gauges can give misleading readings, particularly in older vehicles.
 
-**Prevention:** Do not let your fuel level drop below a quarter of a tank. Fuel range estimates are approximate — always fill up before a long journey.
+**Prevention:** Do not let your fuel level drop below a quarter of a tank. Fuel range estimates are approximate, always fill up before a long journey.
 
 ## 5. Engine Overheating
 
@@ -445,7 +445,7 @@ Starter motors and alternators do wear out. Electrical issues such as blown fuse
 
 ## 7. Lost or Locked Out
 
-Locking keys in the car or losing them is more common than you might think — particularly on busy days when routine is disrupted.
+Locking keys in the car or losing them is more common than you might think, particularly on busy days when routine is disrupted.
 
 **Prevention:** Keep a spare key in a secure location. Many modern cars have app-based unlocking as a backup.
 
@@ -453,7 +453,7 @@ Locking keys in the car or losing them is more common than you might think — p
 
 No matter how diligent you are with maintenance, breakdowns can still happen. When they do, Crash Assist Recovery is one phone call away.
 
-**+44 7564 016582** — available 24/7, 365 days a year.`,
+**+44 7564 016582**, available 24/7, 365 days a year.`,
   },
   {
     title: 'How Long Does a Vehicle Recovery Take?',
@@ -503,10 +503,10 @@ On motorways, our drivers must follow strict safety protocols before approaching
 
 When our recovery driver arrives:
 
-1. **Scene assessment** — The driver will assess the situation and any safety hazards
-2. **Communication** — We will confirm the destination and any special instructions
-3. **Loading** — Typically takes 15–30 minutes depending on vehicle condition
-4. **Transportation** — Delivery time varies by destination distance
+1. **Scene assessment**: The driver will assess the situation and any safety hazards
+2. **Communication**: We will confirm the destination and any special instructions
+3. **Loading**: Typically takes 15–30 minutes depending on vehicle condition
+4. **Transportation**: Delivery time varies by destination distance
 
 The full process from your call to vehicle delivery is typically 1.5–3 hours for local recoveries and up to 4–5 hours for longer distance recoveries.
 
@@ -528,7 +528,7 @@ The full process from your call to vehicle delivery is typically 1.5–3 hours f
     cover_image_url: 'https://images.unsplash.com/photo-1596435163881-8f3d3c0c3ea7?w=800&q=80',
     content: `# Towing vs. Flatbed Transport: Which Does Your Vehicle Need?
 
-When you call a recovery service, one of the first questions they will assess is how your vehicle needs to be transported. Traditional towing and flatbed transportation each have their place — but using the wrong method can cause additional damage to your vehicle.
+When you call a recovery service, one of the first questions they will assess is how your vehicle needs to be transported. Traditional towing and flatbed transportation each have their place, but using the wrong method can cause additional damage to your vehicle.
 
 ## Traditional Towing Methods
 
@@ -559,16 +559,16 @@ A flatbed truck uses a hydraulic tilt mechanism to load the entire vehicle onto 
 
 **Always use flatbed for:**
 
-1. **All-wheel-drive and 4WD vehicles** — Towing these vehicles with wheels down can destroy the transmission
-2. **Severely damaged accident vehicles** — Where suspension, steering or braking is compromised
-3. **Low-profile sports cars** — Ferrari, Lamborghini, Porsche 911, etc. — ground clearance too low for ramp loading
-4. **Prestige and classic cars** — To avoid any possibility of additional damage
-5. **Electric vehicles** — Many EV manufacturers specify flatbed-only recovery to protect the battery and drivetrain
-6. **Vehicles with seized brakes** — Where the wheels will not roll freely
+1. **All-wheel-drive and 4WD vehicles**: Towing these vehicles with wheels down can destroy the transmission
+2. **Severely damaged accident vehicles**: Where suspension, steering or braking is compromised
+3. **Low-profile sports cars**: Ferrari, Lamborghini, Porsche 911, etc., ground clearance too low for ramp loading
+4. **Prestige and classic cars**: To avoid any possibility of additional damage
+5. **Electric vehicles**: Many EV manufacturers specify flatbed-only recovery to protect the battery and drivetrain
+6. **Vehicles with seized brakes**: Where the wheels will not roll freely
 
 ## Electric Vehicle Recovery: A Special Case
 
-Electric vehicles deserve special mention. Models from Tesla, Nissan, BMW and others have specific manufacturer guidance on recovery. Most state that the vehicle should never be towed with wheels on the ground — even short distances — as this can damage the motor or battery management systems. Always request a flatbed for any EV.
+Electric vehicles deserve special mention. Models from Tesla, Nissan, BMW and others have specific manufacturer guidance on recovery. Most state that the vehicle should never be towed with wheels on the ground, even short distances, as this can damage the motor or battery management systems. Always request a flatbed for any EV.
 
 ## How Crash Assist Recovery Decides
 
@@ -579,7 +579,7 @@ Our operators are trained to assess your vehicle's condition and configuration b
 3. Select the most appropriate vehicle from our fleet
 4. Confirm the method with you before loading
 
-If in any doubt, we default to flatbed — your vehicle's safety is always our priority.
+If in any doubt, we default to flatbed, your vehicle's safety is always our priority.
 
 **Call +44 7564 016582 to discuss the right recovery for your vehicle.**`,
   },
@@ -611,7 +611,7 @@ Engine coolant with adequate antifreeze protection prevents the cooling system f
 **Action:** Check antifreeze concentration annually. Most garages will test this for free or at low cost.
 
 ### Windscreen and Wipers
-Ensure your screenwash contains antifreeze formula. Check wiper blades for cracking or smearing — replace them if they are more than a year old.
+Ensure your screenwash contains antifreeze formula. Check wiper blades for cracking or smearing, replace them if they are more than a year old.
 
 ### Engine Oil
 Cold, thick oil is harder for the starter motor to turn. In very cold conditions, this can prevent starting.
@@ -635,22 +635,22 @@ For winter journeys, particularly in rural Scotland or on Highland routes, carry
 
 ## Driving in Winter Conditions
 
-- **Increase following distances** — stopping distances are up to 10 times longer on ice and snow
-- **Accelerate and brake gently** — smooth inputs reduce wheelspin and skidding
+- **Increase following distances**, stopping distances are up to 10 times longer on ice and snow
+- **Accelerate and brake gently**, smooth inputs reduce wheelspin and skidding
 - **Use the highest possible gear** on snow to reduce torque to the wheels
 - **In fog, use fog lights** and reduce speed significantly
-- **Watch for black ice** — roads look wet but are frozen, typically on exposed sections and bridges
+- **Watch for black ice**, roads look wet but are frozen, typically on exposed sections and bridges
 
 ## If You Break Down in Winter
 
-- Stay with your vehicle — it provides shelter and is easier for rescue services to locate
+- Stay with your vehicle, it provides shelter and is easier for rescue services to locate
 - Run the engine briefly for warmth if necessary, but keep a window slightly open to prevent carbon monoxide buildup
 - Keep your exhaust clear of snow to prevent dangerous fumes entering the cabin
 - Use your hazard lights and set warning triangles if safe to do so
 
 Crash Assist Recovery operates throughout the Scottish winter, including during adverse weather events. We have the experience and equipment to reach you safely.
 
-**+44 7564 016582** — 24/7, every day of the year.`,
+**+44 7564 016582**, 24/7, every day of the year.`,
   },
   {
     title: 'Understanding Accident Claims: No Win No Fee Explained',
@@ -660,11 +660,11 @@ Crash Assist Recovery operates throughout the Scottish winter, including during 
     cover_image_url: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80',
     content: `# Understanding Accident Claims: No Win No Fee Explained
 
-If you have been injured in a road traffic accident that was not your fault, you may be entitled to compensation — and you should not have to pay legal fees upfront to pursue it. No win no fee agreements make justice accessible to everyone, regardless of financial circumstances.
+If you have been injured in a road traffic accident that was not your fault, you may be entitled to compensation, and you should not have to pay legal fees upfront to pursue it. No win no fee agreements make justice accessible to everyone, regardless of financial circumstances.
 
 ## What is a No Win No Fee Agreement?
 
-A no win no fee agreement — formally called a Conditional Fee Agreement (CFA) — means your solicitor agrees to take on your case without charging you legal fees unless you win.
+A no win no fee agreement, formally called a Conditional Fee Agreement (CFA), means your solicitor agrees to take on your case without charging you legal fees unless you win.
 
 If you win: Your solicitor takes a percentage of your compensation (capped at 25% of your award in Scotland).
 If you lose: You pay nothing to your own solicitor, though other costs may apply (see below).
@@ -681,8 +681,8 @@ You may be eligible for a no win no fee personal injury claim if:
 
 Compensation in a road traffic accident claim can include:
 
-- **General damages** — pain, suffering and loss of amenity
-- **Special damages** — specific financial losses:
+- **General damages**, pain, suffering and loss of amenity
+- **Special damages**, specific financial losses:
   - Medical expenses
   - Loss of earnings (past and future)
   - Vehicle repair or replacement costs
@@ -692,24 +692,24 @@ Compensation in a road traffic accident claim can include:
 
 ## The Process
 
-1. **Initial consultation** — Free, no obligation, usually takes about 30 minutes
-2. **Liability assessment** — Your solicitor evaluates whether the claim is winnable
-3. **Evidence gathering** — Medical records, accident reports, witness statements
-4. **Valuation** — Your solicitor values your claim based on injury severity and losses
-5. **Negotiation** — Most claims settle out of court, typically within 6–18 months
-6. **Settlement or court** — If settlement is not agreed, the case proceeds to court
+1. **Initial consultation**: Free, no obligation, usually takes about 30 minutes
+2. **Liability assessment**: Your solicitor evaluates whether the claim is winnable
+3. **Evidence gathering**: Medical records, accident reports, witness statements
+4. **Valuation**: Your solicitor values your claim based on injury severity and losses
+5. **Negotiation**: Most claims settle out of court, typically within 6–18 months
+6. **Settlement or court**: If settlement is not agreed, the case proceeds to court
 
 ## What to Watch Out For
 
-- **Claims management companies** — Some charge upfront fees or take large referral commissions from solicitors. Choose a regulated solicitor directly.
-- **After the Event insurance** — This covers the opponent's legal costs if you lose. It is often necessary but adds cost. Your solicitor should explain this clearly.
-- **Whiplash reform** — New rules introduced in 2021 affect how some soft tissue claims are valued. Check with your solicitor.
+- **Claims management companies**: Some charge upfront fees or take large referral commissions from solicitors. Choose a regulated solicitor directly.
+- **After the Event insurance**: This covers the opponent's legal costs if you lose. It is often necessary but adds cost. Your solicitor should explain this clearly.
+- **Whiplash reform**: New rules introduced in 2021 affect how some soft tissue claims are valued. Check with your solicitor.
 
 ## How Crash Assist Recovery Helps
 
 At the time of recovery, we can connect you with our trusted network of claims management partners and solicitors. We work with legal professionals who specialise in road traffic accident claims in Scotland and who operate on a genuine no win no fee basis.
 
-**Call us on +44 7564 016582** — we will help you understand your options from the moment of your accident.`,
+**Call us on +44 7564 016582**, we will help you understand your options from the moment of your accident.`,
   },
   {
     title: 'How to Document an Accident Scene for Insurance',
@@ -725,7 +725,7 @@ The evidence you collect at the accident scene can make or break your insurance 
 
 **Safety first.** Only document the scene when it is safe to do so. Never walk in the carriageway of a motorway. Do not approach a vehicle that may catch fire. Call 999 if anyone is injured.
 
-Once you have confirmed it is safe to proceed, start documenting immediately — before anything is moved.
+Once you have confirmed it is safe to proceed, start documenting immediately, before anything is moved.
 
 ## Photograph Everything
 
@@ -745,7 +745,7 @@ Modern smartphones take excellent photographs. Use yours to capture:
 - Road markings (lanes, give way lines, stop lines)
 - Traffic signs (speed limits, priority signs)
 - Road surface condition (pot holes, wet/icy surface, visible hazards)
-- Visibility conditions — photograph in the direction each driver would have been looking
+- Visibility conditions, photograph in the direction each driver would have been looking
 
 ### People and Witnesses
 - The other driver's licence, insurance certificate and vehicle registration
@@ -754,11 +754,11 @@ Modern smartphones take excellent photographs. Use yours to capture:
 ### Location Identifiers
 - Street name signs
 - Nearby landmarks or building numbers
-- CCTV camera locations (act on these quickly — footage is often overwritten within 30 days)
+- CCTV camera locations (act on these quickly, footage is often overwritten within 30 days)
 
 ## Video Evidence
 
-A short video walking around the scene can capture context that photographs miss. If you have dashcam footage, do not overwrite it — save the relevant clip immediately.
+A short video walking around the scene can capture context that photographs miss. If you have dashcam footage, do not overwrite it, save the relevant clip immediately.
 
 ## Written Notes
 
@@ -771,7 +771,7 @@ Write down (or use your phone's voice memo) immediately after the accident:
 - The position of any passengers in your vehicle
 - Any injuries you noticed in yourself or others
 
-Do not embellish or speculate — stick to facts as you observed them.
+Do not embellish or speculate, stick to facts as you observed them.
 
 ## Exchange Information
 
@@ -789,7 +789,7 @@ If the other driver refuses to provide details, note their registration and call
 
 - Obtain a copy of the police incident reference number
 - Request CCTV footage from relevant businesses (councils have a legal obligation to provide this within 30 days of a Subject Access Request)
-- Visit your GP or A&E — even if you feel fine, create a medical record
+- Visit your GP or A&E, even if you feel fine, create a medical record
 
 Crash Assist Recovery can assist with evidence documentation during the recovery process. Our drivers are trained to photograph vehicles before and after loading.
 
@@ -807,7 +807,7 @@ The roadside is not a safe place to wait. Every year, motorists and recovery wor
 
 ## On Motorways and Dual Carriageways
 
-**Motorways present the greatest danger** — vehicles pass at speed and drivers may not see you until the last second.
+**Motorways present the greatest danger**, vehicles pass at speed and drivers may not see you until the last second.
 
 1. **Get off the carriageway immediately.** Exit via the left doors and climb over the barrier onto the embankment. Never stand on the hard shoulder or live lane.
 
@@ -815,7 +815,7 @@ The roadside is not a safe place to wait. Every year, motorists and recovery wor
 
 3. **Keep well away from your vehicle.** A rear-end collision can send your car flying into the space where you are standing.
 
-4. **Do not use warning triangles.** The Highway Code advises against warning triangles on motorways — they are hazardous to deploy.
+4. **Do not use warning triangles.** The Highway Code advises against warning triangles on motorways, they are hazardous to deploy.
 
 5. **Turn on your hazard lights** before exiting the vehicle.
 
@@ -825,7 +825,7 @@ The roadside is not a safe place to wait. Every year, motorists and recovery wor
 
 These roads are slightly safer than motorways, but speeds can still be high and sightlines are often limited.
 
-1. **Move your vehicle off the road** if at all possible — onto a verge, layby or side street.
+1. **Move your vehicle off the road** if at all possible, onto a verge, layby or side street.
 
 2. **Turn on hazard lights immediately.**
 
@@ -833,7 +833,7 @@ These roads are slightly safer than motorways, but speeds can still be high and 
 
 4. **Wear a high-visibility vest** if you have one.
 
-5. **Stay well behind your vehicle** — do not stand directly behind it.
+5. **Stay well behind your vehicle**, do not stand directly behind it.
 
 6. **Face oncoming traffic** so you can see what is coming.
 
@@ -851,7 +851,7 @@ In cold or wet conditions:
 
 - Return to your vehicle if safe to do so (on a non-motorway road where you can exit quickly)
 - Run the engine for warmth occasionally, but crack a window to prevent carbon monoxide buildup
-- Keep your phone charged — use a car charger if available
+- Keep your phone charged, use a car charger if available
 - Text someone your location
 - If you feel unwell, call 999 as well as the recovery service
 
@@ -859,7 +859,7 @@ In cold or wet conditions:
 
 - Our driver will park behind you with warning lights on
 - Only approach the recovery vehicle when directed to do so
-- Follow all instructions from our driver — they have been trained in live-road working safety
+- Follow all instructions from our driver, they have been trained in live-road working safety
 - Do not attempt to help with loading unless specifically asked
 
 **We will always confirm your safety before beginning any recovery. Call +44 7564 016582.**`,
@@ -876,7 +876,7 @@ When you break down or have an accident, you have a choice: call a national brea
 
 ## Faster Response Times
 
-A national service dispatches the closest available operator from their contracted network — and that operator may be 30 miles away from your breakdown. A genuinely local service maintains its own fleet in your area and knows the road network intimately.
+A national service dispatches the closest available operator from their contracted network, and that operator may be 30 miles away from your breakdown. A genuinely local service maintains its own fleet in your area and knows the road network intimately.
 
 Crash Assist Recovery operates from a Central Scotland base with excellent access to the M8, M74, M77, M73 and surrounding A-road network. We are typically on scene faster than national services dispatching contracted partners.
 
@@ -893,7 +893,7 @@ This local expertise translates directly into faster, safer recovery.
 
 ## Direct Communication
 
-With a local service, you speak to the operator directly. There is no call centre in a different city, no messaging through a web portal, no intermediary — just a direct line to the team who will recover your vehicle.
+With a local service, you speak to the operator directly. There is no call centre in a different city, no messaging through a web portal, no intermediary, just a direct line to the team who will recover your vehicle.
 
 This means:
 
@@ -908,7 +908,7 @@ Choosing a local, independent recovery service keeps money in the local economy.
 
 ## The Limitations of National Services
 
-To be fair to national breakdown services — they do offer advantages for members who travel frequently across the UK or who value a single point of contact for all motoring assistance. However:
+To be fair to national breakdown services, they do offer advantages for members who travel frequently across the UK or who value a single point of contact for all motoring assistance. However:
 
 - They typically take longer to reach you (especially outside working hours)
 - They cannot guarantee which contracted operator will attend
@@ -917,9 +917,9 @@ To be fair to national breakdown services — they do offer advantages for membe
 
 ## Our Recommendation
 
-If you are a frequent traveller or have a history of vehicle problems, a national breakdown membership is worth having as your primary cover. But save our number as a backup — particularly for serious accidents or complex recoveries where local expertise and speed of response matters most.
+If you are a frequent traveller or have a history of vehicle problems, a national breakdown membership is worth having as your primary cover. But save our number as a backup, particularly for serious accidents or complex recoveries where local expertise and speed of response matters most.
 
-**Crash Assist Recovery: +44 7564 016582** — saving that number now is the smartest thing you can do before you need it.`,
+**Crash Assist Recovery: +44 7564 016582**, saving that number now is the smartest thing you can do before you need it.`,
   },
   {
     title: 'Electric Vehicle Recovery: What You Need to Know',
@@ -935,11 +935,11 @@ Electric vehicles (EVs) are becoming increasingly common on Scotland's roads, bu
 
 The differences come down to how EVs are mechanically designed:
 
-1. **Regenerative braking systems** — In many EVs, towing with wheels on the ground activates the electric motor as a generator. This can overheat and damage the motor or the battery management system.
+1. **Regenerative braking systems**: In many EVs, towing with wheels on the ground activates the electric motor as a generator. This can overheat and damage the motor or the battery management system.
 
-2. **Transmission design** — Unlike conventional automatics, most EV transmissions cannot be put into neutral in the traditional sense. Towing with wheels down can cause significant damage.
+2. **Transmission design**: Unlike conventional automatics, most EV transmissions cannot be put into neutral in the traditional sense. Towing with wheels down can cause significant damage.
 
-3. **High-voltage batteries** — EV battery packs operate at 400–800V and require specialist handling, particularly after an accident.
+3. **High-voltage batteries**: EV battery packs operate at 400–800V and require specialist handling, particularly after an accident.
 
 ## Manufacturer-Specific Requirements
 
@@ -953,15 +953,15 @@ The differences come down to how EVs are mechanically designed:
 
 **Renault Zoe:** Flatbed recommended. The traction battery must be protected from mechanical shock during recovery.
 
-**Always check your owner's manual** — manufacturer guidance is the definitive source for your specific model.
+**Always check your owner's manual**, manufacturer guidance is the definitive source for your specific model.
 
 ## After a Battery Event
 
 If your EV battery has been damaged in an accident, recovery becomes significantly more complex:
 
-- **Thermal runaway risk** — A damaged lithium battery can spontaneously combust hours or even days after an accident. This is a genuine risk that fire services take seriously.
-- **Specialist storage** — Vehicles with damaged batteries may need to be stored in specialist outdoor facilities.
-- **Emergency services notification** — Always inform emergency services if your EV has been in a collision and there is suspected battery damage.
+- **Thermal runaway risk**: A damaged lithium battery can spontaneously combust hours or even days after an accident. This is a genuine risk that fire services take seriously.
+- **Specialist storage**: Vehicles with damaged batteries may need to be stored in specialist outdoor facilities.
+- **Emergency services notification**: Always inform emergency services if your EV has been in a collision and there is suspected battery damage.
 
 ## Crash Assist Recovery and EVs
 
@@ -983,7 +983,7 @@ When you call about an EV breakdown or accident:
 3. If there has been a collision, tell us if you have noticed any unusual sounds, smells or heat from the vehicle
 4. Do not attempt to charge a vehicle that has been in an accident
 
-**Call +44 7564 016582** — our team will ask the right questions to ensure we send the right equipment.`,
+**Call +44 7564 016582**, our team will ask the right questions to ensure we send the right equipment.`,
   },
   {
     title: 'How Recovery Services Work with Insurance Companies',
@@ -998,7 +998,7 @@ The relationship between vehicle recovery services and insurance companies is of
 ## Two Types of Recovery After an Accident
 
 ### 1. Insurance-Appointed Recovery
-Many insurance companies have contracted recovery agents — often national services. If you call your insurer after an accident, they may dispatch their contracted recovery operator.
+Many insurance companies have contracted recovery agents, often national services. If you call your insurer after an accident, they may dispatch their contracted recovery operator.
 
 **Pros:**
 - Paperwork handled directly
@@ -1027,13 +1027,13 @@ You call a recovery service independently (like Crash Assist Recovery) and then 
 
 This is important: **you have the right to use any recovery provider you choose after an accident.** Insurance companies will often suggest their preferred providers, but this is not compulsory.
 
-Your insurance should cover reasonable recovery costs regardless of which registered recovery service you use — check your policy details.
+Your insurance should cover reasonable recovery costs regardless of which registered recovery service you use, check your policy details.
 
 ## How We Work with Insurers
 
 When you use Crash Assist Recovery after an accident, we:
 
-1. **Document the scene** — Photographs of vehicle positions, damage and environment
+1. **Document the scene**: Photographs of vehicle positions, damage and environment
 2. **Provide written confirmation** of collection time, vehicle condition and delivery destination
 3. **Issue a VAT receipt** suitable for insurance claims
 4. **Liaise directly** with your insurer or loss adjuster if you request it
@@ -1045,7 +1045,7 @@ If your vehicle needs to be stored after an accident (because the garage cannot 
 
 ## Third-Party Capture
 
-Beware of third-party capture — where the at-fault driver's insurer contacts you directly after the accident and offers to manage everything, including arranging recovery. While this sounds helpful, it means your vehicle goes to their preferred garage, and you deal with solicitors and assessors they have appointed.
+Beware of third-party capture, where the at-fault driver's insurer contacts you directly after the accident and offers to manage everything, including arranging recovery. While this sounds helpful, it means your vehicle goes to their preferred garage, and you deal with solicitors and assessors they have appointed.
 
 You are under no obligation to accept a third party insurer's recovery offer. You can always call Crash Assist Recovery directly.
 
@@ -1083,7 +1083,7 @@ Most breakdowns happen or are discovered in the dark. A good torch helps you ins
 
 ## 5. Jump Leads or a Portable Battery Pack
 
-Battery failure is the most common cause of breakdown. Jump leads allow you to restart your vehicle using another car. A portable battery booster pack means you can restart without needing another vehicle — worth every penny for solo travellers.
+Battery failure is the most common cause of breakdown. Jump leads allow you to restart your vehicle using another car. A portable battery booster pack means you can restart without needing another vehicle, worth every penny for solo travellers.
 
 ## 6. Tyre Inflation Kit or Spare Tyre
 
@@ -1091,7 +1091,7 @@ Many modern cars come without a spare tyre, providing only a tyre inflator and s
 
 ## 7. Ice Scraper and De-Icer
 
-Essential in Scotland. An ice scraper and de-icer allows you to drive legally (you must have a clear view through all windows before driving) and comfortably in cold weather. Keep these accessible — not buried in the boot under everything else.
+Essential in Scotland. An ice scraper and de-icer allows you to drive legally (you must have a clear view through all windows before driving) and comfortably in cold weather. Keep these accessible, not buried in the boot under everything else.
 
 ## 8. Blanket or Emergency Thermal Wrap
 
@@ -1124,17 +1124,17 @@ Not all recovery vehicles are the same. The type of vehicle sent to your locatio
 **Capacity:** Up to approximately 3.5 tonnes (standard cars and small vans)
 
 **Types:**
-- **Flatbed trucks** — The most versatile light recovery vehicle. Can carry cars, motorcycles, vans and most light commercial vehicles. Hydraulic tilt bed allows safe loading without key in ignition.
-- **Wheel-lift recovery** — A boom and lifts that raise the drive wheels of a vehicle. Faster to deploy than a flatbed but limited in application.
-- **Transit-style recovery vans** — Smaller vehicles used for motorcycle recovery, roadside tyre changes and battery assistance.
+- **Flatbed trucks**: The most versatile light recovery vehicle. Can carry cars, motorcycles, vans and most light commercial vehicles. Hydraulic tilt bed allows safe loading without key in ignition.
+- **Wheel-lift recovery**: A boom and lifts that raise the drive wheels of a vehicle. Faster to deploy than a flatbed but limited in application.
+- **Transit-style recovery vans**: Smaller vehicles used for motorcycle recovery, roadside tyre changes and battery assistance.
 
 ## Medium Recovery Vehicles
 
 **Capacity:** 3.5 to 7.5 tonnes (larger vans, minibuses, light trucks)
 
 **Types:**
-- **Medium flatbeds** — Longer bed versions capable of carrying large vans, minibuses and ambulances
-- **Under-reach recovery** — Used for vehicles in ditches, over barriers or in otherwise inaccessible positions
+- **Medium flatbeds**: Longer bed versions capable of carrying large vans, minibuses and ambulances
+- **Under-reach recovery**: Used for vehicles in ditches, over barriers or in otherwise inaccessible positions
 
 ## Heavy Recovery Vehicles
 
@@ -1148,7 +1148,7 @@ These vehicles are not typically used for private car recovery but are part of t
 Many recovery vehicles are fitted with winches for pulling vehicles out of ditches, off embankments or out of soft ground. Essential for off-road incidents and flood recovery.
 
 ### Underlift
-Under-reach systems allow recovery operators to lift vehicles that have no accessible drive wheels — essential for heavily damaged accident vehicles.
+Under-reach systems allow recovery operators to lift vehicles that have no accessible drive wheels, essential for heavily damaged accident vehicles.
 
 ### Long Reach Boom
 For vehicles over barriers, in underpasses or at the base of slopes, a long-reach boom extends the vehicle's recovery capability significantly.
@@ -1165,7 +1165,7 @@ Our fleet includes:
 
 When you call us, we will identify the right vehicle for your situation before dispatch, ensuring the vehicle that arrives can handle your recovery safely and efficiently.
 
-**+44 7564 016582** — available 24/7.`,
+**+44 7564 016582**, available 24/7.`,
   },
   {
     title: 'What Happens to Your Car After an Accident Recovery',
@@ -1175,7 +1175,7 @@ When you call us, we will identify the right vehicle for your situation before d
     cover_image_url: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&q=80',
     content: `# What Happens to Your Car After an Accident Recovery
 
-You have been involved in an accident, your vehicle has been recovered from the scene — now what? The post-recovery process can be confusing. Here is a step-by-step guide to what happens next.
+You have been involved in an accident, your vehicle has been recovered from the scene, now what? The post-recovery process can be confusing. Here is a step-by-step guide to what happens next.
 
 ## Immediate Post-Recovery Steps
 
@@ -1183,14 +1183,14 @@ You have been involved in an accident, your vehicle has been recovered from the 
 
 When we recover your vehicle, it will be delivered to one of two places:
 
-1. **Your chosen repairer** — A garage you have nominated or one approved by your insurance company
-2. **Secure storage** — If no garage is immediately available, we will store your vehicle safely until delivery can be arranged
+1. **Your chosen repairer**: A garage you have nominated or one approved by your insurance company
+2. **Secure storage**: If no garage is immediately available, we will store your vehicle safely until delivery can be arranged
 
 If you are unsure where to send your vehicle, we can recommend trusted local repairers. Storage costs can accrue quickly, so it is important to make arrangements promptly.
 
 ### Vehicle Condition Report
 
-At the point of collection, Crash Assist Recovery will photograph your vehicle and note its condition. This documentation protects both you and us — it establishes the exact state of the vehicle when we collected it and what it looked like when it arrived at the garage.
+At the point of collection, Crash Assist Recovery will photograph your vehicle and note its condition. This documentation protects both you and us, it establishes the exact state of the vehicle when we collected it and what it looked like when it arrived at the garage.
 
 ## At the Garage
 
@@ -1210,7 +1210,7 @@ If you are making an insurance claim, the garage must typically obtain authorisa
 
 1. Providing the insurer's appointed engineer with access to assess the damage
 2. Submitting a repair estimate
-3. Waiting for approval — this can take days to over a week
+3. Waiting for approval, this can take days to over a week
 
 **Important:** Do not authorise repairs yourself before obtaining confirmation from your insurer, as this can complicate your claim.
 
@@ -1218,14 +1218,14 @@ If you are making an insurance claim, the garage must typically obtain authorisa
 
 Based on the assessment and repair costs, your insurer will make one of three decisions:
 
-- **Proceed with repair** — The vehicle is repairable at an economic cost
-- **Write-off (Category S)** — Structurally damaged but could be repaired and put back on the road. Cannot be re-registered without a structural repair certificate.
-- **Write-off (Category N)** — Non-structural damage but uneconomic to repair. Can be repaired and re-registered.
-- **Write-off (Category A or B)** — Total write-off. Should not return to the road.
+- **Proceed with repair**: The vehicle is repairable at an economic cost
+- **Write-off (Category S)**: Structurally damaged but could be repaired and put back on the road. Cannot be re-registered without a structural repair certificate.
+- **Write-off (Category N)**: Non-structural damage but uneconomic to repair. Can be repaired and re-registered.
+- **Write-off (Category A or B)**: Total write-off. Should not return to the road.
 
 ### Requesting Your Belongings
 
-If your vehicle is written off, ensure you retrieve all personal belongings before the vehicle is collected by the salvage company. You may also wish to retain any private registration plate — inform your insurer.
+If your vehicle is written off, ensure you retrieve all personal belongings before the vehicle is collected by the salvage company. You may also wish to retain any private registration plate, inform your insurer.
 
 ## Replacement Transport
 
@@ -1290,7 +1290,7 @@ Avoid services that are vague about pricing. Clarity upfront prevents disputes a
 
 ### 7. Reputation and Reviews
 
-Check Google Reviews, Trustpilot and Facebook for consistent, genuine customer feedback. Look for recent reviews — patterns matter more than one or two outliers.
+Check Google Reviews, Trustpilot and Facebook for consistent, genuine customer feedback. Look for recent reviews, patterns matter more than one or two outliers.
 
 ## Questions to Ask Any Recovery Service
 
@@ -1323,7 +1323,7 @@ Improper loading and transportation techniques cause thousands of pounds of vehi
 
 **Under-vehicle damage:** Low-slung recovery vehicles or operators using inappropriate loading angles can damage exhaust systems, bodywork and undertrays. Quality flatbeds use hydraulic tilt-bed systems specifically designed to avoid this.
 
-**AWD transmission damage:** As covered in our flatbed guide, towing an all-wheel-drive or 4WD vehicle with wheels on the ground can destroy the transmission — a repair costing several thousand pounds.
+**AWD transmission damage:** As covered in our flatbed guide, towing an all-wheel-drive or 4WD vehicle with wheels on the ground can destroy the transmission, a repair costing several thousand pounds.
 
 **Improper strapping:** Poorly secured vehicles can move during transport, causing additional bodywork damage. Our operators use professional-grade strapping and follow manufacturer guidance on tying-down points.
 
@@ -1335,7 +1335,7 @@ Using an unregistered or uninsured recovery operator can create complications wi
 
 - If the recovery company has no goods in transit insurance, your insurer may dispute liability for any damage caused during recovery
 - An unregistered operator's documentation (or lack of it) may be challenged by your insurer
-- Some insurance companies have clauses requiring recovery by approved operators — check your policy
+- Some insurance companies have clauses requiring recovery by approved operators, check your policy
 
 ## False Economy of Cheap Providers
 
@@ -1347,7 +1347,7 @@ Unregistered or informal recovery services sometimes offer very low headline pri
 - Have no complaints process if something goes wrong
 - Lack adequate insurance
 
-A transparent, professional service like Crash Assist Recovery costs what it costs — and it includes the peace of mind of knowing your vehicle is handled correctly by insured, trained professionals.
+A transparent, professional service like Crash Assist Recovery costs what it costs, and it includes the peace of mind of knowing your vehicle is handled correctly by insured, trained professionals.
 
 ## The Cost of Delayed Recovery
 
@@ -1375,7 +1375,7 @@ Professional services like Crash Assist Recovery carry full insurance and have c
   {
     title: "Scotland's Motorway Network: A Driver's Safety Guide",
     slug: 'scotland-motorway-network-safety-guide',
-    excerpt: "A complete guide to Scotland's motorways — routes, hazards, smart motorway sections and what to do in an emergency on each road.",
+    excerpt: "A complete guide to Scotland's motorways, routes, hazards, smart motorway sections and what to do in an emergency on each road.",
     category: 'Safety Guides',
     cover_image_url: 'https://images.unsplash.com/photo-1504222114039-e0a7e0f7ee72?w=1200&q=80',
     content: `# Scotland's Motorway Network: A Driver's Safety Guide
@@ -1420,7 +1420,7 @@ The M77 connects Glasgow to Ayrshire, ending near Kilmarnock and continuing as t
 Running from near Edinburgh to Perth, the M9 is Scotland's most scenic motorway.
 
 - Heavy lorry traffic heading to and from Grangemouth petrochemical complex
-- Variable weather near the Forth bridges — wind restrictions apply to high-sided vehicles
+- Variable weather near the Forth bridges, wind restrictions apply to high-sided vehicles
 - Generally good road conditions outside of winter
 
 ## The M876: Falkirk-Grangemouth Connector
@@ -1434,11 +1434,909 @@ Regardless of which motorway you are on:
 1. Call 999 for any injury accident or when life is at risk
 2. Call Crash Assist Recovery on **+44 7564 016582** for breakdown or non-injury accident recovery
 3. Give your location using the green marker posts on the central reservation
-4. If you can see a junction number, report that — it is the fastest way to identify your location
+4. If you can see a junction number, report that, it is the fastest way to identify your location
 5. Stay behind the barrier and away from the carriageway
 
 Crash Assist Recovery is certified to operate on all Scottish motorways and our drivers know each road's specific characteristics and emergency protocols.
 
 **24/7 motorway recovery across Scotland: +44 7564 016582.**`,
+  },
+  {
+    title: 'Introducing Crash Assist Recovery',
+    slug: 'introducing-crash-assist-recovery',
+    excerpt: 'A new 24/7 vehicle recovery and accident assistance service for Central Scotland. Here is who we are and what we do.',
+    category: 'Company News',
+    cover_image_url: '/brand/crash-assist-logo-web.png',
+    content: `# Introducing Crash Assist Recovery
+
+Crash Assist Recovery is a 24/7 emergency vehicle recovery and accident assistance service covering Glasgow, Edinburgh and the wider Central Scotland area.
+
+## What We Do
+
+We provide fast, professional recovery for breakdowns, road traffic accidents and any situation where a vehicle needs to be moved safely. Our team handles everything from a simple flat tyre to a full motorway recovery, day or night.
+
+## Why We Started
+
+Too many drivers in Scotland have been left waiting, confused or overcharged after a breakdown or accident. We built Crash Assist Recovery around clear pricing, honest communication and a genuinely fast response, because that is what we would want if it was our car on the hard shoulder.
+
+## What Makes Us Different
+
+- Transparent pricing quoted on the phone before we dispatch
+- Modern flatbed equipment suitable for all vehicle types, including EVs and prestige cars
+- A single point of contact from the moment you call to the moment your vehicle is safely delivered
+- Coverage across Central Scotland with the flexibility to travel further when needed
+
+## Get in Touch
+
+Save our number now, before you need it: **+44 7564 016582**. We are available 24 hours a day, every day of the year.`,
+  },
+  {
+    title: 'Why We Do What We Do: Our Recovery Philosophy',
+    slug: 'why-we-do-what-we-do',
+    excerpt: 'Being stranded is stressful enough. Here is the approach we take to make recovery as painless as possible.',
+    category: 'Company News',
+    cover_image_url: '/brand/crash-assist-logo-web.png',
+    content: `# Why We Do What We Do: Our Recovery Philosophy
+
+A breakdown or accident rarely happens at a convenient time. It is dark, it is raining, you are late, or you are simply shaken up. Our philosophy at Crash Assist Recovery starts from that reality.
+
+## Speed Without Cutting Corners
+
+We aim to reach you quickly, but speed never comes at the cost of doing the job properly. Every vehicle is loaded and secured the same careful way, whether it is a family hatchback or a specialist 4x4.
+
+## Clear Communication
+
+You will know who is coming, roughly when they will arrive, and what it will cost before we set off. No vague estimates, no surprises on the invoice.
+
+## Treating Every Vehicle as Our Own
+
+Our drivers are trained to load and transport every vehicle as if it were their own. That means the right straps, the right ramp angle and the right approach for the vehicle type in front of them.
+
+## A Human on the Other End of the Phone
+
+Whoever answers your call is someone who understands recovery, not a script reader. If you are unsure what has happened to your car or what to do next, ask, we are happy to talk it through.
+
+Need us now? Call **+44 7564 016582**, available 24/7 across Scotland.`,
+  },
+  {
+    title: 'Meet the Fleet: Our Flatbed Recovery Trucks',
+    slug: 'meet-the-fleet-flatbed-recovery-trucks',
+    excerpt: 'A look at the flatbed recovery vehicles we use to transport everything from everyday cars to specialist 4x4s.',
+    category: 'Company News',
+    cover_image_url: '/brand/crash-assist-logo-web.png',
+    content: `# Meet the Fleet: Our Flatbed Recovery Trucks
+
+Our recovery vehicles are flatbed trucks, not standard tow trucks. That distinction matters more than most drivers realise.
+
+## Why Flatbed Instead of Towing
+
+A flatbed lifts your vehicle fully off the ground rather than dragging two wheels behind a tow truck. That means no extra wear on tyres, transmission or drivetrain components, and it is the only safe method for many modern cars, all-wheel-drive vehicles and electric vehicles.
+
+## Built for Scotland's Roads
+
+Our trucks are equipped with hydraulic tilt beds, winches for immobilised or damaged vehicles, and secure multi-point strapping systems. That means we can safely load a car that will not roll, has a damaged wheel, or has been in a collision.
+
+## What We Can Carry
+
+- Standard cars, vans and light commercial vehicles
+- 4x4s and SUVs, including modified and off-road vehicles
+- Electric and hybrid vehicles, loaded exactly as manufacturers require
+- Motorcycles, using dedicated wheel chocks and tie-downs
+- Prestige and classic cars, handled with extra care and soft strapping where needed
+
+## Always Ready
+
+Every truck in our fleet is checked, fuelled and ready to respond around the clock. Whichever vehicle is dispatched to you, it arrives fully equipped for the job.
+
+Call us on **+44 7564 016582** for recovery any time, day or night.`,
+  },
+  {
+    title: 'Fully Insured, Fully Certified: What That Means for You',
+    slug: 'fully-insured-fully-certified',
+    excerpt: 'Why it matters that your recovery operator carries proper insurance and certification, and what to check for.',
+    category: 'Company News',
+    cover_image_url: '/brand/crash-assist-logo-web.png',
+    content: `# Fully Insured, Fully Certified: What That Means for You
+
+When someone else is loading and transporting your vehicle, insurance and certification are not small print, they are the difference between peace of mind and a costly dispute.
+
+## What "Fully Insured" Actually Covers
+
+Crash Assist Recovery carries goods-in-transit insurance, meaning your vehicle is covered while it is on our truck, not just while it is being driven. We also carry public liability cover for the recovery scene itself.
+
+## Certified Operators
+
+Our drivers are trained in safe loading, secure strapping and roadside safety procedures, including how to work safely on live motorway carriageways and hard shoulders.
+
+## Questions Worth Asking Any Recovery Company
+
+- Is my vehicle insured while on your truck, not just in transit under my own policy?
+- Are your drivers trained for motorway and live-lane recovery?
+- Will I receive a receipt or documentation suitable for an insurance claim?
+
+If a recovery operator cannot answer these clearly, that is worth noting before you agree to anything.
+
+## Our Commitment
+
+We are happy to confirm our insurance and certification details on request, before you commit to using us. Call **+44 7564 016582** to find out more or to book a recovery.`,
+  },
+  {
+    title: 'Save Our Number: What to Do Before You Ever Need Us',
+    slug: 'save-our-number-before-you-need-us',
+    excerpt: 'A few minutes of preparation now can save you a stressful, confusing phone call later. Here is what to sort out today.',
+    category: 'Company News',
+    cover_image_url: '/brand/crash-assist-logo-web.png',
+    content: `# Save Our Number: What to Do Before You Ever Need Us
+
+Nobody plans to break down or have an accident. That is exactly why a little preparation makes such a difference when it happens.
+
+## Save Our Number Now
+
+Add **+44 7564 016582** to your phone contacts today. In the middle of a breakdown, searching for a recovery company online is the last thing you want to be doing, especially somewhere with poor signal.
+
+## Know Your Breakdown Cover
+
+Check whether you have breakdown cover through your insurer, a standalone provider, or your bank account. Knowing this in advance avoids confusion about who to call first.
+
+## Keep Basic Details Handy
+
+Store your registration number, make and model somewhere accessible, such as a note in your phone. When you call for recovery, having these ready speeds up dispatch considerably.
+
+## Pack an Emergency Kit
+
+A torch, a warning triangle, a reflective vest and a phone charger cost very little and make a real difference if you are stuck at the roadside, particularly after dark or in winter.
+
+## When the Time Comes
+
+If you do break down or are involved in an accident, call us on **+44 7564 016582**. We are available 24/7, every day of the year, across Central Scotland.`,
+  },
+  {
+    title: 'Crash Assist Recovery: Company Information and How to Reach Us',
+    slug: 'company-information-how-to-reach-us',
+    excerpt: 'Everything you need to know about contacting Crash Assist Recovery, from our emergency line to our registered company details.',
+    category: 'Company News',
+    cover_image_url: '/brand/crash-assist-logo-web.png',
+    content: `# Crash Assist Recovery: Company Information and How to Reach Us
+
+For customers who want the practical details in one place, here is how to reach us and who we are.
+
+## Emergency Recovery Line
+
+Call **+44 7564 016582** any time, day or night, for breakdown recovery, accident recovery or general enquiries. We also take messages via WhatsApp on the same number.
+
+## Callback Requests
+
+If your situation is not urgent, use the callback form on our [contact page](/contact) and a member of the team will get back to you.
+
+## Company Details
+
+Crash Assist Recovery is operated by Crash Assist Limited, registered in Scotland under company number SC870113.
+
+## Coverage Area
+
+We operate across Glasgow, Edinburgh and Central Scotland, with the ability to extend further afield for longer-distance recovery jobs. See our full list of [coverage areas](/areas) for details.
+
+## Services at a Glance
+
+- Accident recovery
+- Breakdown recovery
+- Motorway and live-lane recovery
+- Flatbed towing for all vehicle types
+- Accident claims assistance
+- Motorcycle and commercial vehicle recovery
+
+Whatever the situation, the first step is the same: call **+44 7564 016582**.`,
+  },
+  {
+    title: 'Vehicle Recovery in Glasgow: A Local Guide',
+    slug: 'vehicle-recovery-glasgow-guide',
+    excerpt: 'What drivers in Glasgow should know about breakdown and accident recovery in the city, from the M8 to the Southside.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# Vehicle Recovery in Glasgow: A Local Guide
+
+Glasgow is our busiest coverage area, and for good reason. It is Scotland's largest city, with a road network that ranges from tight city centre streets to the fast-moving M8.
+
+## Common Recovery Situations in Glasgow
+
+- Breakdowns on the M8 city centre section, often during peak traffic
+- Accidents at busy junctions in the East End, Southside and West End
+- Vehicles stuck in multi-storey and basement car parks
+- Recovery from residential streets with restricted access
+
+## Response Times
+
+Central Glasgow postcodes (G1 to G4) typically see a response within 30 to 40 minutes. Outer postcodes may take slightly longer depending on traffic and time of day.
+
+## Local Knowledge Matters
+
+Glasgow's one-way systems, low bridges and residents' parking zones all affect how a recovery truck can safely reach a vehicle. Our drivers know the city well enough to plan the fastest safe route, not just the shortest one on a map.
+
+## Getting Help in Glasgow
+
+Whether you have broken down in the city centre or been in an accident on the M74 approach, call **+44 7564 016582** for fast, local recovery across Glasgow and the surrounding area.`,
+  },
+  {
+    title: 'Vehicle Recovery in Edinburgh: A Local Guide',
+    slug: 'vehicle-recovery-edinburgh-guide',
+    excerpt: 'Cobbled streets, the City Bypass and a busy airport road: what to know about recovery in Edinburgh.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Vehicle Recovery in Edinburgh: A Local Guide
+
+Edinburgh's mix of historic streets and modern infrastructure creates a few recovery challenges you will not find elsewhere in Scotland.
+
+## What Makes Edinburgh Different
+
+The Old Town's cobbled streets and steep gradients require careful handling, particularly for lower vehicles. The A720 City Bypass, meanwhile, carries heavy commuter traffic and sees its share of breakdowns and minor collisions.
+
+## Common Situations
+
+- Breakdowns on the City Bypass during rush hour
+- Accidents near the airport and the A8 approach roads
+- Vehicles needing recovery from the Old Town or tightly parked residential areas
+
+## Response Across the City
+
+We cover all Edinburgh postcodes, from the city centre out to Leith, Morningside and Portobello, typically arriving within 60 to 75 minutes.
+
+## A Note on Trams and Restricted Roads
+
+Edinburgh's tram routes and associated road restrictions can affect the fastest route to a breakdown. Our team plans around these in real time rather than relying on a fixed route.
+
+Broken down or had an accident in Edinburgh? Call **+44 7564 016582** for prompt recovery across the city.`,
+  },
+  {
+    title: 'Vehicle Recovery in Paisley: A Local Guide',
+    slug: 'vehicle-recovery-paisley-guide',
+    excerpt: 'Close to Glasgow Airport and the M8 corridor, Paisley sees a steady stream of recovery calls. Here is what to expect.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# Vehicle Recovery in Paisley: A Local Guide
+
+Paisley's location next to Glasgow Airport and the M8 makes it one of our most active coverage areas.
+
+## Airport Traffic
+
+A large share of our Paisley call-outs involve hire cars or vehicles belonging to travellers who have broken down on the approach roads to Glasgow Airport. We can deliver a recovered vehicle straight to the hire company depot if needed.
+
+## Industrial and Residential Coverage
+
+Beyond the airport corridor, we cover Paisley's industrial estates and residential streets across the full PA postcode range, including Renfrewshire more widely.
+
+## Fast Response
+
+Paisley is typically within 20 to 30 minutes of our operating base, making it one of the quicker areas for us to reach.
+
+## Common Call-Outs
+
+- Breakdowns on M8 approach roads near the airport
+- Accidents on industrial estate access roads
+- Standard breakdowns across residential Paisley and Renfrewshire
+
+Need recovery in Paisley or Renfrewshire? Call **+44 7564 016582**, available around the clock.`,
+  },
+  {
+    title: 'Vehicle Recovery in Hamilton: A Local Guide',
+    slug: 'vehicle-recovery-hamilton-guide',
+    excerpt: 'Sitting on the M74 and M8 corridors, Hamilton and South Lanarkshire are well within our regular coverage.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# Vehicle Recovery in Hamilton: A Local Guide
+
+Hamilton sits at a key crossing point of South Lanarkshire's road network, giving us fast access via the M74 and M8.
+
+## What We Cover
+
+We provide recovery across Hamilton town centre and the surrounding communities of Blantyre, Burnbank, Ferniegair and Quarter, spanning the full ML3 postcode district.
+
+## Typical Recovery Jobs
+
+- Breakdowns on M74 junctions serving Hamilton
+- Accidents on the A72 and local A-roads
+- Standard town centre and residential breakdowns
+
+## Why Local Knowledge Helps
+
+South Lanarkshire's mix of motorway access and rural back roads means a recovery truck needs to know which routes are actually the fastest, not just the most obvious. Our drivers cover this area regularly.
+
+## Getting Help
+
+For breakdown or accident recovery in Hamilton and the wider South Lanarkshire area, call **+44 7564 016582**, available 24 hours a day.`,
+  },
+  {
+    title: 'Vehicle Recovery in Motherwell: A Local Guide',
+    slug: 'vehicle-recovery-motherwell-guide',
+    excerpt: 'Motherwell and Wishaw form the heart of North Lanarkshire. Here is what drivers there should know about recovery.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Vehicle Recovery in Motherwell: A Local Guide
+
+Motherwell and neighbouring Wishaw form a busy urban and industrial hub in North Lanarkshire, with strong motorway links via the M8 and M74.
+
+## Coverage Area
+
+We serve the full ML1 and ML2 postcode districts, including Wishaw, Bellshill, New Stevenston and Carfin.
+
+## Industrial and Retail Recovery
+
+North Lanarkshire's industrial estates and large retail parks, including Ravenscraig, see regular recovery call-outs, from delivery vans to everyday cars.
+
+## Common Situations
+
+- Breakdowns on the M8 eastern corridor
+- Accidents near retail park access roads
+- Standard breakdowns in Motherwell and Wishaw town centres
+
+## Fast, Local Response
+
+Our familiarity with North Lanarkshire's road layout means we can reach most Motherwell postcodes quickly, even during busy periods.
+
+Need recovery in Motherwell, Wishaw or the surrounding area? Call **+44 7564 016582**, available 24/7.`,
+  },
+  {
+    title: 'Vehicle Recovery in Livingston: A Local Guide',
+    slug: 'vehicle-recovery-livingston-guide',
+    excerpt: 'West Lothian\'s commercial hub sits on one of Scotland\'s busiest motorway corridors. Here is our approach to recovery in Livingston.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# Vehicle Recovery in Livingston: A Local Guide
+
+Livingston sits directly on the M8 between Glasgow and Edinburgh, making it a key part of our coverage area.
+
+## Retail and Commuter Traffic
+
+Livingston's large retail parks, including McArthurGlen and The Centre, along with heavy commuter traffic on the M8, generate a steady flow of breakdown and accident recovery calls.
+
+## What We Cover
+
+We serve the EH54, EH53 and EH55 postcode areas, spanning Livingston town and the wider West Lothian district.
+
+## Response Times
+
+Sitting between our Glasgow and Edinburgh operations, Livingston typically sees a response time of 40 to 55 minutes.
+
+## Common Call-Outs
+
+- Breakdowns on the M8 west corridor
+- Retail park and industrial estate recovery
+- Standard breakdowns across West Lothian
+
+For recovery in Livingston or West Lothian, call **+44 7564 016582**, available any time, day or night.`,
+  },
+  {
+    title: 'Vehicle Recovery in Falkirk: A Local Guide',
+    slug: 'vehicle-recovery-falkirk-guide',
+    excerpt: 'Where the M9 meets the M80, Falkirk sees some of the busiest motorway traffic in Central Scotland.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# Vehicle Recovery in Falkirk: A Local Guide
+
+Falkirk sits at the junction of the M9 and M80, two of Central Scotland's key motorway routes, which keeps recovery demand here consistently high.
+
+## Coverage Area
+
+We serve the full FK postcode range, including Grangemouth, Stenhousemuir, Larbert, Bonnybridge and Denny.
+
+## Industrial Recovery
+
+The Grangemouth petrochemical complex and surrounding industrial sites mean we regularly handle recovery for commercial and heavy-use vehicles in the area, alongside standard cars.
+
+## Common Situations
+
+- Breakdowns at the M9/M80 interchange
+- Accidents on industrial access roads near Grangemouth
+- Standard town centre and residential recovery across Falkirk
+
+## Response
+
+Falkirk's position within our core coverage area means we can typically reach most breakdowns quickly, motorway or otherwise.
+
+Call **+44 7564 016582** for recovery in Falkirk and the Forth Valley area, available 24/7.`,
+  },
+  {
+    title: 'Vehicle Recovery in Stirling: A Local Guide',
+    slug: 'vehicle-recovery-stirling-guide',
+    excerpt: 'The gateway to the Highlands brings its own recovery challenges, from rural roads to Highland-bound traffic.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Vehicle Recovery in Stirling: A Local Guide
+
+Stirling sits where the Lowlands meet the Highland boundary, and our coverage reflects that mix of city and rural roads.
+
+## Coverage Area
+
+We serve the FK7, FK8, FK9 and FK10 postcode districts, covering Stirling city centre and surrounding communities including Bannockburn, Cambuskenneth and Bridge of Allan.
+
+## Rural Recovery
+
+Rural roads near Stirling can mean narrow lanes and limited access, which requires the right vehicle and the right approach. Our team is equipped to handle recovery in these conditions, not just on main roads.
+
+## Common Situations
+
+- Breakdowns on the A9 and A84 heading towards the Highlands
+- Accidents on rural Stirlingshire roads
+- Standard recovery in and around Stirling city centre
+
+## Response
+
+We provide 24/7 coverage across Stirling, whether you are stuck in the city centre or on a rural route heading north.
+
+For recovery in Stirling and the surrounding area, call **+44 7564 016582**.`,
+  },
+  {
+    title: 'Vehicle Recovery in Ayr: A Local Guide',
+    slug: 'vehicle-recovery-ayr-guide',
+    excerpt: 'Covering the A77 coastal route and South Ayrshire, here is what to expect from recovery in and around Ayr.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# Vehicle Recovery in Ayr: A Local Guide
+
+Ayr and South Ayrshire bring a different set of recovery challenges, from the busy A77 coastal route to quieter rural roads further inland.
+
+## Coverage Area
+
+We cover the KA6 to KA10 postcode range, including Ayr, Prestwick, Troon and the surrounding South Ayrshire area.
+
+## The A77 Corridor
+
+The A77 is a key route between Glasgow and the Ayrshire coast, carrying heavy traffic including ferry-bound vehicles heading for Stranraer. We provide dedicated coverage along its length.
+
+## Airport Coverage
+
+Prestwick Airport's surrounding roads also fall within our Ayr coverage, useful for travellers who break down on their way to or from a flight.
+
+## Common Situations
+
+- Breakdowns on the A77 coastal route
+- Accidents near Prestwick Airport
+- Standard recovery across Ayr, Troon and South Ayrshire
+
+Call **+44 7564 016582** for 24/7 recovery across Ayr and South Ayrshire.`,
+  },
+  {
+    title: 'Vehicle Recovery in Kilmarnock: A Local Guide',
+    slug: 'vehicle-recovery-kilmarnock-guide',
+    excerpt: 'East Ayrshire\'s largest town, covered across the A77 and A71 corridors. Here is our approach to recovery in Kilmarnock.',
+    category: 'Area Guides',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# Vehicle Recovery in Kilmarnock: A Local Guide
+
+Kilmarnock is East Ayrshire's largest town and an important link on the route between Glasgow and the Ayrshire coast.
+
+## Coverage Area
+
+We serve the KA1, KA2 and KA3 postcode districts, covering Kilmarnock town centre along with Galston, Stewarton, Crosshouse and Hurlford.
+
+## Key Routes
+
+The A77 and A71 corridors carry significant traffic through the area, and both feature in our regular coverage for breakdowns and accidents.
+
+## Response Times
+
+Kilmarnock is typically within 35 to 45 minutes of our Central Scotland base. For urgent calls, we dispatch immediately and work to beat that estimate.
+
+## Common Situations
+
+- Breakdowns on the A77 and A71
+- Standard recovery across Kilmarnock town and surrounding villages
+- Rural East Ayrshire recovery
+
+For recovery in Kilmarnock and East Ayrshire, call **+44 7564 016582**, available 24/7.`,
+  },
+  {
+    title: 'Flatbed vs Wheel-Lift Recovery: Which Do You Need?',
+    slug: 'flatbed-vs-wheel-lift-recovery',
+    excerpt: 'Two very different ways to move a broken-down vehicle. Here is how they differ and why it matters for your car.',
+    category: 'Vehicle Advice',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Flatbed vs Wheel-Lift Recovery: Which Do You Need?
+
+Not all recovery methods are equal, and the right choice depends on your vehicle and its condition.
+
+## Flatbed Recovery
+
+A flatbed truck lifts your entire vehicle off the ground onto a flat, tilting deck. All four wheels leave the road, so there is no additional wear on tyres or drivetrain components during transport.
+
+**Best for:** all-wheel-drive vehicles, electric and hybrid cars, vehicles with steering or transmission damage, and any car where the manufacturer specifies flatbed-only recovery.
+
+## Wheel-Lift Recovery
+
+A wheel-lift truck raises just the front or rear wheels, towing the vehicle on its remaining wheels. It is faster to set up but not suitable for every vehicle.
+
+**Best for:** simple breakdowns in two-wheel-drive vehicles with no drivetrain damage, over short distances.
+
+## Why We Use Flatbeds
+
+Crash Assist Recovery operates flatbed trucks as standard. It is the safest method for the widest range of vehicles, and it avoids the risk of causing further damage to a vehicle that already has an issue.
+
+## Not Sure Which You Need?
+
+You do not need to know the answer yourself. Tell us your vehicle type and what has happened, and we will bring the right equipment. Call **+44 7564 016582**.`,
+  },
+  {
+    title: 'Hard Shoulder Recovery Explained',
+    slug: 'hard-shoulder-recovery-explained',
+    excerpt: 'Breaking down on a hard shoulder is one of the most dangerous situations a driver can face. Here is what happens and how to stay safe.',
+    category: 'Safety Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# Hard Shoulder Recovery Explained
+
+A hard shoulder puts you metres from live traffic travelling at motorway speed. Knowing what to do, and what we do when we arrive, can make a real difference.
+
+## Your Immediate Priorities
+
+1. Pull as far left as possible, with wheels turned away from the carriageway
+2. Put on your hazard lights
+3. Exit the vehicle from the passenger side, away from traffic, if it is safe to do so
+4. Stand behind the barrier, well away from your vehicle
+
+## Calling for Help
+
+Use an emergency phone if one is nearby, or call us directly on **+44 7564 016582**. Tell us your location using the marker posts on the verge, which give a precise reference point for recovery crews.
+
+## What Happens When We Arrive
+
+Our drivers are trained in live-lane and hard shoulder recovery procedures. We position the truck to protect both you and the vehicle, load quickly, and get everyone away from the carriageway as fast as safely possible.
+
+## Smart Motorways
+
+On smart motorways without a permanent hard shoulder, the guidance differs. If you cannot reach an emergency refuge area, stay in your vehicle with your seatbelt on, hazards on, and call 999.
+
+Hard shoulder or live lane, we are equipped for it. Call **+44 7564 016582**.`,
+  },
+  {
+    title: 'Preparing Your Car for a Long Road Trip',
+    slug: 'prepare-car-long-road-trip',
+    excerpt: 'A few checks before a long journey can be the difference between a smooth trip and a roadside breakdown.',
+    category: 'Vehicle Advice',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# Preparing Your Car for a Long Road Trip
+
+Long journeys put more strain on a vehicle than everyday driving. A short checklist beforehand catches most of the common causes of breakdown.
+
+## Tyres
+
+Check tread depth and pressure, including the spare if you carry one. Underinflated or worn tyres are one of the most common causes of breakdowns on longer trips.
+
+## Fluids
+
+Check oil, coolant and screen wash levels. Low coolant in particular can lead to overheating on long motorway stretches.
+
+## Battery
+
+Older batteries are more likely to fail under sustained use. If your battery is more than four or five years old, or has struggled to start recently, get it tested before you set off.
+
+## Lights and Wipers
+
+Check all exterior lights are working, and replace worn wiper blades, particularly important for long journeys in changeable Scottish weather.
+
+## Pack for the Unexpected
+
+A charged phone, a torch, a warning triangle and, in winter, a blanket and some food and water are worth the boot space.
+
+## If Something Does Go Wrong
+
+Even a well-prepared car can break down. If it happens, call **+44 7564 016582** for recovery anywhere across Scotland.`,
+  },
+  {
+    title: 'Classic Car Recovery: Why Specialist Handling Matters',
+    slug: 'classic-car-recovery-specialist-handling',
+    excerpt: 'Classic and prestige vehicles need a different approach to recovery. Here is what to look for in a recovery service.',
+    category: 'Vehicle Advice',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Classic Car Recovery: Why Specialist Handling Matters
+
+A classic or prestige car often has irreplaceable parts, delicate bodywork and low ground clearance. Standard recovery methods are not always appropriate.
+
+## The Risks of Standard Recovery
+
+Chain-based towing, hard straps and steep loading ramps can all cause damage to original paintwork, low front splitters or delicate suspension components.
+
+## What We Do Differently
+
+We use soft strapping rather than metal hooks or chains wherever possible, and our flatbed decks allow for a shallow loading angle that protects low-clearance vehicles.
+
+## Communication Matters
+
+If you own a classic or modified car, tell us when you call. We will confirm ground clearance, any known weak points and how you would like the vehicle handled before we arrive.
+
+## Storage and Delivery
+
+We can deliver directly to a specialist garage, storage facility or your home address, whichever suits the situation best.
+
+For careful, specialist recovery of a classic or prestige vehicle, call **+44 7564 016582** to discuss your car before we dispatch.`,
+  },
+  {
+    title: 'Motorcycle Recovery: What Riders Need to Know',
+    slug: 'motorcycle-recovery-what-riders-need-to-know',
+    excerpt: 'Motorcycles need different handling to cars during recovery. Here is what to expect if you break down or come off your bike.',
+    category: 'Vehicle Advice',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# Motorcycle Recovery: What Riders Need to Know
+
+A motorcycle cannot simply be towed, and after an accident it needs particularly careful handling. Here is what our motorcycle recovery service involves.
+
+## Purpose-Built Equipment
+
+We use dedicated wheel chocks and multi-point tie-downs designed specifically for motorcycles, keeping the bike upright and secure throughout transport rather than relying on improvised strapping.
+
+## After an Accident
+
+If you have come off your bike, your safety comes first, always. Once you are safe, we can recover the motorcycle, document any visible damage with photographs, and deliver it to a garage or your home.
+
+## Breakdown Recovery
+
+Mechanical breakdowns, flat batteries and punctures are all common reasons riders call us. We treat these the same way as any other recovery: fast dispatch and careful loading.
+
+## All Types of Bike
+
+From commuter scooters to large touring and sports bikes, our equipment adjusts to suit the size and weight of your machine.
+
+If you need motorcycle recovery anywhere across Central Scotland, call **+44 7564 016582**, available 24/7.`,
+  },
+  {
+    title: 'Commercial Vehicle Breakdown: Minimising Downtime',
+    slug: 'commercial-vehicle-breakdown-minimising-downtime',
+    excerpt: 'A broken-down van or light commercial vehicle costs more than just recovery fees. Here is how to reduce the impact.',
+    category: 'Vehicle Advice',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# Commercial Vehicle Breakdown: Minimising Downtime
+
+For businesses, a broken-down van or light commercial vehicle means more than an inconvenience. It means missed deliveries, delayed jobs and lost revenue.
+
+## Priority Dispatch
+
+We understand that time matters more for commercial breakdowns. When you call, let us know if the vehicle is carrying goods, passengers or time-sensitive cargo so we can plan accordingly.
+
+## What We Recover
+
+Vans, light trucks, minibuses and other commercial vehicles are all within our standard capability, loaded on the same flatbed equipment we use for cars.
+
+## Fleet Accounts
+
+If breakdowns are a recurring cost for your business, ask us about setting up a fleet account for faster booking and simplified invoicing.
+
+## Getting Vehicles Back on the Road
+
+Depending on the fault, we can deliver a broken-down commercial vehicle directly to your preferred garage, minimising the gap between breakdown and repair.
+
+For commercial vehicle recovery across Central Scotland, call **+44 7564 016582**.`,
+  },
+  {
+    title: 'Breakdown Cover vs Accident Recovery: What is the Difference?',
+    slug: 'breakdown-cover-vs-accident-recovery',
+    excerpt: 'Two terms that sound similar but cover very different situations. Here is how to tell which one applies to you.',
+    category: 'Know Your Rights',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Breakdown Cover vs Accident Recovery: What is the Difference?
+
+These two terms get used interchangeably, but they refer to different situations and often different providers.
+
+## Breakdown Cover
+
+Breakdown cover is a policy, usually annual, that covers mechanical failures: flat batteries, punctures, running out of fuel, or a fault that leaves your car undriveable. It is typically provided by dedicated breakdown organisations or bundled with car insurance.
+
+## Accident Recovery
+
+Accident recovery covers vehicles involved in a collision. This is not always included in standard breakdown cover, and the vehicle may need to be recovered as evidence, for insurance assessment, or because it is unsafe to leave in place.
+
+## Why the Distinction Matters
+
+If you call your breakdown provider after an accident, they may not be equipped or authorised to handle the recovery, particularly if police involvement or an insurance claim is involved.
+
+## What We Offer
+
+Crash Assist Recovery handles both breakdown and accident recovery, so you do not need to work out which category your situation falls into before calling.
+
+Whatever has happened, call **+44 7564 016582** and we will take it from there.`,
+  },
+  {
+    title: '5 Warning Signs Your Car Is About to Break Down',
+    slug: 'warning-signs-car-about-to-break-down',
+    excerpt: 'Many breakdowns give some warning beforehand. Here are five signs worth acting on before you are stranded.',
+    category: 'Vehicle Advice',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# 5 Warning Signs Your Car Is About to Break Down
+
+Breakdowns rarely come completely out of nowhere. Here are five signs that often appear beforehand.
+
+## 1. Warning Lights on the Dashboard
+
+An illuminated engine, battery or oil pressure light is your car telling you something is wrong. Do not ignore it, even if the car still seems to drive normally.
+
+## 2. Unusual Noises
+
+Grinding, knocking or squealing sounds, particularly when braking or turning, often indicate a developing mechanical issue.
+
+## 3. Difficulty Starting
+
+A slow or hesitant start is one of the clearest signs of a failing battery, one of the most common causes of roadside breakdowns.
+
+## 4. Fluid Leaks
+
+Puddles under a parked car, whether oil, coolant or brake fluid, should always be investigated before your next journey.
+
+## 5. A Burning Smell
+
+This can indicate anything from an electrical fault to an overheating clutch. Pull over safely and switch off the engine if you notice this while driving.
+
+## If It Happens Anyway
+
+Even well-maintained cars break down. If you are ever caught out, call **+44 7564 016582** for fast recovery anywhere across Scotland.`,
+  },
+  {
+    title: 'Breaking Down in a Smart Motorway Lane',
+    slug: 'breaking-down-smart-motorway-lane',
+    excerpt: 'Smart motorways remove the permanent hard shoulder on some sections. Here is what to do if you break down in a live lane.',
+    category: 'Safety Guides',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# Breaking Down in a Smart Motorway Lane
+
+Some motorway sections use the hard shoulder as a running lane during busy periods, or remove it entirely. Breaking down here requires a different response.
+
+## If You Can Reach a Refuge Area
+
+Emergency refuge areas are marked with blue signs and an orange SOS box. If you can safely reach one, do so, put on your hazard lights, and use the SOS phone to report your location.
+
+## If You Cannot Reach a Refuge Area
+
+Move into the left-hand lane if possible. If you cannot move at all, stay in your vehicle with your seatbelt fastened and hazard lights on, and call 999 immediately. Do not attempt to leave the vehicle on a live carriageway unless there is a direct danger such as fire.
+
+## What Happens Next
+
+Smart motorway cameras and control room operators can close the lane and set a red X above it to stop traffic. Once the lane is confirmed closed, we can attend safely and recover your vehicle.
+
+## Calling Us
+
+For non-emergency breakdowns once you are safely off the live carriageway, call **+44 7564 016582** for recovery.
+
+Smart motorways can be unsettling to break down on, but knowing the procedure removes most of the uncertainty.`,
+  },
+  {
+    title: 'Jump Starts, Fuel Delivery and Lockouts Explained',
+    slug: 'jump-starts-fuel-delivery-lockouts',
+    excerpt: 'Not every roadside problem needs a full recovery. Here is what we can often sort on the spot.',
+    category: 'Vehicle Advice',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Jump Starts, Fuel Delivery and Lockouts Explained
+
+Some of the most common roadside calls do not need a flatbed at all. Here is what we can usually resolve without recovering your vehicle.
+
+## Flat Battery
+
+If your battery has simply gone flat, a jump start often gets you moving again in minutes. If the battery is failing repeatedly, we can advise on next steps, including recovery to a garage if needed.
+
+## Running Out of Fuel
+
+It happens more often than people expect. We can deliver enough fuel to get you to the nearest station, avoiding the cost and hassle of a full recovery.
+
+## Locked Out
+
+Locked your keys inside the car? Depending on the vehicle, we may be able to help you regain access, or advise on the fastest way to get a replacement key or locksmith.
+
+## When It Does Need Recovery
+
+If the underlying issue is more serious, such as a mechanical fault or an accident, we will recover the vehicle properly rather than attempt a quick fix that will not last.
+
+Whatever the situation, call **+44 7564 016582** and we will tell you honestly what is needed.`,
+  },
+  {
+    title: 'How Weather Affects Vehicle Recovery Times',
+    slug: 'how-weather-affects-recovery-times',
+    excerpt: 'Wind, rain, ice and snow all change how recovery works in Scotland. Here is what to expect in bad weather.',
+    category: 'Seasonal Advice',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# How Weather Affects Vehicle Recovery Times
+
+Scottish weather is unpredictable, and it has a real effect on how quickly and safely recovery can happen.
+
+## Heavy Rain and Flooding
+
+Standing water slows traffic and increases the number of breakdown and accident calls, which can extend response times during widespread heavy rain, even though each individual job may not take longer.
+
+## Wind
+
+Strong winds affect high-sided vehicles in particular, including our own trucks on exposed routes such as bridges. We adjust routes and timing where safety requires it.
+
+## Ice and Snow
+
+Winter conditions are our busiest period. Response times can be longer during widespread ice or snow, not because of reduced effort, but because call volumes rise sharply and road conditions slow every vehicle on the network, including ours.
+
+## What You Can Do
+
+If you break down in poor weather, stay warm, keep your hazard lights on, and let us know your exact location and any visible hazards nearby, such as standing water or ice.
+
+## We Do Not Stop for Weather
+
+Regardless of conditions, we remain operational 24/7. Call **+44 7564 016582** and we will get to you as safely and quickly as conditions allow.`,
+  },
+  {
+    title: 'What Affects the Cost of Vehicle Recovery',
+    slug: 'what-affects-cost-of-vehicle-recovery',
+    excerpt: 'Recovery pricing is not one-size-fits-all. Here is what actually determines your quote.',
+    category: 'Claims Guides',
+    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    content: `# What Affects the Cost of Vehicle Recovery
+
+Recovery pricing can seem opaque from the outside, but it comes down to a handful of clear factors.
+
+## Distance
+
+The further your vehicle needs to travel, the higher the cost, typically calculated as a call-out fee plus a per-mile rate once you are outside the local area.
+
+## Location Type
+
+Motorway and live-lane recoveries generally cost more than standard roadside jobs, reflecting the additional risk, training and often the priority dispatch involved.
+
+## Vehicle Condition
+
+A vehicle that will not roll, has a seized wheel, or is otherwise immobilised may require winching or a skate system, which adds to the job.
+
+## Time of Day
+
+Most reputable recovery services, including us, charge the same rate regardless of time, but it is worth confirming this upfront with any provider.
+
+## Our Approach
+
+We quote clearly on the phone before we dispatch, based on your location, vehicle and situation, so you know the cost before we set off. See our [pricing page](/#pricing) for typical rates.
+
+Questions about cost before you book? Call **+44 7564 016582** and we will talk you through it.`,
+  },
+  {
+    title: 'Recovering a Vehicle After Flooding',
+    slug: 'recovering-vehicle-after-flooding',
+    excerpt: 'Driving through floodwater, or having your car flood while parked, creates specific recovery and safety concerns.',
+    category: 'Safety Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    content: `# Recovering a Vehicle After Flooding
+
+Flooded roads are a growing issue across parts of Scotland, and a flooded vehicle needs particular care during recovery.
+
+## If You Are Caught in Floodwater
+
+Do not attempt to drive through standing water if you cannot see the road surface or judge its depth. If your car stalls in floodwater, do not restart the engine, this can cause serious internal damage. Get to safety and call for recovery.
+
+## Why Flooded Vehicles Need Flatbed Recovery
+
+A vehicle that has taken on water should not be driven, even a short distance, until it has been properly assessed. Flatbed recovery avoids putting any further load on a potentially compromised engine or electrical system.
+
+## Electric Vehicles and Flooding
+
+If an EV has been submerged or has taken on significant water, it requires particularly careful handling due to the high-voltage battery system. Tell us if your vehicle is electric when you call, so we can take the right precautions.
+
+## After Recovery
+
+We can deliver a flooded vehicle to a garage for assessment, or to your home if a full inspection is not immediately required.
+
+If your vehicle has been affected by flooding, call **+44 7564 016582** for safe recovery.`,
+  },
+  {
+    title: 'Tyre Blowouts: What to Do and How Recovery Helps',
+    slug: 'tyre-blowouts-what-to-do',
+    excerpt: 'A blowout at speed is frightening, but knowing the correct response keeps you safe until help arrives.',
+    category: 'Safety Guides',
+    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    content: `# Tyre Blowouts: What to Do and How Recovery Helps
+
+A sudden tyre blowout, particularly at motorway speed, is one of the more frightening things that can happen while driving. Staying calm and following the right steps matters more than reacting quickly.
+
+## Immediately After a Blowout
+
+Do not brake hard. Ease off the accelerator and let the car slow naturally, keeping a firm grip on the steering wheel as the car pulls toward the affected side. Only brake gently once your speed has reduced and the car is under control.
+
+## Getting to Safety
+
+Signal and move gradually to the hard shoulder or verge, as far from live traffic as possible, then put on your hazard lights.
+
+## Should You Change the Tyre Yourself?
+
+On a motorway hard shoulder, we would generally advise against changing a tyre yourself, given the proximity to live traffic. It is safer to call for recovery and wait behind the barrier.
+
+## When Recovery Is the Right Call
+
+If you do not carry a spare, have a space-saver only rated for low speeds, or are in a location where changing a tyre is not safe, recovery is the right choice.
+
+For tyre-related breakdowns anywhere in Scotland, call **+44 7564 016582**.`,
   },
 ]

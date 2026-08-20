@@ -15,7 +15,7 @@ export const areas: Area[] = [
     name: 'Glasgow',
     headline: 'Vehicle Recovery in Glasgow',
     description: "Glasgow's fastest 24/7 emergency vehicle recovery and accident assistance service. We cover the entire city and surrounding areas.",
-    longDescription: `Glasgow is Scotland's largest city and our primary operating area. With our base in Central Scotland, we maintain some of the fastest response times in the city — typically 30–45 minutes for most Glasgow postcodes.\n\nFrom the city centre to the Southside, East End, West End and beyond, Crash Assist Recovery knows Glasgow's road network inside out. We handle everything from minor breakdowns on residential streets to serious accidents on the M8 and M74 ring roads.`,
+    longDescription: `Glasgow is Scotland's largest city and our primary operating area. With our base in Central Scotland, we maintain some of the fastest response times in the city, typically 30–45 minutes for most Glasgow postcodes.\n\nFrom the city centre to the Southside, East End, West End and beyond, Crash Assist Recovery knows Glasgow's road network inside out. We handle everything from minor breakdowns on residential streets to serious accidents on the M8 and M74 ring roads.`,
     postcodes: ['G1', 'G2', 'G3', 'G4', 'G5', 'G11', 'G12', 'G13', 'G14', 'G15', 'G20', 'G21', 'G22', 'G23', 'G31', 'G32', 'G33', 'G34', 'G40', 'G41', 'G42', 'G43', 'G44', 'G45', 'G46', 'G51', 'G52', 'G53'],
     features: ['City centre response within 30 min', 'M8 and ring road specialists', 'Covers all Glasgow postcode districts', '24/7 including bank holidays', 'Coordination with Glasgow City Police', 'All vehicle types including prestige'],
     faqs: [
@@ -28,11 +28,11 @@ export const areas: Area[] = [
     name: 'Edinburgh',
     headline: 'Vehicle Recovery in Edinburgh',
     description: "Edinburgh's trusted emergency recovery service for accidents and breakdowns across the capital. Fast response to all Edinburgh postcodes.",
-    longDescription: `Edinburgh's unique geography — cobbled old town streets, busy city bypass and the A720 ring road — presents its own recovery challenges. Crash Assist Recovery has the experience and equipment to handle them all.\n\nWe cover all Edinburgh postcodes from the city centre to Leith, Morningside, Portobello and the Pentland Hills. Whether you have broken down on the Royal Mile or been involved in an accident on the City Bypass, we will reach you quickly.`,
+    longDescription: `Edinburgh's unique geography, cobbled old town streets, busy city bypass and the A720 ring road, presents its own recovery challenges. Crash Assist Recovery has the experience and equipment to handle them all.\n\nWe cover all Edinburgh postcodes from the city centre to Leith, Morningside, Portobello and the Pentland Hills. Whether you have broken down on the Royal Mile or been involved in an accident on the City Bypass, we will reach you quickly.`,
     postcodes: ['EH1', 'EH2', 'EH3', 'EH4', 'EH5', 'EH6', 'EH7', 'EH8', 'EH9', 'EH10', 'EH11', 'EH12', 'EH13', 'EH14', 'EH15', 'EH16', 'EH17'],
     features: ['A720 bypass specialists', 'Old town and cobbled road recovery', 'Airport vicinity coverage', 'Tram route awareness', 'All Edinburgh postcode districts', 'Leith and port area coverage'],
     faqs: [
-      { question: 'Can you reach Edinburgh from Glasgow quickly?', answer: "Yes — we have extended our coverage to Edinburgh and can typically reach the city within 60–75 minutes. For faster response, we have partner operators in Edinburgh's area who can dispatch simultaneously." },
+      { question: 'Can you reach Edinburgh from Glasgow quickly?', answer: "Yes, we have extended our coverage to Edinburgh and can typically reach the city within 60–75 minutes. For faster response, we have partner operators in Edinburgh's area who can dispatch simultaneously." },
       { question: 'Do you cover the Edinburgh City Bypass (A720)?', answer: 'The A720 Edinburgh City Bypass is one of our key operational roads in Edinburgh. We have dedicated experience with A-road and dual carriageway recovery in the Edinburgh area.' },
     ],
   },
@@ -70,7 +70,7 @@ export const areas: Area[] = [
     postcodes: ['ML1', 'ML2', 'G69', 'G71'],
     features: ['North Lanarkshire coverage', 'Industrial area specialists', 'M8 eastern corridor', 'Ravenscraig and retail park recovery', 'Bellshill and Coatbridge coverage', '24/7 service'],
     faqs: [
-      { question: 'Do you cover Wishaw and Bellshill as well as Motherwell?', answer: 'Yes — our Motherwell coverage encompasses the entire ML1 and ML2 postcode areas, including Wishaw, Bellshill, New Stevenston and Carfin.' },
+      { question: 'Do you cover Wishaw and Bellshill as well as Motherwell?', answer: 'Yes, our Motherwell coverage encompasses the entire ML1 and ML2 postcode areas, including Wishaw, Bellshill, New Stevenston and Carfin.' },
     ],
   },
   {
@@ -142,7 +142,7 @@ export const areas: Area[] = [
     postcodes: ['DG1', 'DG2', 'DG3', 'DG11'],
     features: ['A75 route to Northern Ireland ferries', 'A76 Nithsdale coverage', 'M74 southern extension', 'Galloway Forest recovery capability', 'Cross-border recovery available', 'Long-distance capability'],
     faqs: [
-      { question: 'Can you reach vehicles on the A75 towards Stranraer?', answer: "Yes — the A75 is a critical route for ferry traffic to Northern Ireland and we provide coverage along its full length. Response times to remote sections may be longer, but we will reach you." },
+      { question: 'Can you reach vehicles on the A75 towards Stranraer?', answer: "Yes, the A75 is a critical route for ferry traffic to Northern Ireland and we provide coverage along its full length. Response times to remote sections may be longer, but we will reach you." },
     ],
   },
   {

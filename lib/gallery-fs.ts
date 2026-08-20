@@ -19,7 +19,7 @@ function titleFromFilename(filename: string): string {
   return cleaned.replace(/\b\w/g, (c) => c.toUpperCase())
 }
 
-/** Reads every image dropped into /public/gallery — no renaming or DB entry required. */
+/** Reads every image dropped into /public/gallery. No renaming or DB entry required. */
 export function getStaticGalleryImages(): StaticGalleryImage[] {
   let entries: fs.Dirent[]
   try {

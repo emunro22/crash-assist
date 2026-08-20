@@ -9,11 +9,16 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
   }
 
   body {
     @apply bg-zinc-950 text-zinc-100 antialiased;
     font-family: var(--font-inter), 'Inter', sans-serif;
+    overflow-x: hidden;
+    max-width: 100%;
+    position: relative;
   }
 
   h1, h2, h3, h4, h5, h6 {

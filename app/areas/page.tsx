@@ -77,7 +77,7 @@ export default function AreasPage() {
             <h2 className="font-heading text-4xl font-black text-white uppercase mb-4">
               Not Sure if We Cover You?
             </h2>
-            <p className="section-body mb-8">Call us — if we can reach you, we will.</p>
+            <p className="section-body mb-8">Call us. If we can reach you, we will.</p>
             <a href="tel:+447564016582" className="btn-primary text-base py-4 px-10">
               Call: +44 7564 016582
             </a>

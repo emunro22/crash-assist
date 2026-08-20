@@ -61,7 +61,7 @@ export default function Hero() {
             />
           </div>
         ))}
-        {/* Dark gradient overlay — heavier at top/bottom for readability */}
+        {/* Dark gradient overlay, heavier at top/bottom for readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/75 via-zinc-950/55 to-zinc-950/85" />
         {/* Side vignette */}
         <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/60 via-transparent to-zinc-950/30" />
@@ -89,7 +89,7 @@ export default function Hero() {
 
           <p className="section-body max-w-xl mb-10">
             Fast, professional vehicle recovery and accident assistance across Scotland.
-            We are on the scene in under an hour — day or night, every single day.
+            We are on the scene in under an hour, day or night, every single day.
           </p>
 
           {/* CTAs */}
