@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { getGalleryImages } from '@/lib/db'
+import { getStaticGalleryImages } from '@/lib/gallery-fs'
 
 export const metadata: Metadata = {
   title: 'Our Work',
@@ -12,10 +13,18 @@ export const metadata: Metadata = {
 export const revalidate = 3600
 
 export default async function WorkPage() {
-  let images: Awaited<ReturnType<typeof getGalleryImages>> = []
+  // Photos dropped into /public/gallery show up automatically — no DB or admin upload needed.
+  const staticImages = getStaticGalleryImages()
+
+  let dbImages: Awaited<ReturnType<typeof getGalleryImages>> = []
   try {
-    images = await getGalleryImages()
+    dbImages = await getGalleryImages()
   } catch {}
+
+  const images = [
+    ...staticImages.map((img) => ({ id: img.id, url: img.url, title: img.title, tag: img.tag })),
+    ...dbImages.map((img) => ({ id: String(img.id), url: img.url, title: img.title, tag: img.tag })),
+  ]
 
   return (
     <>

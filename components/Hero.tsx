@@ -7,16 +7,16 @@ import Link from 'next/link'
 
 const SLIDES = [
   {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80',
-    alt: 'Crash Assist recovery truck responding to roadside emergency',
+    src: '/gallery/defender-ranger-trailer-transport.jpg',
+    alt: 'Crash Assist Recovery flatbed transporting a Land Rover Defender and Ford Ranger',
   },
   {
-    src: 'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=1920&q=75',
-    alt: 'Professional vehicle recovery on Scottish motorway',
+    src: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    alt: 'Crash Assist Recovery flatbed truck with a Ford Ranger at dusk',
   },
   {
-    src: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=1920&q=75',
-    alt: 'Emergency roadside assistance and accident recovery Scotland',
+    src: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    alt: 'Crash Assist Recovery flatbed truck loading a Ford Ranger',
   },
 ]
 

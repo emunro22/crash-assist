@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 const services = [
@@ -46,7 +47,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-9 h-9 bg-orange-500 flex items-center justify-center font-heading font-black text-white text-sm">CA</div>
+              <Image
+                src="/brand/crash-assist-logo-web.png"
+                alt="Crash Assist Recovery"
+                width={56}
+                height={48}
+                className="h-11 w-auto flex-shrink-0"
+              />
               <div className="font-heading font-black uppercase text-base leading-none">
                 <span className="text-white">Crash Assist</span>
                 <br />

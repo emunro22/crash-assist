@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const navLinks = [
@@ -35,10 +36,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-9 h-9 bg-orange-500 flex items-center justify-center font-heading font-black text-white text-base group-hover:bg-orange-600 transition-colors">
-              CA
-            </div>
-            <div className="font-heading text-lg font-black uppercase leading-none">
+            <Image
+              src="/brand/crash-assist-logo-web.png"
+              alt="Crash Assist Recovery"
+              width={56}
+              height={48}
+              priority
+              className="h-12 w-auto flex-shrink-0"
+            />
+            <div className="font-heading text-lg font-black uppercase leading-none hidden sm:block">
               <span className="text-white">Crash Assist</span>
               <br />
               <span className="text-orange-500 text-sm tracking-widest">RECOVERY</span>

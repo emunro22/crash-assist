@@ -1,14 +1,17 @@
 import dynamic from 'next/dynamic'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Gallery from '@/components/Gallery'
 
 const Ticker = dynamic(() => import('@/components/Ticker'))
-const Services = dynamic(() => import('@/components/Services'))
 const About = dynamic(() => import('@/components/About'))
+const Services = dynamic(() => import('@/components/Services'))
+const Pricing = dynamic(() => import('@/components/Pricing'))
 const Testimonials = dynamic(() => import('@/components/Testimonials'))
-const Coverage = dynamic(() => import('@/components/Coverage'))
-const FAQ = dynamic(() => import('@/components/FAQ'))
 const CallbackForm = dynamic(() => import('@/components/CallbackForm'))
+const FAQ = dynamic(() => import('@/components/FAQ'))
+const CoverageMap = dynamic(() => import('@/components/CoverageMap'))
+const Coverage = dynamic(() => import('@/components/Coverage'))
 const Footer = dynamic(() => import('@/components/Footer'))
 
 export default function HomePage() {
@@ -18,12 +21,15 @@ export default function HomePage() {
       <main>
         <Hero />
         <Ticker />
-        <Services />
         <About />
+        <Services />
+        <Pricing />
+        <Gallery />
         <Testimonials />
-        <Coverage />
-        <FAQ />
         <CallbackForm />
+        <FAQ />
+        <CoverageMap />
+        <Coverage />
       </main>
       <Footer />
     </>
