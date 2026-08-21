@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import type { Area } from '@/lib/areas-data'
-import BrandPanel from './BrandPanel'
 
 export default function AreaPage({ area }: { area: Area }) {
   return (
@@ -41,13 +40,6 @@ export default function AreaPage({ area }: { area: Area }) {
         <div className="container">
           <div className="grid lg:grid-cols-[2fr_1fr] gap-16">
             <div>
-              {/* Brand panel */}
-              <div className="relative aspect-[16/9] mb-10 overflow-hidden">
-                <BrandPanel className="absolute inset-0" />
-                <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-blue-500" />
-                <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-blue-500" />
-              </div>
-
               {/* Long description */}
               <div className="prose-crash">
                 {area.longDescription.split('\n\n').map((para, i) => (

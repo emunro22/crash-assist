@@ -1632,7 +1632,7 @@ Whatever the situation, the first step is the same: call **+44 7564 016582**.`,
     slug: 'vehicle-recovery-glasgow-guide',
     excerpt: 'What drivers in Glasgow should know about breakdown and accident recovery in the city, from the M8 to the Southside.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Glasgow: A Local Guide
 
 Glasgow is our busiest coverage area, and for good reason. It is Scotland's largest city, with a road network that ranges from tight city centre streets to the fast-moving M8.
@@ -1661,7 +1661,7 @@ Whether you have broken down in the city centre or been in an accident on the M7
     slug: 'vehicle-recovery-edinburgh-guide',
     excerpt: 'Cobbled streets, the City Bypass and a busy airport road: what to know about recovery in Edinburgh.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Edinburgh: A Local Guide
 
 Edinburgh's mix of historic streets and modern infrastructure creates a few recovery challenges you will not find elsewhere in Scotland.
@@ -1691,7 +1691,7 @@ Broken down or had an accident in Edinburgh? Call **+44 7564 016582** for prompt
     slug: 'vehicle-recovery-paisley-guide',
     excerpt: 'Close to Glasgow Airport and the M8 corridor, Paisley sees a steady stream of recovery calls. Here is what to expect.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Paisley: A Local Guide
 
 Paisley's location next to Glasgow Airport and the M8 makes it one of our most active coverage areas.
@@ -1721,7 +1721,7 @@ Need recovery in Paisley or Renfrewshire? Call **+44 7564 016582**, available ar
     slug: 'vehicle-recovery-hamilton-guide',
     excerpt: 'Sitting on the M74 and M8 corridors, Hamilton and South Lanarkshire are well within our regular coverage.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Hamilton: A Local Guide
 
 Hamilton sits at a key crossing point of South Lanarkshire's road network, giving us fast access via the M74 and M8.
@@ -1749,7 +1749,7 @@ For breakdown or accident recovery in Hamilton and the wider South Lanarkshire a
     slug: 'vehicle-recovery-motherwell-guide',
     excerpt: 'Motherwell and Wishaw form the heart of North Lanarkshire. Here is what drivers there should know about recovery.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Motherwell: A Local Guide
 
 Motherwell and neighbouring Wishaw form a busy urban and industrial hub in North Lanarkshire, with strong motorway links via the M8 and M74.
@@ -1779,7 +1779,7 @@ Need recovery in Motherwell, Wishaw or the surrounding area? Call **+44 7564 016
     slug: 'vehicle-recovery-livingston-guide',
     excerpt: 'West Lothian\'s commercial hub sits on one of Scotland\'s busiest motorway corridors. Here is our approach to recovery in Livingston.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Livingston: A Local Guide
 
 Livingston sits directly on the M8 between Glasgow and Edinburgh, making it a key part of our coverage area.
@@ -1809,7 +1809,7 @@ For recovery in Livingston or West Lothian, call **+44 7564 016582**, available 
     slug: 'vehicle-recovery-falkirk-guide',
     excerpt: 'Where the M9 meets the M80, Falkirk sees some of the busiest motorway traffic in Central Scotland.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Falkirk: A Local Guide
 
 Falkirk sits at the junction of the M9 and M80, two of Central Scotland's key motorway routes, which keeps recovery demand here consistently high.
@@ -1839,7 +1839,7 @@ Call **+44 7564 016582** for recovery in Falkirk and the Forth Valley area, avai
     slug: 'vehicle-recovery-stirling-guide',
     excerpt: 'The gateway to the Highlands brings its own recovery challenges, from rural roads to Highland-bound traffic.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/ranger-flatbed-recovery-dusk.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Stirling: A Local Guide
 
 Stirling sits where the Lowlands meet the Highland boundary, and our coverage reflects that mix of city and rural roads.
@@ -1869,7 +1869,7 @@ For recovery in Stirling and the surrounding area, call **+44 7564 016582**.`,
     slug: 'vehicle-recovery-ayr-guide',
     excerpt: 'Covering the A77 coastal route and South Ayrshire, here is what to expect from recovery in and around Ayr.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/ranger-flatbed-recovery-daytime.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Ayr: A Local Guide
 
 Ayr and South Ayrshire bring a different set of recovery challenges, from the busy A77 coastal route to quieter rural roads further inland.
@@ -1899,7 +1899,7 @@ Call **+44 7564 016582** for 24/7 recovery across Ayr and South Ayrshire.`,
     slug: 'vehicle-recovery-kilmarnock-guide',
     excerpt: 'East Ayrshire\'s largest town, covered across the A77 and A71 corridors. Here is our approach to recovery in Kilmarnock.',
     category: 'Area Guides',
-    cover_image_url: '/gallery/defender-ranger-trailer-transport.jpg',
+    cover_image_url: '',
     content: `# Vehicle Recovery in Kilmarnock: A Local Guide
 
 Kilmarnock is East Ayrshire's largest town and an important link on the route between Glasgow and the Ayrshire coast.
@@ -1923,6 +1923,340 @@ Kilmarnock is typically within 35 to 45 minutes of our Central Scotland base. Fo
 - Rural East Ayrshire recovery
 
 For recovery in Kilmarnock and East Ayrshire, call **+44 7564 016582**, available 24/7.`,
+  },
+  {
+    title: 'Vehicle Recovery in Dumfries: A Local Guide',
+    slug: 'vehicle-recovery-dumfries-guide',
+    excerpt: 'Covering the A75, A76 and the M74 south towards the border, here is what to know about recovery in Dumfries and Galloway.',
+    category: 'Area Guides',
+    cover_image_url: '',
+    content: `# Vehicle Recovery in Dumfries: A Local Guide
+
+Dumfries and Galloway is one of Scotland's most scenic but also most remote regions for motorists, so knowing who to call before you break down matters here more than most places.
+
+## Coverage Area
+
+We cover the DG1, DG2, DG3 and DG11 postcode districts, spanning Dumfries town and out towards Lockerbie and the wider Galloway area.
+
+## Key Routes
+
+- The A75, a critical route for ferry traffic heading to Northern Ireland
+- The A76 through Nithsdale
+- The M74's southern extension towards the English border
+
+## A More Rural Response
+
+Because this is a more remote part of our coverage, response times to outlying sections of the A75 or A76 can be longer than in Central Scotland. We will always come to you, we just ask that you call with your location so we can give an honest ETA.
+
+## Common Situations
+
+- Breakdowns on the A75 towards Stranraer
+- Accidents on the A76 or M74 southern stretch
+- Standard recovery in and around Dumfries town
+
+Call **+44 7564 016582** for recovery across Dumfries and Galloway, including cross-border assistance.`,
+  },
+  {
+    title: 'Vehicle Recovery in Perth: A Local Guide',
+    slug: 'vehicle-recovery-perth-guide',
+    excerpt: 'The gateway to the Highlands, covered via the M90 and A9. Here is our approach to recovery in Perth and Kinross.',
+    category: 'Area Guides',
+    cover_image_url: '',
+    content: `# Vehicle Recovery in Perth: A Local Guide
+
+Perth sits on two of Scotland's most important trunk roads, the M90 and the A9, making it a key part of our extended coverage.
+
+## Coverage Area
+
+We serve the PH1 and PH2 postcode districts, covering Perth city, Scone, Bridge of Earn, and out towards Crieff and Auchterarder.
+
+## Key Routes
+
+- The M90 from the Forth crossings
+- The A9 heading north towards the Highlands
+- Local routes around Scone and Bridge of Earn
+
+## Seasonal Traffic
+
+Perth sees a lot of tourist and seasonal traffic heading further north, which means breakdowns here often involve visitors unfamiliar with the area. We are used to talking drivers through their options calmly, wherever they are from.
+
+## Common Situations
+
+- Breakdowns on the M90 or A9 near Perth
+- Accidents on the approach roads into the city
+- Standard recovery in Perth, Scone and Kinross-shire
+
+For recovery in Perth and Kinross, call **+44 7564 016582**, available 24/7.`,
+  },
+  {
+    title: 'Vehicle Recovery Around Loch Lomond: Arrochar, Luss and Beyond',
+    slug: 'vehicle-recovery-loch-lomond-guide',
+    excerpt: 'Winding loch-side roads and heavy seasonal traffic make Loch Lomond a unique part of our coverage. Here is what to expect.',
+    category: 'Area Guides',
+    cover_image_url: '',
+    content: `# Vehicle Recovery Around Loch Lomond: Arrochar, Luss and Beyond
+
+Loch Lomond's roads are unlike anywhere else we cover: the narrow, winding A82 hugging the west shore, tight loch-side lanes, and heavy seasonal tourist traffic through the National Park.
+
+## Coverage Area
+
+We regularly take call-outs from Balloch, Luss, Tarbet, Arrochar and the villages along the loch, spanning the G83 postcode district.
+
+## Why This Area Is Different
+
+The A82's tight bends and limited passing places mean a breakdown here can be more disruptive, and harder to reach quickly, than a similar breakdown on a motorway. We know these roads well and plan accordingly.
+
+## Extended Coverage
+
+Loch Lomond sits within our extended coverage area, so response times vary by exact location. Call us with where you are and we will confirm an ETA and price straight away, we cover anywhere in the area, just call for a quote.
+
+## Common Situations
+
+- Breakdowns on the A82 loch-side route
+- Vehicles stuck on narrow lanes around Luss and Arrochar
+- Recovery affected by heavy seasonal tourist traffic
+
+Broken down near Loch Lomond? Call **+44 7564 016582** and we will confirm response time and price for your exact location.`,
+  },
+  {
+    title: 'Vehicle Recovery in Argyll and Bute: A Local Guide',
+    slug: 'vehicle-recovery-argyll-and-bute-guide',
+    excerpt: 'From Helensburgh to Oban, Argyll and Bute is rural, remote in places, and part of our extended coverage. Here is what to know.',
+    category: 'Area Guides',
+    cover_image_url: '',
+    content: `# Vehicle Recovery in Argyll and Bute: A Local Guide
+
+Argyll and Bute is one of Scotland's largest and most rural council areas, stretching from Helensburgh and the Gareloch through Dunoon and Inveraray up to Oban and the sea lochs beyond.
+
+## Coverage Area
+
+We extend our coverage into the G84, PA23, PA24, PA32 and PA34 postcode districts, taking in Helensburgh, Dunoon, Cairndow, Inveraray and Oban.
+
+## A Rural, Extended Area
+
+Single-track roads, ferry-linked communities and long distances between towns mean recovery here is best arranged with a quick call first. Response times depend heavily on exactly where you are.
+
+## Common Situations
+
+- Breakdowns on single-track roads around the Cowal peninsula
+- Recovery from the Loch Fyne and Inveraray area
+- Longer-distance recovery to and from Oban
+
+## Getting Help
+
+We cover anywhere in Argyll and Bute, just call for a quote. Phone **+44 7564 016582** with your location and we will give you an honest response time and price.`,
+  },
+  {
+    title: 'Recovery on the M8: What Glasgow and Edinburgh Drivers Should Know',
+    slug: 'recovery-on-the-m8-guide',
+    excerpt: "Scotland's busiest motorway runs straight through Glasgow city centre. Here is what to do if you break down on it.",
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M8: What Glasgow and Edinburgh Drivers Should Know
+
+The M8 is Scotland's busiest motorway, carrying traffic through Glasgow city centre on an elevated viaduct before continuing east to Edinburgh. It is also one of the most demanding roads we cover.
+
+## Why the M8 Is Different
+
+High traffic volume, tight lane changes and limited hard shoulder in places, particularly on the city centre viaduct, mean a breakdown here needs a fast, experienced response.
+
+## What to Do If You Break Down
+
+Move to the hard shoulder or nearest emergency refuge area if you can, put your hazard lights on, and exit the vehicle from the passenger side away from traffic if it is safe to do so. Then call us.
+
+## Our Coverage
+
+We cover the M8 along its full length, from the Kingston Bridge and city centre section through Baillieston and Newhouse, out to Harthill and on towards Edinburgh, working closely with Traffic Scotland and Police Scotland when needed.
+
+## Common Situations
+
+- Breakdowns on the elevated city centre viaduct
+- Accidents at the M73 and M74 interchanges
+- Standard recovery along the Glasgow to Edinburgh stretch
+
+Broken down on the M8? Call **+44 7564 016582** for rapid response.`,
+  },
+  {
+    title: 'Recovery on the M74: Glasgow to the Border',
+    slug: 'recovery-on-the-m74-guide',
+    excerpt: "Scotland's main freight corridor to the north of England. Here is what to expect if you break down on the M74.",
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M74: Glasgow to the Border
+
+The M74 is one of Scotland's key freight and travel corridors, linking Glasgow and South Lanarkshire to the M6 and the north of England.
+
+## Our Coverage
+
+We cover the M74 from its junction with the M8 in Glasgow, past Hamilton and Motherwell, through Lanark and Abington, and on towards the border.
+
+## Heavy Vehicle Traffic
+
+Given the volume of HGV traffic on this route, we carry equipment suited to both cars and larger commercial vehicles, a common need on the M74.
+
+## Common Situations
+
+- Breakdowns near the Hamilton and Raith interchanges
+- HGV and van recovery
+- Rural and moorland breakdowns south of Abington
+
+## Getting Help
+
+For recovery anywhere on the M74, from Glasgow to the more rural stretches near the border, call **+44 7564 016582**, available 24/7.`,
+  },
+  {
+    title: 'Recovery on the M77: Glasgow to Ayrshire',
+    slug: 'recovery-on-the-m77-guide',
+    excerpt: 'The exposed Fenwick Moor stretch makes the M77 one of our more weather-sensitive routes. Here is what to know.',
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M77: Glasgow to Ayrshire
+
+The M77 links Glasgow to Ayrshire, running south through Newton Mearns before crossing the exposed moorland of Fenwick Moor on the way to Kilmarnock, Ayr and Prestwick.
+
+## Fenwick Moor
+
+This higher-altitude stretch can see fog, high winds and poor visibility even when conditions are clear elsewhere. If you break down here, stay in your vehicle with hazards on if it is unsafe to exit, and call us straight away.
+
+## Our Coverage
+
+We provide coverage along the full M77 corridor and its continuation onto the A77 towards Ayr and Girvan.
+
+## Common Situations
+
+- Breakdowns on the exposed Fenwick Moor section
+- Accidents near Newton Mearns and the Southside approach
+- Recovery for Prestwick Airport traffic
+
+Broken down on the M77? Call **+44 7564 016582** for fast response in any weather.`,
+  },
+  {
+    title: 'Recovery on the M73: Scotland\'s Shortest Motorway',
+    slug: 'recovery-on-the-m73-guide',
+    excerpt: 'Short but busy, the M73 connects the M8, M74 and A80 on the eastern edge of Glasgow. Here is our coverage.',
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M73: Scotland's Shortest Motorway
+
+The M73 is a short but heavily used connector, linking the M8 at Baillieston to the M74 and A80 near Mollinsburn and Robroyston on the eastern edge of Glasgow.
+
+## Why It Matters
+
+Despite its short length, the M73 carries significant traffic as drivers move between the M8, M74 and A80 corridors, and its merging traffic patterns catch some motorists out.
+
+## Our Coverage
+
+We cover the M73 in full, including its interchanges, and regularly assist motorists at its junctions with the M8 and M74.
+
+## Common Situations
+
+- Breakdowns at the Baillieston or Mollinsburn interchanges
+- Accidents caused by merging traffic
+- Standard recovery along the short M73 corridor
+
+Call **+44 7564 016582** for fast recovery on the M73.`,
+  },
+  {
+    title: 'Recovery on the M80: Glasgow to Stirling',
+    slug: 'recovery-on-the-m80-guide',
+    excerpt: 'Carrying heavy commuter traffic between Glasgow and Cumbernauld, here is what to know about the M80.',
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M80: Glasgow to Stirling
+
+The M80 connects Glasgow to Stirling via Cumbernauld, forming a key section of the main route north towards Perth and the Highlands.
+
+## Commuter Traffic
+
+The M80 sees heavy commuter traffic between Glasgow and Cumbernauld at peak times, which means an added risk of being stranded in live traffic if you break down during rush hour. We treat M80 call-outs as a priority.
+
+## Our Coverage
+
+We cover the M80 from its junction with the M73 in Glasgow, through Cumbernauld, and on to its connection with the M9 near Stirling.
+
+## Common Situations
+
+- Peak-time breakdowns on the Cumbernauld stretch
+- Accidents near the M73, M876 and M9 interchanges
+- Standard recovery along the full route
+
+Broken down on the M80? Call **+44 7564 016582**, available 24/7.`,
+  },
+  {
+    title: 'Recovery on the M9: Edinburgh to Stirling',
+    slug: 'recovery-on-the-m9-guide',
+    excerpt: 'The main route from Edinburgh to Stirling and on towards the Highlands via the A9. Here is our coverage.',
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M9: Edinburgh to Stirling
+
+The M9 links Edinburgh to Stirling, passing Linlithgow, Falkirk and Bannockburn along the way, before continuing north as the A9 towards Perth and the Highlands.
+
+## Our Coverage
+
+We cover the M9 along its full length, and can continue recovery onto the A9 for motorists heading further north who run into difficulty near Stirling.
+
+## Common Situations
+
+- Breakdowns near Linlithgow or Falkirk
+- Accidents on the Bannockburn approach to Stirling
+- Recovery continuing onto the A9 towards Perth
+
+## Getting Help
+
+For recovery anywhere on the M9, call **+44 7564 016582**, available any time, day or night.`,
+  },
+  {
+    title: 'Recovery on the M876: The Kincardine Bridge Link',
+    slug: 'recovery-on-the-m876-guide',
+    excerpt: 'A short but important connector between the M80, M9 and the Kincardine Bridge crossing into Fife.',
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M876: The Kincardine Bridge Link
+
+The M876 is a short connector motorway linking the M80 near Bonnybridge to the M9 close to the Kincardine Bridge crossing of the River Forth.
+
+## Why It Matters
+
+This is an important route for traffic moving between the M80/M9 corridor and Fife via the Kincardine and Clackmannanshire Bridges, and we regularly assist motorists making that crossing.
+
+## Our Coverage
+
+We cover the M876 in full, including its approach to the Kincardine Bridge.
+
+## Common Situations
+
+- Breakdowns on the approach to Kincardine Bridge
+- Accidents at the M80 or M9 interchanges
+- Recovery for Fife-bound traffic near Grangemouth
+
+Call **+44 7564 016582** for recovery on the M876 and the Kincardine Bridge approach.`,
+  },
+  {
+    title: 'Recovery on the M90: The Road North to Perth',
+    slug: 'recovery-on-the-m90-guide',
+    excerpt: 'From the Forth crossings to Perth, the M90 is the main gateway north. Here is what to know about recovery on it.',
+    category: 'Motorway Guides',
+    cover_image_url: '',
+    content: `# Recovery on the M90: The Road North to Perth
+
+The M90 runs from the Forth road crossings at Queensferry, through Fife and Kinross, up to Perth, the principal gateway north for traffic heading towards the Highlands, Dundee and Aberdeen.
+
+## Seasonal Traffic
+
+The M90 sees significant seasonal tourist traffic alongside daily commuter use, particularly around Kinross and Loch Leven. We are used to handling both types of call-out.
+
+## Our Coverage
+
+We extend our coverage to the M90, assisting motorists travelling north from the Edinburgh area as well as those approaching Perth from the south.
+
+## Common Situations
+
+- Breakdowns near the Forth crossings or Inverkeithing
+- Recovery around Kinross and Loch Leven
+- Accidents on the Perth approach
+
+For recovery on the M90, call **+44 7564 016582**, available 24/7.`,
   },
   {
     title: 'Flatbed vs Wheel-Lift Recovery: Which Do You Need?',
