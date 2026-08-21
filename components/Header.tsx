@@ -39,10 +39,10 @@ export default function Header() {
             <Image
               src="/brand/glasgow-breakdown-recovery-logo.png"
               alt="Glasgow Breakdown Recovery"
-              width={56}
-              height={48}
+              width={85}
+              height={64}
               priority
-              className="h-12 w-auto flex-shrink-0"
+              className="h-16 w-auto flex-shrink-0"
             />
             <div className="font-heading text-lg font-black uppercase leading-none hidden sm:block">
               <span className="text-white">Glasgow Breakdown</span>

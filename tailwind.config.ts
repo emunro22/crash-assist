@@ -14,20 +14,23 @@ const config: Config = {
       },
       colors: {
         brand: '#1172E7',
-        // Override Tailwind's built-in orange scale with the logo's safety-stripe
-        // orange so every existing orange-* utility class picks up the brand colour.
+        // Override Tailwind's built-in orange scale with a deep royal blue so
+        // every existing orange-* utility class (CTAs, urgency/live indicators)
+        // picks up a dark-blue action colour instead. Kept distinct from the
+        // brighter `blue` scale below, which is used for structural/decorative
+        // accents, so the two still read as different tones.
         orange: {
-          50: '#FFF4E5',
-          100: '#FFE3BF',
-          200: '#FFC780',
-          300: '#FFA83D',
-          400: '#FD9812',
-          500: '#F7900A',
-          600: '#D97600',
-          700: '#B25F00',
-          800: '#8A4A00',
-          900: '#5C3200',
-          950: '#3A2000',
+          50: '#EAF0FB',
+          100: '#CBDCF5',
+          200: '#97B9EA',
+          300: '#6396DE',
+          400: '#3A76CC',
+          500: '#2158C4',
+          600: '#1A46A0',
+          700: '#15397F',
+          800: '#102C61',
+          900: '#0A1D40',
+          950: '#061224',
         },
         // Override Tailwind's built-in blue scale with the logo's Glasgow-skyline
         // navy/blue so every existing blue-* utility class picks up the brand colour.
@@ -46,7 +49,7 @@ const config: Config = {
         },
       },
       animation: {
-        ticker: 'ticker 35s linear infinite',
+        ticker: 'ticker 16s linear infinite',
         'pulse-orange': 'pulse-orange 2.5s ease-in-out infinite',
         'pulse-blue': 'pulse-blue 2.5s ease-in-out infinite',
         'float': 'float 3s ease-in-out infinite',
@@ -57,8 +60,8 @@ const config: Config = {
           '100%': { transform: 'translateX(-50%)' },
         },
         'pulse-orange': {
-          '0%, 100%': { boxShadow: '0 0 0 0 rgba(247,144,10,0.5)' },
-          '50%': { boxShadow: '0 0 0 14px rgba(247,144,10,0)' },
+          '0%, 100%': { boxShadow: '0 0 0 0 rgba(33,88,196,0.5)' },
+          '50%': { boxShadow: '0 0 0 14px rgba(33,88,196,0)' },
         },
         'pulse-blue': {
           '0%, 100%': { boxShadow: '0 0 0 0 rgba(17,114,231,0.5)' },

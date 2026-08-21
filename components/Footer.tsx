@@ -124,6 +124,16 @@ export default function Footer() {
                   View all areas →
                 </Link>
               </li>
+              <li>
+                <Link href="/motorways" className="text-zinc-500 hover:text-blue-400 text-sm transition-colors">
+                  Motorways covered
+                </Link>
+              </li>
+              <li>
+                <Link href="/postcodes" className="text-zinc-500 hover:text-blue-400 text-sm transition-colors">
+                  Browse by postcode
+                </Link>
+              </li>
             </ul>
           </div>
 

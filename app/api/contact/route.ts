@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
       subject: `New Callback Request: ${name || 'Unknown'} (${service || 'General'})`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px;">
-          <h2 style="color: #F7900A;">New Callback Request</h2>
+          <h2 style="color: #2158C4;">New Callback Request</h2>
           <table style="border-collapse: collapse; width: 100%;">
             <tr><td style="padding: 8px; border: 1px solid #333; background: #111; color: #aaa; width: 140px;">Name</td><td style="padding: 8px; border: 1px solid #333;">${name || 'Not provided'}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #333; background: #111; color: #aaa;">Phone</td><td style="padding: 8px; border: 1px solid #333;"><strong>${phone}</strong></td></tr>

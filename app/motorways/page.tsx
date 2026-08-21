@@ -2,15 +2,14 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { areas } from '@/lib/areas-data'
 import { motorways } from '@/lib/motorways-data'
 
 export const metadata: Metadata = {
-  title: 'Areas We Cover',
-  description: 'Glasgow Breakdown Recovery covers Glasgow, Edinburgh, Paisley, Hamilton, Motherwell, Livingston, Falkirk, Stirling, Ayr and all of Central Scotland.',
+  title: 'Motorways We Cover',
+  description: 'Glasgow Breakdown Recovery covers the M8, M74, M77, M73, M80, M9, M876 and M90 with 24/7 emergency recovery for breakdowns and accidents.',
 }
 
-export default function AreasPage() {
+export default function MotorwaysPage() {
   return (
     <>
       <Header />
@@ -19,54 +18,36 @@ export default function AreasPage() {
           <div className="container">
             <div className="section-tag">Coverage</div>
             <h1 className="section-title mb-6">
-              Areas We<br />
+              Motorways We<br />
               <span className="text-blue-500">Cover</span>
             </h1>
             <p className="section-body max-w-xl">
-              Based in Central Scotland, we provide 24/7 emergency recovery across all major towns,
-              cities and motorway networks. Select your area for specific coverage details, or browse
-              by <Link href="/postcodes" className="text-blue-500 hover:text-blue-400 underline underline-offset-2">postcode</Link> or <Link href="/motorways" className="text-blue-500 hover:text-blue-400 underline underline-offset-2">motorway</Link>.
+              We provide 24/7 emergency recovery across Central Scotland&apos;s motorway network.
+              Select a motorway for junction-by-junction coverage details.
             </p>
           </div>
         </section>
 
         <section className="section" style={{ backgroundColor: '#111111' }}>
           <div className="container">
-            {/* Motorways banner */}
-            <div className="bg-blue-500 p-6 mb-12 flex flex-wrap gap-3 items-center">
-              <span className="text-white font-heading font-black uppercase text-lg mr-4">Motorways:</span>
-              {motorways.map(m => (
-                <Link
-                  key={m.slug}
-                  href={`/motorways/${m.slug}`}
-                  className="bg-white hover:bg-zinc-100 text-blue-600 font-heading font-black text-sm px-3 py-1 transition-colors"
-                >
-                  {m.name}
-                </Link>
-              ))}
-              <Link href="/motorways" className="text-white text-sm font-semibold underline underline-offset-2 ml-2">
-                View all →
-              </Link>
-            </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-800">
-              {areas.map(area => (
+              {motorways.map(motorway => (
                 <Link
-                  key={area.slug}
-                  href={`/areas/${area.slug}`}
+                  key={motorway.slug}
+                  href={`/motorways/${motorway.slug}`}
                   className="group bg-zinc-950 hover:bg-zinc-900 p-6 transition-colors duration-300 relative overflow-hidden"
                 >
                   <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-500 scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top" />
                   <h2 className="font-heading font-black text-2xl text-white uppercase group-hover:text-blue-500 transition-colors mb-3">
-                    {area.name}
+                    {motorway.name}
                   </h2>
-                  <p className="text-zinc-500 text-sm leading-relaxed mb-4">{area.description}</p>
+                  <p className="text-zinc-500 text-sm leading-relaxed mb-4">{motorway.description}</p>
                   <div className="flex flex-wrap gap-1.5 mb-4">
-                    {area.postcodes.slice(0, 4).map(p => (
-                      <span key={p} className="bg-zinc-800 text-zinc-400 text-xs font-mono px-2 py-0.5">{p}</span>
+                    {motorway.junctions.slice(0, 3).map(j => (
+                      <span key={j} className="bg-zinc-800 text-zinc-400 text-xs font-mono px-2 py-0.5">{j}</span>
                     ))}
-                    {area.postcodes.length > 4 && (
-                      <span className="text-zinc-600 text-xs">+{area.postcodes.length - 4} more</span>
+                    {motorway.junctions.length > 3 && (
+                      <span className="text-zinc-600 text-xs">+{motorway.junctions.length - 3} more</span>
                     )}
                   </div>
                   <div className="flex items-center gap-2 text-blue-500 text-xs font-semibold uppercase tracking-wide">
@@ -84,9 +65,9 @@ export default function AreasPage() {
         <section className="py-16 bg-zinc-950 text-center">
           <div className="container">
             <h2 className="font-heading text-4xl font-black text-white uppercase mb-4">
-              Not Sure if We Cover You?
+              Broken Down on a Motorway?
             </h2>
-            <p className="section-body mb-8">Call us. If we can reach you, we will.</p>
+            <p className="section-body mb-8">Stay safe, call us, and we&apos;ll get to you fast.</p>
             <a href="tel:+447564016582" className="btn-primary text-base py-4 px-10">
               Call: +44 7564 016582
             </a>

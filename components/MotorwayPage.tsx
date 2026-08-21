@@ -2,10 +2,18 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import type { Area } from '@/lib/areas-data'
+import type { Motorway } from '@/lib/motorways-data'
+import { getAreaBySlug } from '@/lib/areas-data'
+import { motorways } from '@/lib/motorways-data'
 import BrandPanel from './BrandPanel'
 
-export default function AreaPage({ area }: { area: Area }) {
+export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
+  const servedAreas = motorway.areasServed
+    .map((slug) => getAreaBySlug(slug))
+    .filter((a): a is NonNullable<typeof a> => Boolean(a))
+
+  const otherMotorways = motorways.filter((m) => m.slug !== motorway.slug).slice(0, 4)
+
   return (
     <>
       {/* Hero */}
@@ -17,15 +25,15 @@ export default function AreaPage({ area }: { area: Area }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <Link href="/areas" className="inline-flex items-center gap-2 text-zinc-500 hover:text-blue-500 text-sm mb-8 transition-colors">
+            <Link href="/motorways" className="inline-flex items-center gap-2 text-zinc-500 hover:text-blue-500 text-sm mb-8 transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
-              All Areas
+              All Motorways
             </Link>
-            <div className="section-tag mb-4">Coverage Area</div>
-            <h1 className="section-title mb-6">{area.headline}</h1>
-            <p className="section-body max-w-2xl mb-8">{area.description}</p>
+            <div className="section-tag mb-4">Motorway Coverage</div>
+            <h1 className="section-title mb-6">{motorway.headline}</h1>
+            <p className="section-body max-w-2xl mb-8">{motorway.description}</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="tel:+447564016582" className="btn-primary">
                 Emergency Call: +44 7564 016582
@@ -50,19 +58,19 @@ export default function AreaPage({ area }: { area: Area }) {
 
               {/* Long description */}
               <div className="prose-crash">
-                {area.longDescription.split('\n\n').map((para, i) => (
+                {motorway.longDescription.split('\n\n').map((para, i) => (
                   <p key={i}>{para}</p>
                 ))}
               </div>
 
               {/* FAQs */}
-              {area.faqs.length > 0 && (
+              {motorway.faqs.length > 0 && (
                 <div className="mt-12">
                   <h2 className="font-heading text-3xl font-black text-white uppercase mb-6">
-                    {area.name} Recovery <span className="text-blue-500">FAQs</span>
+                    {motorway.name} Recovery <span className="text-blue-500">FAQs</span>
                   </h2>
                   <div className="space-y-4">
-                    {area.faqs.map((faq, i) => (
+                    {motorway.faqs.map((faq, i) => (
                       <div key={i} className="border border-zinc-800 p-5">
                         <h3 className="font-heading font-bold text-white uppercase text-sm mb-3">{faq.question}</h3>
                         <p className="text-zinc-400 text-sm leading-relaxed">{faq.answer}</p>
@@ -77,9 +85,9 @@ export default function AreaPage({ area }: { area: Area }) {
             <div className="space-y-6">
               {/* Features */}
               <div className="bg-zinc-900 border border-zinc-800 p-6">
-                <h3 className="font-heading font-black text-white uppercase text-lg mb-5">{area.name} Coverage</h3>
+                <h3 className="font-heading font-black text-white uppercase text-lg mb-5">{motorway.name} Coverage</h3>
                 <ul className="space-y-3">
-                  {area.features.map((f) => (
+                  {motorway.features.map((f) => (
                     <li key={f} className="flex items-start gap-3 text-sm text-zinc-300">
                       <svg className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -90,50 +98,54 @@ export default function AreaPage({ area }: { area: Area }) {
                 </ul>
               </div>
 
-              {/* Postcodes */}
+              {/* Junctions */}
               <div className="bg-zinc-900 border border-zinc-800 p-6">
-                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Postcodes Covered</h3>
-                <div className="flex flex-wrap gap-2">
-                  {area.postcodes.map((p) => (
-                    <Link
-                      key={p}
-                      href={`/postcodes/${p.toLowerCase()}`}
-                      className="bg-zinc-800 hover:bg-blue-500 text-zinc-300 hover:text-white text-xs font-mono px-2.5 py-1 transition-colors"
-                    >
-                      {p}
-                    </Link>
+                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Key Junctions</h3>
+                <ul className="space-y-2">
+                  {motorway.junctions.map((j) => (
+                    <li key={j} className="text-zinc-400 text-sm font-mono">{j}</li>
                   ))}
-                </div>
+                </ul>
               </div>
 
               {/* CTA */}
               <div className="bg-orange-500 p-6">
-                <h3 className="font-heading font-black text-white uppercase text-xl mb-3">Broken Down in {area.name}?</h3>
+                <h3 className="font-heading font-black text-white uppercase text-xl mb-3">Broken Down on the {motorway.name}?</h3>
                 <p className="text-orange-100 text-sm mb-5">Call us now for immediate dispatch to your location.</p>
                 <a href="tel:+447564016582" className="block bg-white text-orange-600 font-heading font-black uppercase text-center py-3 px-6 hover:bg-zinc-100 transition-colors">
                   +44 7564 016582
                 </a>
               </div>
 
-              {/* Nearby areas */}
-              <div className="bg-zinc-900 border border-zinc-800 p-6">
-                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Nearby Areas</h3>
-                <ul className="space-y-2">
-                  {[
-                    { label: 'Glasgow', slug: 'glasgow' },
-                    { label: 'Edinburgh', slug: 'edinburgh' },
-                    { label: 'Hamilton', slug: 'hamilton' },
-                    { label: 'Motherwell', slug: 'motherwell' },
-                  ]
-                    .filter(a => a.slug !== area.slug)
-                    .map(a => (
+              {/* Areas served */}
+              {servedAreas.length > 0 && (
+                <div className="bg-zinc-900 border border-zinc-800 p-6">
+                  <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Areas Served</h3>
+                  <ul className="space-y-2">
+                    {servedAreas.map((a) => (
                       <li key={a.slug}>
                         <Link href={`/areas/${a.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
                           <span className="w-1 h-1 rounded-full bg-blue-500" />
-                          {a.label}
+                          {a.name}
                         </Link>
                       </li>
                     ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Other motorways */}
+              <div className="bg-zinc-900 border border-zinc-800 p-6">
+                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Other Motorways</h3>
+                <ul className="space-y-2">
+                  {otherMotorways.map((m) => (
+                    <li key={m.slug}>
+                      <Link href={`/motorways/${m.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
+                        <span className="w-1 h-1 rounded-full bg-blue-500" />
+                        {m.name}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
