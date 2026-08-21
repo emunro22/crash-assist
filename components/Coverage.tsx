@@ -16,6 +16,8 @@ const areas = [
   { name: 'Kilmarnock', slug: 'kilmarnock', tag: '' },
   { name: 'Dumfries', slug: 'dumfries', tag: '' },
   { name: 'Perth', slug: 'perth', tag: '' },
+  { name: 'Loch Lomond', slug: 'loch-lomond', tag: '' },
+  { name: 'Argyll and Bute', slug: 'argyll-and-bute', tag: '' },
 ]
 
 const motorways = ['M8', 'M74', 'M77', 'M73', 'M80', 'M9', 'M876']

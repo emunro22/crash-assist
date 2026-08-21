@@ -146,6 +146,32 @@ export const areas: Area[] = [
     ],
   },
   {
+    slug: 'loch-lomond',
+    name: 'Loch Lomond',
+    headline: 'Vehicle Recovery Around Loch Lomond',
+    description: 'Emergency breakdown and accident recovery around Loch Lomond, including Balloch, Luss, Tarbet and Arrochar. We cover the loch-side roads and beyond, just call for a quote.',
+    longDescription: `Loch Lomond's roads present their own challenges: the winding, single-carriageway A82 hugging the west shore, narrow loch-side lanes, and heavy seasonal tourist traffic through the National Park. We regularly recover vehicles from Balloch, Luss, Tarbet, Arrochar and the villages along the loch.\n\nBecause this is a more rural, extended part of our coverage, response times vary by exact location, call us and we'll confirm an ETA and price straight away. We cover anywhere in the area, just call for a quote.`,
+    postcodes: ['G83'],
+    features: ['A82 loch-side route coverage', 'Luss, Tarbet and Arrochar coverage', 'Loch Lomond National Park rural recovery', 'Tourist and seasonal traffic experience', 'Extended coverage, call for a quote', '24/7 availability'],
+    faqs: [
+      { question: 'Do you cover Arrochar and Luss?', answer: "Yes, we regularly recover vehicles from Arrochar, Luss and the other villages around Loch Lomond. Call us with your location and we'll confirm response time and price straight away." },
+      { question: 'Is Loch Lomond within your standard response area?', answer: "Loch Lomond is part of our extended coverage, so response times can be longer than our core Central Scotland area. We cover anywhere in the region though, just call for a quote." },
+    ],
+  },
+  {
+    slug: 'argyll-and-bute',
+    name: 'Argyll and Bute',
+    headline: 'Vehicle Recovery in Argyll and Bute',
+    description: 'Extended recovery coverage across Argyll and Bute, including Helensburgh, Dunoon, Inveraray and Oban. We cover anywhere in the region, just call for a quote.',
+    longDescription: `Argyll and Bute is one of Scotland's largest and most rural council areas, stretching from Helensburgh and the Gareloch through Dunoon, Inveraray and up to Oban and the sea lochs beyond. Single-track roads, ferry-linked communities and long distances between towns mean recovery here needs to be arranged in advance where possible.\n\nGlasgow Breakdown Recovery extends its coverage into Argyll and Bute as part of our wider service area. Response times depend on exactly where you are, so call us with your location and we'll give you an honest ETA and price. We cover anywhere, just call for a quote.`,
+    postcodes: ['G84', 'PA23', 'PA24', 'PA32', 'PA34'],
+    features: ['Helensburgh and Gareloch coverage', 'Dunoon and Cowal peninsula access', 'Inveraray and Loch Fyne coverage', 'Oban and West Highland routes', 'Single-track and rural road experience', 'Extended coverage, call for a quote'],
+    faqs: [
+      { question: 'Do you cover the whole of Argyll and Bute?', answer: "We cover the wider Argyll and Bute area as part of our extended service, but given its size and rural roads, it's best to call us with your exact location so we can confirm response time and price." },
+      { question: 'Can you reach Dunoon or Oban?', answer: "Yes, we take call-outs across Argyll and Bute including Dunoon and Oban. These are longer-distance recoveries, so give us a call and we'll quote you directly." },
+    ],
+  },
+  {
     slug: 'perth',
     name: 'Perth',
     headline: 'Vehicle Recovery in Perth & Kinross',

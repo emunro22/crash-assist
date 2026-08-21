@@ -18,6 +18,8 @@ const COORDS: Record<string, { lat: number; lng: number }> = {
   kilmarnock: { lat: 55.6111, lng: -4.4956 },
   dumfries: { lat: 55.0709, lng: -3.6051 },
   perth: { lat: 56.3958, lng: -3.4308 },
+  'loch-lomond': { lat: 56.0058, lng: -4.6408 },
+  'argyll-and-bute': { lat: 55.9970, lng: -4.7360 },
 }
 
 const HQ = { lat: 55.8462, lng: -4.1194, name: 'Central Scotland HQ' } // Bellshill / North Lanarkshire, geographic centre of coverage
@@ -49,9 +51,9 @@ export default function CoverageMap() {
         maxZoom: 19,
       }).addTo(map)
 
-      // Outer ring: extended / UK-wide capability
+      // Outer ring: extended coverage
       L.circle([HQ.lat, HQ.lng], {
-        radius: 120700, // ~75 miles
+        radius: 96560, // 60 miles
         color: '#1172E7',
         fillColor: '#1172E7',
         fillOpacity: 0.03,
@@ -115,15 +117,16 @@ export default function CoverageMap() {
             <span className="text-blue-500">Operate</span>
           </h2>
           <p className="section-body">
-            Based in Central Scotland, our core rapid-response area covers Glasgow, Edinburgh
-            and the surrounding central belt with a 45–60 minute arrival guarantee. We also
-            operate further afield, wherever you need us, just give us a call.
+            Based in Central Scotland, our core rapid-response zone covers a 30-mile radius
+            around Glasgow, Edinburgh and the surrounding central belt. Extended coverage reaches
+            out to 60 miles, including Loch Lomond and Argyll and Bute. Beyond that, we cover
+            anywhere, just call for a quote.
           </p>
         </div>
 
         <div className="relative border border-zinc-800 overflow-hidden">
           <div ref={mapRef} className="w-full h-[420px] sm:h-[480px]" aria-label="Coverage map" />
-          <div className="absolute bottom-4 left-4 bg-zinc-950/90 border border-zinc-800 backdrop-blur-sm p-4 space-y-2 text-xs text-zinc-400 hidden sm:block">
+          <div className="absolute bottom-4 left-4 z-[1100] bg-zinc-950/90 border border-zinc-800 backdrop-blur-sm p-4 space-y-2 text-xs text-zinc-400 hidden sm:block">
             <div className="flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-blue-500 flex-shrink-0" /> Dispatch base
             </div>
@@ -134,8 +137,9 @@ export default function CoverageMap() {
               <span className="w-2.5 h-2.5 rounded-full border-2 border-dashed border-blue-500 flex-shrink-0" /> 30-mile core area
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full border border-dashed border-blue-500/50 flex-shrink-0" /> Extended coverage
+              <span className="w-2.5 h-2.5 rounded-full border border-dashed border-blue-500/50 flex-shrink-0" /> 60-mile extended area
             </div>
+            <div className="text-zinc-500 pt-1 border-t border-zinc-800">Beyond 60 miles: call for a quote</div>
           </div>
         </div>
       </div>
