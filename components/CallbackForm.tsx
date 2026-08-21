@@ -38,7 +38,7 @@ export default function CallbackForm() {
             <div className="section-tag">Get in Touch</div>
             <h2 className="section-title mb-6">
               Request a<br />
-              <span className="text-orange-500">Callback</span>
+              <span className="text-blue-500">Callback</span>
             </h2>
             <p className="section-body mb-8">
               Not in immediate need but want to discuss your requirements? Fill out the form and a member of our team will call you back within 30 minutes during business hours.
@@ -51,7 +51,7 @@ export default function CallbackForm() {
             <div className="space-y-4">
               {[
                 { icon: '📞', label: 'Emergency Line', value: '+44 7564 016582', href: 'tel:+447564016582' },
-                { icon: '✉️', label: 'Email', value: 'info@crashassistrecovery.co.uk', href: 'mailto:info@crashassistrecovery.co.uk' },
+                { icon: '✉️', label: 'Email', value: 'info@glasgowbreakdownrecovery.co.uk', href: 'mailto:info@glasgowbreakdownrecovery.co.uk' },
                 { icon: '🟢', label: 'WhatsApp', value: 'Chat with us', href: 'https://wa.me/447564016582' },
               ].map((c) => (
                 <a

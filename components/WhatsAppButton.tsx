@@ -25,7 +25,7 @@ export default function WhatsAppButton() {
       {/* Call button */}
       <motion.a
         href="tel:+447564016582"
-        aria-label="Call Crash Assist Recovery"
+        aria-label="Call Glasgow Breakdown Recovery"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="w-16 h-16 bg-orange-500 hover:bg-orange-600 rounded-full flex items-center justify-center shadow-lg shadow-orange-900/40 transition-colors animate-pulse-orange"

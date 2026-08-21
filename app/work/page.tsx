@@ -7,7 +7,7 @@ import { getStaticGalleryImages } from '@/lib/gallery-fs'
 
 export const metadata: Metadata = {
   title: 'Our Work',
-  description: 'See Crash Assist Recovery in action. Gallery of our vehicle recovery, accident response and transportation work across Scotland.',
+  description: 'See Glasgow Breakdown Recovery in action. Gallery of our vehicle recovery, accident response and transportation work across Scotland.',
 }
 
 export const revalidate = 3600
@@ -35,7 +35,7 @@ export default async function WorkPage() {
             <div className="section-tag">Portfolio</div>
             <h1 className="section-title mb-4">
               Our Work<br />
-              <span className="text-orange-500">in Action</span>
+              <span className="text-blue-500">in Action</span>
             </h1>
             <p className="section-body max-w-xl">
               A selection of our vehicle recovery, accident response and transportation jobs across Central Scotland.
@@ -56,7 +56,7 @@ export default async function WorkPage() {
                   <div key={img.id} className="break-inside-avoid group relative overflow-hidden">
                     <Image
                       src={img.url}
-                      alt={img.title || 'Crash Assist Recovery'}
+                      alt={img.title || 'Glasgow Breakdown Recovery'}
                       width={600}
                       height={400}
                       className="w-full object-cover group-hover:scale-105 transition-transform duration-500"

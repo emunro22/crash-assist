@@ -52,8 +52,8 @@ export default function CoverageMap() {
       // Outer ring: extended / UK-wide capability
       L.circle([HQ.lat, HQ.lng], {
         radius: 120700, // ~75 miles
-        color: '#DE1415',
-        fillColor: '#DE1415',
+        color: '#1172E7',
+        fillColor: '#1172E7',
         fillOpacity: 0.03,
         weight: 1.5,
         dashArray: '10 8',
@@ -62,8 +62,8 @@ export default function CoverageMap() {
       // Inner ring: core rapid-response area
       L.circle([HQ.lat, HQ.lng], {
         radius: 48280, // 30 miles
-        color: '#DE1415',
-        fillColor: '#DE1415',
+        color: '#1172E7',
+        fillColor: '#1172E7',
         fillOpacity: 0.08,
         weight: 2,
         dashArray: '6 6',
@@ -73,8 +73,8 @@ export default function CoverageMap() {
         return L.divIcon({
           html: `<div style="
             width:${isPrimary ? 34 : 26}px;height:${isPrimary ? 34 : 26}px;
-            background:${isPrimary ? '#DE1415' : '#18181b'};
-            border:2px solid ${isPrimary ? '#fff' : '#DE1415'};
+            background:${isPrimary ? '#1172E7' : '#18181b'};
+            border:2px solid ${isPrimary ? '#fff' : '#1172E7'};
             border-radius:50% 50% 50% 0;
             transform:rotate(-45deg);
             display:flex;align-items:center;justify-content:center;
@@ -94,7 +94,7 @@ export default function CoverageMap() {
         const coord = COORDS[a.slug]
         if (!coord) return
         const marker = L.marker([coord.lat, coord.lng], { icon: markerIcon(false) }).addTo(map)
-        marker.bindPopup(`<strong>${a.name}</strong><br/><a href="/areas/${a.slug}" style="color:#DE1415;">View area page →</a>`)
+        marker.bindPopup(`<strong>${a.name}</strong><br/><a href="/areas/${a.slug}" style="color:#1172E7;">View area page →</a>`)
       })
 
       setLoaded(true)
@@ -112,7 +112,7 @@ export default function CoverageMap() {
           <div className="section-tag justify-center">Live Coverage</div>
           <h2 className="section-title">
             Where We<br />
-            <span className="text-orange-500">Operate</span>
+            <span className="text-blue-500">Operate</span>
           </h2>
           <p className="section-body">
             Based in Central Scotland, our core rapid-response area covers Glasgow, Edinburgh
@@ -125,16 +125,16 @@ export default function CoverageMap() {
           <div ref={mapRef} className="w-full h-[420px] sm:h-[480px]" aria-label="Coverage map" />
           <div className="absolute bottom-4 left-4 bg-zinc-950/90 border border-zinc-800 backdrop-blur-sm p-4 space-y-2 text-xs text-zinc-400 hidden sm:block">
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-orange-500 flex-shrink-0" /> Dispatch base
+              <span className="w-2.5 h-2.5 rounded-full bg-blue-500 flex-shrink-0" /> Dispatch base
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-zinc-700 border border-orange-500 flex-shrink-0" /> Area we cover
+              <span className="w-2.5 h-2.5 rounded-full bg-zinc-700 border border-blue-500 flex-shrink-0" /> Area we cover
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full border-2 border-dashed border-orange-500 flex-shrink-0" /> 30-mile core area
+              <span className="w-2.5 h-2.5 rounded-full border-2 border-dashed border-blue-500 flex-shrink-0" /> 30-mile core area
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full border border-dashed border-orange-500/50 flex-shrink-0" /> Extended coverage
+              <span className="w-2.5 h-2.5 rounded-full border border-dashed border-blue-500/50 flex-shrink-0" /> Extended coverage
             </div>
           </div>
         </div>

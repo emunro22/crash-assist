@@ -12,7 +12,7 @@ const faqs = [
   {
     question: 'Are you available on Christmas Day and bank holidays?',
     answer:
-      'Yes. Crash Assist Recovery never closes. We operate with full dispatch capability on Christmas Day, New Year\'s Day and all other bank holidays. Accidents and breakdowns do not take holidays, and neither do we.',
+      'Yes. Glasgow Breakdown Recovery never closes. We operate with full dispatch capability on Christmas Day, New Year\'s Day and all other bank holidays. Accidents and breakdowns do not take holidays, and neither do we.',
   },
   {
     question: 'Do you recover all types of vehicles?',
@@ -55,23 +55,23 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.05 }}
-      className={`border-b border-zinc-800 ${open ? 'border-orange-500/30' : ''}`}
+      className={`border-b border-zinc-800 ${open ? 'border-blue-500/30' : ''}`}
     >
       <button
         onClick={() => setOpen(!open)}
         className="w-full flex items-center justify-between py-5 text-left group"
       >
-        <span className={`font-heading font-bold text-base uppercase tracking-wide transition-colors ${open ? 'text-orange-500' : 'text-white group-hover:text-orange-400'}`}>
+        <span className={`font-heading font-bold text-base uppercase tracking-wide transition-colors ${open ? 'text-blue-500' : 'text-white group-hover:text-blue-400'}`}>
           {question}
         </span>
         <motion.span
           animate={{ rotate: open ? 45 : 0 }}
           transition={{ duration: 0.2 }}
           className={`flex-shrink-0 ml-4 w-7 h-7 flex items-center justify-center border ${
-            open ? 'border-orange-500 bg-orange-500/10' : 'border-zinc-700 group-hover:border-orange-500/50'
+            open ? 'border-blue-500 bg-blue-500/10' : 'border-zinc-700 group-hover:border-blue-500/50'
           } transition-colors`}
         >
-          <svg className={`w-3.5 h-3.5 transition-colors ${open ? 'text-orange-500' : 'text-zinc-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className={`w-3.5 h-3.5 transition-colors ${open ? 'text-blue-500' : 'text-zinc-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 4v16m8-8H4" />
           </svg>
         </motion.span>
@@ -104,7 +104,7 @@ export default function FAQ() {
             <div className="section-tag">FAQ</div>
             <h2 className="section-title mb-6">
               Common<br />
-              <span className="text-orange-500">Questions</span>
+              <span className="text-blue-500">Questions</span>
             </h2>
             <p className="section-body mb-8">
               Can&apos;t find your answer here? Call us directly, we are always happy to talk.

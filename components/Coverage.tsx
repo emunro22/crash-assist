@@ -35,7 +35,7 @@ export default function Coverage() {
             <div className="section-tag">Coverage Area</div>
             <h2 className="section-title mb-6">
               Covering<br />
-              <span className="text-orange-500">All of</span><br />
+              <span className="text-blue-500">All of</span><br />
               Scotland
             </h2>
             <p className="section-body mb-8">
@@ -49,7 +49,7 @@ export default function Coverage() {
               <h3 className="font-heading text-lg font-bold text-white uppercase mb-4">Motorway Coverage</h3>
               <div className="flex flex-wrap gap-2">
                 {motorways.map((m) => (
-                  <span key={m} className="bg-orange-500 text-white font-heading font-black text-sm px-3 py-1.5 uppercase tracking-wide">
+                  <span key={m} className="bg-blue-500 text-white font-heading font-black text-sm px-3 py-1.5 uppercase tracking-wide">
                     {m}
                   </span>
                 ))}
@@ -85,16 +85,16 @@ export default function Coverage() {
                     className="group flex items-center justify-between bg-zinc-950 hover:bg-zinc-900 p-4 transition-colors duration-200"
                   >
                     <div className="flex items-center gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-orange-500/40 group-hover:bg-orange-500 transition-colors" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-blue-500/40 group-hover:bg-blue-500 transition-colors" />
                       <span className="text-zinc-300 group-hover:text-white font-medium text-sm transition-colors">
                         {area.name}
                       </span>
                     </div>
                     <div className="flex items-center gap-2">
                       {area.tag && (
-                        <span className="text-orange-500 text-xs font-semibold uppercase tracking-wide">{area.tag}</span>
+                        <span className="text-blue-500 text-xs font-semibold uppercase tracking-wide">{area.tag}</span>
                       )}
-                      <svg className="w-3.5 h-3.5 text-zinc-600 group-hover:text-orange-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg className="w-3.5 h-3.5 text-zinc-600 group-hover:text-blue-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </div>
@@ -105,7 +105,7 @@ export default function Coverage() {
 
             <Link
               href="/areas"
-              className="mt-4 flex items-center justify-center gap-2 text-orange-500 hover:text-orange-400 text-sm font-semibold uppercase tracking-wide transition-colors py-3 border border-zinc-800 hover:border-orange-500/30"
+              className="mt-4 flex items-center justify-center gap-2 text-blue-500 hover:text-blue-400 text-sm font-semibold uppercase tracking-wide transition-colors py-3 border border-zinc-800 hover:border-blue-500/30"
             >
               View all coverage areas
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

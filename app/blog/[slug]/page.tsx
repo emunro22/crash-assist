@@ -51,7 +51,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {/* Header */}
         <section className="pt-36 pb-12 bg-zinc-950">
           <div className="container max-w-4xl">
-            <Link href="/blog" className="inline-flex items-center gap-2 text-zinc-500 hover:text-orange-500 text-sm mb-8 transition-colors">
+            <Link href="/blog" className="inline-flex items-center gap-2 text-zinc-500 hover:text-blue-500 text-sm mb-8 transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
@@ -65,7 +65,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div className="flex items-center gap-4 text-zinc-600 text-sm">
               <time>{formatDate(post.created_at)}</time>
               <span>·</span>
-              <span>Crash Assist Recovery</span>
+              <span>Glasgow Breakdown Recovery</span>
             </div>
           </div>
         </section>
@@ -81,8 +81,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 className="object-cover"
                 priority
               />
-              <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-orange-500" />
-              <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-orange-500" />
+              <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-blue-500" />
+              <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-blue-500" />
             </div>
           </div>
         )}
@@ -109,11 +109,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 <div className="bg-zinc-900 border border-zinc-800 p-6">
                   <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Quick Links</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><Link href="/services/accident-recovery" className="text-zinc-400 hover:text-orange-500 transition-colors">Accident Recovery</Link></li>
-                    <li><Link href="/services/breakdown-recovery" className="text-zinc-400 hover:text-orange-500 transition-colors">Breakdown Recovery</Link></li>
-                    <li><Link href="/services/motorway-recovery" className="text-zinc-400 hover:text-orange-500 transition-colors">Motorway Recovery</Link></li>
-                    <li><Link href="/services/accident-claims" className="text-zinc-400 hover:text-orange-500 transition-colors">Claims Assistance</Link></li>
-                    <li><Link href="/contact" className="text-zinc-400 hover:text-orange-500 transition-colors">Contact Us</Link></li>
+                    <li><Link href="/services/accident-recovery" className="text-zinc-400 hover:text-blue-500 transition-colors">Accident Recovery</Link></li>
+                    <li><Link href="/services/breakdown-recovery" className="text-zinc-400 hover:text-blue-500 transition-colors">Breakdown Recovery</Link></li>
+                    <li><Link href="/services/motorway-recovery" className="text-zinc-400 hover:text-blue-500 transition-colors">Motorway Recovery</Link></li>
+                    <li><Link href="/services/accident-claims" className="text-zinc-400 hover:text-blue-500 transition-colors">Claims Assistance</Link></li>
+                    <li><Link href="/contact" className="text-zinc-400 hover:text-blue-500 transition-colors">Contact Us</Link></li>
                   </ul>
                 </div>
               </aside>

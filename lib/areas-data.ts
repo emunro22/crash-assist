@@ -15,7 +15,7 @@ export const areas: Area[] = [
     name: 'Glasgow',
     headline: 'Vehicle Recovery in Glasgow',
     description: "Glasgow's fastest 24/7 emergency vehicle recovery and accident assistance service. We cover the entire city and surrounding areas.",
-    longDescription: `Glasgow is Scotland's largest city and our primary operating area. With our base in Central Scotland, we maintain some of the fastest response times in the city, typically 30–45 minutes for most Glasgow postcodes.\n\nFrom the city centre to the Southside, East End, West End and beyond, Crash Assist Recovery knows Glasgow's road network inside out. We handle everything from minor breakdowns on residential streets to serious accidents on the M8 and M74 ring roads.`,
+    longDescription: `Glasgow is Scotland's largest city and our primary operating area. With our base in Central Scotland, we maintain some of the fastest response times in the city, typically 30–45 minutes for most Glasgow postcodes.\n\nFrom the city centre to the Southside, East End, West End and beyond, Glasgow Breakdown Recovery knows Glasgow's road network inside out. We handle everything from minor breakdowns on residential streets to serious accidents on the M8 and M74 ring roads.`,
     postcodes: ['G1', 'G2', 'G3', 'G4', 'G5', 'G11', 'G12', 'G13', 'G14', 'G15', 'G20', 'G21', 'G22', 'G23', 'G31', 'G32', 'G33', 'G34', 'G40', 'G41', 'G42', 'G43', 'G44', 'G45', 'G46', 'G51', 'G52', 'G53'],
     features: ['City centre response within 30 min', 'M8 and ring road specialists', 'Covers all Glasgow postcode districts', '24/7 including bank holidays', 'Coordination with Glasgow City Police', 'All vehicle types including prestige'],
     faqs: [
@@ -28,7 +28,7 @@ export const areas: Area[] = [
     name: 'Edinburgh',
     headline: 'Vehicle Recovery in Edinburgh',
     description: "Edinburgh's trusted emergency recovery service for accidents and breakdowns across the capital. Fast response to all Edinburgh postcodes.",
-    longDescription: `Edinburgh's unique geography, cobbled old town streets, busy city bypass and the A720 ring road, presents its own recovery challenges. Crash Assist Recovery has the experience and equipment to handle them all.\n\nWe cover all Edinburgh postcodes from the city centre to Leith, Morningside, Portobello and the Pentland Hills. Whether you have broken down on the Royal Mile or been involved in an accident on the City Bypass, we will reach you quickly.`,
+    longDescription: `Edinburgh's unique geography, cobbled old town streets, busy city bypass and the A720 ring road, presents its own recovery challenges. Glasgow Breakdown Recovery has the experience and equipment to handle them all.\n\nWe cover all Edinburgh postcodes from the city centre to Leith, Morningside, Portobello and the Pentland Hills. Whether you have broken down on the Royal Mile or been involved in an accident on the City Bypass, we will reach you quickly.`,
     postcodes: ['EH1', 'EH2', 'EH3', 'EH4', 'EH5', 'EH6', 'EH7', 'EH8', 'EH9', 'EH10', 'EH11', 'EH12', 'EH13', 'EH14', 'EH15', 'EH16', 'EH17'],
     features: ['A720 bypass specialists', 'Old town and cobbled road recovery', 'Airport vicinity coverage', 'Tram route awareness', 'All Edinburgh postcode districts', 'Leith and port area coverage'],
     faqs: [
@@ -41,7 +41,7 @@ export const areas: Area[] = [
     name: 'Paisley',
     headline: 'Vehicle Recovery in Paisley',
     description: 'Fast breakdown and accident recovery across Paisley and Renfrewshire. Located close to Glasgow Airport and the M8 corridor.',
-    longDescription: `Paisley's proximity to Glasgow Airport and the busy M8 motorway means our Paisley coverage is among our most active. We regularly assist motorists on the approach roads to the airport and the surrounding industrial areas of Renfrewshire.\n\nWhether you're a local resident or a traveller who has broken down near the airport, Crash Assist Recovery provides the same fast, professional service throughout the Paisley and Renfrewshire area.`,
+    longDescription: `Paisley's proximity to Glasgow Airport and the busy M8 motorway means our Paisley coverage is among our most active. We regularly assist motorists on the approach roads to the airport and the surrounding industrial areas of Renfrewshire.\n\nWhether you're a local resident or a traveller who has broken down near the airport, Glasgow Breakdown Recovery provides the same fast, professional service throughout the Paisley and Renfrewshire area.`,
     postcodes: ['PA1', 'PA2', 'PA3', 'PA4', 'PA5'],
     features: ['Glasgow Airport approach roads', 'M8 motorway junction coverage', 'Renfrewshire-wide coverage', 'Industrial estate recovery', 'Rental car support near the airport', '24/7 availability'],
     faqs: [
@@ -54,7 +54,7 @@ export const areas: Area[] = [
     name: 'Hamilton',
     headline: 'Vehicle Recovery in Hamilton',
     description: 'Emergency vehicle recovery across Hamilton and South Lanarkshire. Quick access from the M74 and M8 motorway network.',
-    longDescription: `Hamilton sits at the heart of South Lanarkshire's road network, with easy access to the M74, M8 and A-road connections throughout the region. Crash Assist Recovery provides comprehensive vehicle recovery across Hamilton and the wider South Lanarkshire area.\n\nWe are familiar with Hamilton's road layout, including the town centre, Burnbank, Blantyre, Quarter and all surrounding communities.`,
+    longDescription: `Hamilton sits at the heart of South Lanarkshire's road network, with easy access to the M74, M8 and A-road connections throughout the region. Glasgow Breakdown Recovery provides comprehensive vehicle recovery across Hamilton and the wider South Lanarkshire area.\n\nWe are familiar with Hamilton's road layout, including the town centre, Burnbank, Blantyre, Quarter and all surrounding communities.`,
     postcodes: ['ML3'],
     features: ['M74 junction proximity', 'South Lanarkshire coverage', 'Hamilton town centre specialists', 'Rural South Lanarkshire recovery', 'All vehicle types', '24/7 rapid response'],
     faqs: [
@@ -66,7 +66,7 @@ export const areas: Area[] = [
     name: 'Motherwell',
     headline: 'Vehicle Recovery in Motherwell',
     description: 'Reliable 24/7 vehicle recovery across Motherwell, Wishaw and North Lanarkshire. Fast response to accidents and breakdowns.',
-    longDescription: `Motherwell and Wishaw form the core of North Lanarkshire's urban area. With excellent motorway links via the M8 and M74, Crash Assist Recovery provides fast response times throughout this key industrial and residential region.\n\nWe cover all of North Lanarkshire including Motherwell, Wishaw, Bellshill, Coatbridge, Airdrie and surrounding areas.`,
+    longDescription: `Motherwell and Wishaw form the core of North Lanarkshire's urban area. With excellent motorway links via the M8 and M74, Glasgow Breakdown Recovery provides fast response times throughout this key industrial and residential region.\n\nWe cover all of North Lanarkshire including Motherwell, Wishaw, Bellshill, Coatbridge, Airdrie and surrounding areas.`,
     postcodes: ['ML1', 'ML2', 'G69', 'G71'],
     features: ['North Lanarkshire coverage', 'Industrial area specialists', 'M8 eastern corridor', 'Ravenscraig and retail park recovery', 'Bellshill and Coatbridge coverage', '24/7 service'],
     faqs: [
@@ -90,7 +90,7 @@ export const areas: Area[] = [
     name: 'Falkirk',
     headline: 'Vehicle Recovery in Falkirk',
     description: 'Professional vehicle recovery across Falkirk and the surrounding area. Covering the M9, M80 and central Scotland motorway links.',
-    longDescription: `Falkirk sits at the junction of Scotland's central motorway network, where the M9 and M80 meet. This makes it one of the busiest areas for motorway incidents in Scotland. Crash Assist Recovery maintains strong coverage across Falkirk and the Forth Valley region.`,
+    longDescription: `Falkirk sits at the junction of Scotland's central motorway network, where the M9 and M80 meet. This makes it one of the busiest areas for motorway incidents in Scotland. Glasgow Breakdown Recovery maintains strong coverage across Falkirk and the Forth Valley region.`,
     postcodes: ['FK1', 'FK2', 'FK3', 'FK4', 'FK5'],
     features: ['M9/M80 interchange specialists', 'Grangemouth coverage', 'Forth Valley coverage', 'Industrial heavy recovery', 'Stenhousemuir and Larbert', '24/7 rapid response'],
     faqs: [
@@ -102,7 +102,7 @@ export const areas: Area[] = [
     name: 'Stirling',
     headline: 'Vehicle Recovery in Stirling',
     description: 'Emergency breakdown and accident recovery across Stirling and Clackmannanshire. Gateway to the Highlands coverage.',
-    longDescription: `Stirling is the gateway to the Scottish Highlands, sitting where the Lowlands meet the Highland boundary. Crash Assist Recovery serves Stirling and its surrounding areas, providing rapid response whether you have broken down in the city centre or on the rural roads leading north.`,
+    longDescription: `Stirling is the gateway to the Scottish Highlands, sitting where the Lowlands meet the Highland boundary. Glasgow Breakdown Recovery serves Stirling and its surrounding areas, providing rapid response whether you have broken down in the city centre or on the rural roads leading north.`,
     postcodes: ['FK7', 'FK8', 'FK9', 'FK10'],
     features: ['A9 and A84 coverage', 'Highland gateway routes', 'Stirling city centre coverage', 'Bannockburn and Cambuskenneth', 'Bridge of Allan coverage', 'Rural route specialists'],
     faqs: [
@@ -114,7 +114,7 @@ export const areas: Area[] = [
     name: 'Ayr',
     headline: 'Vehicle Recovery in Ayr & South Ayrshire',
     description: 'Fast vehicle recovery across Ayr, Prestwick and South Ayrshire. Covering the A77 and Ayrshire road network.',
-    longDescription: `Ayr and South Ayrshire present their own recovery challenges, from the busy A77 coastal route to the rural roads of East Ayrshire. Crash Assist Recovery provides comprehensive coverage across the Ayrshire region, including Ayr, Prestwick, Troon, Kilmarnock and surrounding areas.`,
+    longDescription: `Ayr and South Ayrshire present their own recovery challenges, from the busy A77 coastal route to the rural roads of East Ayrshire. Glasgow Breakdown Recovery provides comprehensive coverage across the Ayrshire region, including Ayr, Prestwick, Troon, Kilmarnock and surrounding areas.`,
     postcodes: ['KA6', 'KA7', 'KA8', 'KA9', 'KA10'],
     features: ['A77 coastal route coverage', 'Prestwick Airport vicinity', 'South Ayrshire rural coverage', 'Troon and Prestwick coverage', 'Burns Country routes', '24/7 rapid dispatch'],
     faqs: [
@@ -138,7 +138,7 @@ export const areas: Area[] = [
     name: 'Dumfries',
     headline: 'Vehicle Recovery in Dumfries & Galloway',
     description: 'Coverage across Dumfries and the Galloway region. Recovery on the A75, A76 and M74 as you head to the English border.',
-    longDescription: `Dumfries and Galloway is one of Scotland's most scenic but also most remote regions for motorists. Breaking down on the A75 or A76 can leave you far from help. Crash Assist Recovery extends its coverage throughout Dumfries and Galloway, ensuring even remote motorists can access professional recovery.`,
+    longDescription: `Dumfries and Galloway is one of Scotland's most scenic but also most remote regions for motorists. Breaking down on the A75 or A76 can leave you far from help. Glasgow Breakdown Recovery extends its coverage throughout Dumfries and Galloway, ensuring even remote motorists can access professional recovery.`,
     postcodes: ['DG1', 'DG2', 'DG3', 'DG11'],
     features: ['A75 route to Northern Ireland ferries', 'A76 Nithsdale coverage', 'M74 southern extension', 'Galloway Forest recovery capability', 'Cross-border recovery available', 'Long-distance capability'],
     faqs: [
@@ -150,7 +150,7 @@ export const areas: Area[] = [
     name: 'Perth',
     headline: 'Vehicle Recovery in Perth & Kinross',
     description: 'Emergency recovery across Perth and Kinross. Covering the A9, M90 and the gateway routes to the Scottish Highlands.',
-    longDescription: `Perth is the gateway to the Scottish Highlands and sits on the busy M90 and A9 routes. Crash Assist Recovery provides specialist coverage across Perth and Kinross, handling breakdowns and accidents on some of Scotland's most important trunk roads.\n\nFrom the M90 Perth junction to the A9 heading north, we know these roads and provide fast, reliable response.`,
+    longDescription: `Perth is the gateway to the Scottish Highlands and sits on the busy M90 and A9 routes. Glasgow Breakdown Recovery provides specialist coverage across Perth and Kinross, handling breakdowns and accidents on some of Scotland's most important trunk roads.\n\nFrom the M90 Perth junction to the A9 heading north, we know these roads and provide fast, reliable response.`,
     postcodes: ['PH1', 'PH2'],
     features: ['M90 and A9 specialists', 'Highland route coverage', 'Perth city and suburbs', 'Scone and Bridge of Earn', 'Crieff and Auchterarder coverage', 'Tourism season specialists'],
     faqs: [

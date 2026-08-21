@@ -10,14 +10,14 @@ export default function AreaPage({ area }: { area: Area }) {
     <>
       {/* Hero */}
       <section className="relative pt-32 pb-20 bg-zinc-950 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-transparent" />
         <div className="container relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <Link href="/areas" className="inline-flex items-center gap-2 text-zinc-500 hover:text-orange-500 text-sm mb-8 transition-colors">
+            <Link href="/areas" className="inline-flex items-center gap-2 text-zinc-500 hover:text-blue-500 text-sm mb-8 transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
@@ -44,8 +44,8 @@ export default function AreaPage({ area }: { area: Area }) {
               {/* Brand panel */}
               <div className="relative aspect-[16/9] mb-10 overflow-hidden">
                 <BrandPanel className="absolute inset-0" />
-                <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-orange-500" />
-                <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-orange-500" />
+                <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-blue-500" />
+                <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-blue-500" />
               </div>
 
               {/* Long description */}
@@ -59,7 +59,7 @@ export default function AreaPage({ area }: { area: Area }) {
               {area.faqs.length > 0 && (
                 <div className="mt-12">
                   <h2 className="font-heading text-3xl font-black text-white uppercase mb-6">
-                    {area.name} Recovery <span className="text-orange-500">FAQs</span>
+                    {area.name} Recovery <span className="text-blue-500">FAQs</span>
                   </h2>
                   <div className="space-y-4">
                     {area.faqs.map((faq, i) => (
@@ -81,7 +81,7 @@ export default function AreaPage({ area }: { area: Area }) {
                 <ul className="space-y-3">
                   {area.features.map((f) => (
                     <li key={f} className="flex items-start gap-3 text-sm text-zinc-300">
-                      <svg className="w-4 h-4 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <svg className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                       {f}
@@ -122,8 +122,8 @@ export default function AreaPage({ area }: { area: Area }) {
                     .filter(a => a.slug !== area.slug)
                     .map(a => (
                       <li key={a.slug}>
-                        <Link href={`/areas/${a.slug}`} className="text-zinc-400 hover:text-orange-500 text-sm transition-colors flex items-center gap-2">
-                          <span className="w-1 h-1 rounded-full bg-orange-500" />
+                        <Link href={`/areas/${a.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
+                          <span className="w-1 h-1 rounded-full bg-blue-500" />
                           {a.label}
                         </Link>
                       </li>

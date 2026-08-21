@@ -32,11 +32,11 @@ export default function AdminLogin() {
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="flex items-center gap-3 mb-10 justify-center">
-          <div className="w-10 h-10 bg-orange-500 flex items-center justify-center font-heading font-black text-white">CA</div>
+          <div className="w-10 h-10 bg-blue-500 flex items-center justify-center font-heading font-black text-white">GB</div>
           <div className="font-heading font-black uppercase leading-none">
-            <span className="text-white text-lg">Crash Assist</span>
+            <span className="text-white text-lg">Glasgow Breakdown</span>
             <br />
-            <span className="text-orange-500 text-xs tracking-widest">RECOVERY ADMIN</span>
+            <span className="text-blue-500 text-xs tracking-widest">RECOVERY ADMIN</span>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ export default function AdminLogin() {
         </div>
 
         <p className="text-center text-zinc-700 text-xs mt-6">
-          Crash Assist Recovery: Admin Portal
+          Glasgow Breakdown Recovery: Admin Portal
         </p>
       </div>
     </div>

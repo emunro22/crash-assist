@@ -3,7 +3,7 @@ import { services } from '@/lib/services-data'
 import { areas } from '@/lib/areas-data'
 import { getBlogPosts } from '@/lib/db'
 
-const base = 'https://crashassistrecovery.co.uk'
+const base = 'https://glasgowbreakdownrecovery.co.uk'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   let blogPosts: MetadataRoute.Sitemap = []

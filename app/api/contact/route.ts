@@ -7,8 +7,8 @@ export async function POST(req: NextRequest) {
   const { name, phone, message, service } = await req.json().catch(() => ({}))
   if (!phone) return NextResponse.json({ error: 'Phone number required' }, { status: 400 })
 
-  const fromEmail = process.env.RESEND_FROM_EMAIL || 'noreply@crashassistrecovery.co.uk'
-  const toEmail = 'info@crashassistrecovery.co.uk'
+  const fromEmail = process.env.RESEND_FROM_EMAIL || 'noreply@glasgowbreakdownrecovery.co.uk'
+  const toEmail = 'info@glasgowbreakdownrecovery.co.uk'
 
   try {
     await resend.emails.send({
@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
       subject: `New Callback Request: ${name || 'Unknown'} (${service || 'General'})`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px;">
-          <h2 style="color: #DE1415;">New Callback Request</h2>
+          <h2 style="color: #F7900A;">New Callback Request</h2>
           <table style="border-collapse: collapse; width: 100%;">
             <tr><td style="padding: 8px; border: 1px solid #333; background: #111; color: #aaa; width: 140px;">Name</td><td style="padding: 8px; border: 1px solid #333;">${name || 'Not provided'}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #333; background: #111; color: #aaa;">Phone</td><td style="padding: 8px; border: 1px solid #333;"><strong>${phone}</strong></td></tr>
@@ -34,8 +34,8 @@ export async function POST(req: NextRequest) {
       await resend.emails.send({
         from: fromEmail,
         to: phone,
-        subject: 'We received your callback request: Crash Assist Recovery',
-        html: `<p>Hi ${name},</p><p>We have received your callback request and will contact you within 30 minutes during business hours.</p><p>For emergencies, call us immediately on <strong>+44 7564 016582</strong>.</p><p>Crash Assist Recovery Team</p>`,
+        subject: 'We received your callback request: Glasgow Breakdown Recovery',
+        html: `<p>Hi ${name},</p><p>We have received your callback request and will contact you within 30 minutes during business hours.</p><p>For emergencies, call us immediately on <strong>+44 7564 016582</strong>.</p><p>Glasgow Breakdown Recovery Team</p>`,
       })
     }
 

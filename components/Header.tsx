@@ -37,17 +37,17 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="/brand/crash-assist-logo-web.png"
-              alt="Crash Assist Recovery"
+              src="/brand/glasgow-breakdown-recovery-logo.png"
+              alt="Glasgow Breakdown Recovery"
               width={56}
               height={48}
               priority
               className="h-12 w-auto flex-shrink-0"
             />
             <div className="font-heading text-lg font-black uppercase leading-none hidden sm:block">
-              <span className="text-white">Crash Assist</span>
+              <span className="text-white">Glasgow Breakdown</span>
               <br />
-              <span className="text-orange-500 text-sm tracking-widest">RECOVERY</span>
+              <span className="text-blue-500 text-sm tracking-widest">RECOVERY</span>
             </div>
           </Link>
 
@@ -60,7 +60,7 @@ export default function Header() {
                 className="relative text-zinc-400 hover:text-white font-body font-medium text-sm uppercase tracking-wide transition-colors duration-200 group"
               >
                 {link.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300" />
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300" />
               </Link>
             ))}
           </nav>
@@ -88,17 +88,17 @@ export default function Header() {
             aria-label="Toggle menu"
           >
             <span
-              className={`block w-6 h-0.5 bg-zinc-300 group-hover:bg-orange-500 transition-all duration-300 origin-center ${
+              className={`block w-6 h-0.5 bg-zinc-300 group-hover:bg-blue-500 transition-all duration-300 origin-center ${
                 menuOpen ? 'rotate-45 translate-y-2' : ''
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-zinc-300 group-hover:bg-orange-500 transition-all duration-300 ${
+              className={`block w-6 h-0.5 bg-zinc-300 group-hover:bg-blue-500 transition-all duration-300 ${
                 menuOpen ? 'opacity-0 scale-x-0' : ''
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-zinc-300 group-hover:bg-orange-500 transition-all duration-300 origin-center ${
+              className={`block w-6 h-0.5 bg-zinc-300 group-hover:bg-blue-500 transition-all duration-300 origin-center ${
                 menuOpen ? '-rotate-45 -translate-y-2' : ''
               }`}
             />
@@ -127,7 +127,7 @@ export default function Header() {
                   <Link
                     href={link.href}
                     onClick={() => setMenuOpen(false)}
-                    className="flex items-center justify-between py-3.5 border-b border-zinc-800 text-zinc-300 hover:text-orange-500 font-body font-medium uppercase text-sm tracking-wide transition-colors"
+                    className="flex items-center justify-between py-3.5 border-b border-zinc-800 text-zinc-300 hover:text-blue-400 font-body font-medium uppercase text-sm tracking-wide transition-colors"
                   >
                     {link.label}
                     <svg className="w-4 h-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">

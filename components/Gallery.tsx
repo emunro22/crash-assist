@@ -14,7 +14,7 @@ export default function Gallery() {
             <div className="section-tag">Recent Jobs</div>
             <h2 className="section-title">
               Latest Work<br />
-              <span className="text-orange-500">We&apos;ve Done</span>
+              <span className="text-blue-500">We&apos;ve Done</span>
             </h2>
           </div>
           <div>

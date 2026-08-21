@@ -8,15 +8,15 @@ import Link from 'next/link'
 const SLIDES = [
   {
     src: '/gallery/defender-ranger-trailer-transport.jpg',
-    alt: 'Crash Assist Recovery flatbed transporting a Land Rover Defender and Ford Ranger',
+    alt: 'Glasgow Breakdown Recovery flatbed transporting a Land Rover Defender and Ford Ranger',
   },
   {
     src: '/gallery/ranger-flatbed-recovery-dusk.jpg',
-    alt: 'Crash Assist Recovery flatbed truck with a Ford Ranger at dusk',
+    alt: 'Glasgow Breakdown Recovery flatbed truck with a Ford Ranger at dusk',
   },
   {
     src: '/gallery/ranger-flatbed-recovery-daytime.jpg',
-    alt: 'Crash Assist Recovery flatbed truck loading a Ford Ranger',
+    alt: 'Glasgow Breakdown Recovery flatbed truck loading a Ford Ranger',
   },
 ]
 
@@ -80,9 +80,9 @@ export default function Hero() {
           </div>
 
           <h1 className="font-heading text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-white uppercase leading-none mb-6">
-            Crash
+            Glasgow
             <br />
-            <span className="text-orange-500">Assist</span>
+            <span className="text-blue-500">Breakdown</span>
             <br />
             Recovery
           </h1>

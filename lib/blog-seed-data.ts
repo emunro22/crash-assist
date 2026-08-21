@@ -58,7 +58,7 @@ Use your mobile phone to photograph:
 
 You must notify your insurance company promptly even if you do not intend to make a claim. Failure to report within the required timeframe can invalidate your policy.
 
-## Step 7: Call Crash Assist Recovery
+## Step 7: Call Glasgow Breakdown Recovery
 
 If your vehicle is not driveable, call us. We will dispatch a recovery vehicle immediately, handle the safe removal of your car from the scene and deliver it to your chosen garage or our secure storage facility.
 
@@ -119,9 +119,9 @@ When you take your vehicle to a garage for repair after a breakdown, you have th
 
 If a garage carries out unauthorised repairs or charges more than the agreed estimate without your consent, you have grounds to dispute the bill.
 
-## Using Crash Assist Recovery's Services
+## Using Glasgow Breakdown Recovery's Services
 
-When you use a pay-per-use recovery service like Crash Assist Recovery, you have clear consumer rights:
+When you use a pay-per-use recovery service like Glasgow Breakdown Recovery, you have clear consumer rights:
 
 - We will provide a price before any work begins
 - Our drivers are trained, insured and certified
@@ -196,7 +196,7 @@ Before accepting any settlement offer:
 - Get independent medical evidence from your own GP
 - Consider future losses if your injuries will affect your ability to work
 
-## How Crash Assist Recovery Helps Your Claim
+## How Glasgow Breakdown Recovery Helps Your Claim
 
 We work with you and your insurance company to ensure the recovery process supports your claim. We can:
 
@@ -247,7 +247,7 @@ As soon as you notice a problem, a warning light, strange noise, loss of power o
 
 ## Calling for Help
 
-Use the orange SOS telephone boxes (located every mile) or call Crash Assist Recovery on **+44 7564 016582**. Tell us:
+Use the orange SOS telephone boxes (located every mile) or call Glasgow Breakdown Recovery on **+44 7564 016582**. Tell us:
 
 - Your location (use the marker posts on the central reservation, they show the road number and location reference)
 - The nature of your vehicle's problem
@@ -273,7 +273,7 @@ Many Scottish motorways are being converted to smart motorways where the hard sh
 - If you must stop in a live lane, call 999, not just breakdown recovery
 - The overhead gantry signs will show a red X if your lane is closed by emergency services
 
-**Crash Assist Recovery operates on all Scottish motorways 24/7. Call +44 7564 016582.**`,
+**Glasgow Breakdown Recovery operates on all Scottish motorways 24/7. Call +44 7564 016582.**`,
   },
   {
     title: 'Why You Should Never Move Your Vehicle After an Accident',
@@ -330,7 +330,7 @@ Our flatbed recovery vehicles are designed to transport damaged vehicles without
 1. Switch on hazard lights
 2. Photograph the positions of all vehicles
 3. Exchange details with all parties
-4. Call Crash Assist Recovery on **+44 7564 016582**
+4. Call Glasgow Breakdown Recovery on **+44 7564 016582**
 5. Wait in a safe location until we arrive
 
 We will handle everything from there, safely, professionally and in a way that supports your claim.`,
@@ -365,7 +365,7 @@ True 24/7 coverage means:
 - Maintaining fully equipped vehicles and experienced operators at all hours
 - Not directing you to an answering machine or voicemail
 
-Crash Assist Recovery maintains this standard every single day of the year. We never close.
+Glasgow Breakdown Recovery maintains this standard every single day of the year. We never close.
 
 ## Response Time Matters
 
@@ -383,7 +383,7 @@ When choosing a recovery provider, ask:
 - Are your operators certified and insured?
 - Can you handle vehicles that cannot be moved under their own power?
 
-Crash Assist Recovery answers yes to all of these questions.
+Glasgow Breakdown Recovery answers yes to all of these questions.
 
 ## The Peace of Mind Value
 
@@ -451,7 +451,7 @@ Locking keys in the car or losing them is more common than you might think, part
 
 ## When Prevention Fails
 
-No matter how diligent you are with maintenance, breakdowns can still happen. When they do, Crash Assist Recovery is one phone call away.
+No matter how diligent you are with maintenance, breakdowns can still happen. When they do, Glasgow Breakdown Recovery is one phone call away.
 
 **+44 7564 016582**, available 24/7, 365 days a year.`,
   },
@@ -467,7 +467,7 @@ One of the most common questions we receive is: "How long until you get here?" T
 
 ## Average Response Times
 
-Crash Assist Recovery's average response times by area:
+Glasgow Breakdown Recovery's average response times by area:
 
 - **Glasgow city centre:** 30–40 minutes
 - **Glasgow suburbs:** 40–55 minutes
@@ -570,7 +570,7 @@ A flatbed truck uses a hydraulic tilt mechanism to load the entire vehicle onto 
 
 Electric vehicles deserve special mention. Models from Tesla, Nissan, BMW and others have specific manufacturer guidance on recovery. Most state that the vehicle should never be towed with wheels on the ground, even short distances, as this can damage the motor or battery management systems. Always request a flatbed for any EV.
 
-## How Crash Assist Recovery Decides
+## How Glasgow Breakdown Recovery Decides
 
 Our operators are trained to assess your vehicle's condition and configuration before deciding on the recovery method. We will:
 
@@ -648,7 +648,7 @@ For winter journeys, particularly in rural Scotland or on Highland routes, carry
 - Keep your exhaust clear of snow to prevent dangerous fumes entering the cabin
 - Use your hazard lights and set warning triangles if safe to do so
 
-Crash Assist Recovery operates throughout the Scottish winter, including during adverse weather events. We have the experience and equipment to reach you safely.
+Glasgow Breakdown Recovery operates throughout the Scottish winter, including during adverse weather events. We have the experience and equipment to reach you safely.
 
 **+44 7564 016582**, 24/7, every day of the year.`,
   },
@@ -705,7 +705,7 @@ Compensation in a road traffic accident claim can include:
 - **After the Event insurance**: This covers the opponent's legal costs if you lose. It is often necessary but adds cost. Your solicitor should explain this clearly.
 - **Whiplash reform**: New rules introduced in 2021 affect how some soft tissue claims are valued. Check with your solicitor.
 
-## How Crash Assist Recovery Helps
+## How Glasgow Breakdown Recovery Helps
 
 At the time of recovery, we can connect you with our trusted network of claims management partners and solicitors. We work with legal professionals who specialise in road traffic accident claims in Scotland and who operate on a genuine no win no fee basis.
 
@@ -791,7 +791,7 @@ If the other driver refuses to provide details, note their registration and call
 - Request CCTV footage from relevant businesses (councils have a legal obligation to provide this within 30 days of a Subject Access Request)
 - Visit your GP or A&E, even if you feel fine, create a medical record
 
-Crash Assist Recovery can assist with evidence documentation during the recovery process. Our drivers are trained to photograph vehicles before and after loading.
+Glasgow Breakdown Recovery can assist with evidence documentation during the recovery process. Our drivers are trained to photograph vehicles before and after loading.
 
 **Call +44 7564 016582 any time.**`,
   },
@@ -855,7 +855,7 @@ In cold or wet conditions:
 - Text someone your location
 - If you feel unwell, call 999 as well as the recovery service
 
-## When Crash Assist Recovery Arrives
+## When Glasgow Breakdown Recovery Arrives
 
 - Our driver will park behind you with warning lights on
 - Only approach the recovery vehicle when directed to do so
@@ -872,13 +872,13 @@ In cold or wet conditions:
     cover_image_url: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80',
     content: `# The Benefits of Choosing a Local Recovery Service
 
-When you break down or have an accident, you have a choice: call a national breakdown service or a local independent recovery operator. Both have their place, but in many emergency situations, a local service like Crash Assist Recovery offers significant advantages.
+When you break down or have an accident, you have a choice: call a national breakdown service or a local independent recovery operator. Both have their place, but in many emergency situations, a local service like Glasgow Breakdown Recovery offers significant advantages.
 
 ## Faster Response Times
 
 A national service dispatches the closest available operator from their contracted network, and that operator may be 30 miles away from your breakdown. A genuinely local service maintains its own fleet in your area and knows the road network intimately.
 
-Crash Assist Recovery operates from a Central Scotland base with excellent access to the M8, M74, M77, M73 and surrounding A-road network. We are typically on scene faster than national services dispatching contracted partners.
+Glasgow Breakdown Recovery operates from a Central Scotland base with excellent access to the M8, M74, M77, M73 and surrounding A-road network. We are typically on scene faster than national services dispatching contracted partners.
 
 ## Local Road Knowledge
 
@@ -904,7 +904,7 @@ This means:
 
 ## Supporting Local Business
 
-Choosing a local, independent recovery service keeps money in the local economy. Crash Assist Recovery is a Scottish business, employing Scottish drivers and technicians, paying Scottish taxes and reinvesting in the local community.
+Choosing a local, independent recovery service keeps money in the local economy. Glasgow Breakdown Recovery is a Scottish business, employing Scottish drivers and technicians, paying Scottish taxes and reinvesting in the local community.
 
 ## The Limitations of National Services
 
@@ -919,7 +919,7 @@ To be fair to national breakdown services, they do offer advantages for members 
 
 If you are a frequent traveller or have a history of vehicle problems, a national breakdown membership is worth having as your primary cover. But save our number as a backup, particularly for serious accidents or complex recoveries where local expertise and speed of response matters most.
 
-**Crash Assist Recovery: +44 7564 016582**, saving that number now is the smartest thing you can do before you need it.`,
+**Glasgow Breakdown Recovery: +44 7564 016582**, saving that number now is the smartest thing you can do before you need it.`,
   },
   {
     title: 'Electric Vehicle Recovery: What You Need to Know',
@@ -963,7 +963,7 @@ If your EV battery has been damaged in an accident, recovery becomes significant
 - **Specialist storage**: Vehicles with damaged batteries may need to be stored in specialist outdoor facilities.
 - **Emergency services notification**: Always inform emergency services if your EV has been in a collision and there is suspected battery damage.
 
-## Crash Assist Recovery and EVs
+## Glasgow Breakdown Recovery and EVs
 
 Our operators are trained in EV-specific recovery procedures. We:
 
@@ -1011,7 +1011,7 @@ Many insurance companies have contracted recovery agents, often national service
 - Your vehicle goes to the insurer's preferred garage, which may not be your first choice
 
 ### 2. Independent Recovery (Your Choice)
-You call a recovery service independently (like Crash Assist Recovery) and then claim the cost through your insurance.
+You call a recovery service independently (like Glasgow Breakdown Recovery) and then claim the cost through your insurance.
 
 **Pros:**
 - You choose the recovery operator
@@ -1031,7 +1031,7 @@ Your insurance should cover reasonable recovery costs regardless of which regist
 
 ## How We Work with Insurers
 
-When you use Crash Assist Recovery after an accident, we:
+When you use Glasgow Breakdown Recovery after an accident, we:
 
 1. **Document the scene**: Photographs of vehicle positions, damage and environment
 2. **Provide written confirmation** of collection time, vehicle condition and delivery destination
@@ -1047,7 +1047,7 @@ If your vehicle needs to be stored after an accident (because the garage cannot 
 
 Beware of third-party capture, where the at-fault driver's insurer contacts you directly after the accident and offers to manage everything, including arranging recovery. While this sounds helpful, it means your vehicle goes to their preferred garage, and you deal with solicitors and assessors they have appointed.
 
-You are under no obligation to accept a third party insurer's recovery offer. You can always call Crash Assist Recovery directly.
+You are under no obligation to accept a third party insurer's recovery offer. You can always call Glasgow Breakdown Recovery directly.
 
 **For impartial accident recovery and claims support, call +44 7564 016582.**`,
   },
@@ -1105,7 +1105,7 @@ A dead phone during a roadside emergency is a serious problem. Keep a charged po
 
 If you are stuck waiting for recovery in summer heat, dehydration can quickly become a health issue. A sealed bottle of water and some non-perishable snacks (energy bars) provide sustenance while you wait.
 
-## Bonus: Know Crash Assist Recovery's Number
+## Bonus: Know Glasgow Breakdown Recovery's Number
 
 Save **+44 7564 016582** in your phone contacts now. When you need us, you will not be searching for a number.`,
   },
@@ -1153,7 +1153,7 @@ Under-reach systems allow recovery operators to lift vehicles that have no acces
 ### Long Reach Boom
 For vehicles over barriers, in underpasses or at the base of slopes, a long-reach boom extends the vehicle's recovery capability significantly.
 
-## What Crash Assist Recovery Operates
+## What Glasgow Breakdown Recovery Operates
 
 Our fleet includes:
 
@@ -1190,7 +1190,7 @@ If you are unsure where to send your vehicle, we can recommend trusted local rep
 
 ### Vehicle Condition Report
 
-At the point of collection, Crash Assist Recovery will photograph your vehicle and note its condition. This documentation protects both you and us, it establishes the exact state of the vehicle when we collected it and what it looked like when it arrived at the garage.
+At the point of collection, Glasgow Breakdown Recovery will photograph your vehicle and note its condition. This documentation protects both you and us, it establishes the exact state of the vehicle when we collected it and what it looked like when it arrived at the garage.
 
 ## At the Garage
 
@@ -1237,7 +1237,7 @@ During the repair period, you may be entitled to a courtesy car. This depends on
 
 For non-fault accidents, you are typically entitled to a like-for-like hire vehicle at no cost to you.
 
-**Crash Assist Recovery is there from the first moment to the last. Call +44 7564 016582.**`,
+**Glasgow Breakdown Recovery is there from the first moment to the last. Call +44 7564 016582.**`,
   },
   {
     title: 'How to Choose the Best Vehicle Recovery Service',
@@ -1259,7 +1259,7 @@ Test this. Call the number at an unusual time. Does a real person answer? Many c
 
 Ask directly: "What is your average response time at 2am on a Sunday?" Any credible service should be able to give you a realistic answer. Be wary of services that promise unrealistically fast times without caveats.
 
-Crash Assist Recovery's typical response time is 45–60 minutes across Central Scotland at any hour.
+Glasgow Breakdown Recovery's typical response time is 45–60 minutes across Central Scotland at any hour.
 
 ### 3. Local Knowledge
 
@@ -1303,7 +1303,7 @@ Check Google Reviews, Trustpilot and Facebook for consistent, genuine customer f
 
 ## Why We Meet These Standards
 
-Crash Assist Recovery operates its own fleet, employs trained and certified drivers, and provides transparent pricing. We are available every hour of every day, and we have the flatbed and winch capability to handle complex recoveries.
+Glasgow Breakdown Recovery operates its own fleet, employs trained and certified drivers, and provides transparent pricing. We are available every hour of every day, and we have the flatbed and winch capability to handle complex recoveries.
 
 **Call +44 7564 016582 to discuss your needs before you need us.**`,
   },
@@ -1347,7 +1347,7 @@ Unregistered or informal recovery services sometimes offer very low headline pri
 - Have no complaints process if something goes wrong
 - Lack adequate insurance
 
-A transparent, professional service like Crash Assist Recovery costs what it costs, and it includes the peace of mind of knowing your vehicle is handled correctly by insured, trained professionals.
+A transparent, professional service like Glasgow Breakdown Recovery costs what it costs, and it includes the peace of mind of knowing your vehicle is handled correctly by insured, trained professionals.
 
 ## The Cost of Delayed Recovery
 
@@ -1368,9 +1368,9 @@ If a recovery service damages your vehicle, you are entitled to compensation. Ho
 - The recovery company's insurance details
 - A complaints process to follow
 
-Professional services like Crash Assist Recovery carry full insurance and have clear complaints procedures. Many informal operators do not.
+Professional services like Glasgow Breakdown Recovery carry full insurance and have clear complaints procedures. Many informal operators do not.
 
-**Choose right the first time. Call Crash Assist Recovery: +44 7564 016582.**`,
+**Choose right the first time. Call Glasgow Breakdown Recovery: +44 7564 016582.**`,
   },
   {
     title: "Scotland's Motorway Network: A Driver's Safety Guide",
@@ -1400,7 +1400,7 @@ The M74 carries much of Scotland's heaviest traffic heading south. Key features:
 - **Larkhall to Lesmahagow**: Rural section with higher speeds and reduced services
 - **Junction with A74(M)**: The motorway becomes the A74(M) at the Scottish border
 
-The M74 is one of Crash Assist Recovery's most active routes. We provide priority coverage along its entire Scottish length.
+The M74 is one of Glasgow Breakdown Recovery's most active routes. We provide priority coverage along its entire Scottish length.
 
 ## The M77: Glasgow to Kilmarnock
 
@@ -1432,24 +1432,24 @@ Short but vital section connecting the M8/M9 corridor with the M80 and the Grang
 Regardless of which motorway you are on:
 
 1. Call 999 for any injury accident or when life is at risk
-2. Call Crash Assist Recovery on **+44 7564 016582** for breakdown or non-injury accident recovery
+2. Call Glasgow Breakdown Recovery on **+44 7564 016582** for breakdown or non-injury accident recovery
 3. Give your location using the green marker posts on the central reservation
 4. If you can see a junction number, report that, it is the fastest way to identify your location
 5. Stay behind the barrier and away from the carriageway
 
-Crash Assist Recovery is certified to operate on all Scottish motorways and our drivers know each road's specific characteristics and emergency protocols.
+Glasgow Breakdown Recovery is certified to operate on all Scottish motorways and our drivers know each road's specific characteristics and emergency protocols.
 
 **24/7 motorway recovery across Scotland: +44 7564 016582.**`,
   },
   {
-    title: 'Introducing Crash Assist Recovery',
-    slug: 'introducing-crash-assist-recovery',
+    title: 'Introducing Glasgow Breakdown Recovery',
+    slug: 'introducing-glasgow-breakdown-recovery',
     excerpt: 'A new 24/7 vehicle recovery and accident assistance service for Central Scotland. Here is who we are and what we do.',
     category: 'Company News',
-    cover_image_url: '/brand/crash-assist-logo-web.png',
-    content: `# Introducing Crash Assist Recovery
+    cover_image_url: '/brand/glasgow-breakdown-recovery-logo.png',
+    content: `# Introducing Glasgow Breakdown Recovery
 
-Crash Assist Recovery is a 24/7 emergency vehicle recovery and accident assistance service covering Glasgow, Edinburgh and the wider Central Scotland area.
+Glasgow Breakdown Recovery is a 24/7 emergency vehicle recovery and accident assistance service covering Glasgow, Edinburgh and the wider Central Scotland area.
 
 ## What We Do
 
@@ -1457,7 +1457,7 @@ We provide fast, professional recovery for breakdowns, road traffic accidents an
 
 ## Why We Started
 
-Too many drivers in Scotland have been left waiting, confused or overcharged after a breakdown or accident. We built Crash Assist Recovery around clear pricing, honest communication and a genuinely fast response, because that is what we would want if it was our car on the hard shoulder.
+Too many drivers in Scotland have been left waiting, confused or overcharged after a breakdown or accident. We built Glasgow Breakdown Recovery around clear pricing, honest communication and a genuinely fast response, because that is what we would want if it was our car on the hard shoulder.
 
 ## What Makes Us Different
 
@@ -1475,10 +1475,10 @@ Save our number now, before you need it: **+44 7564 016582**. We are available 2
     slug: 'why-we-do-what-we-do',
     excerpt: 'Being stranded is stressful enough. Here is the approach we take to make recovery as painless as possible.',
     category: 'Company News',
-    cover_image_url: '/brand/crash-assist-logo-web.png',
+    cover_image_url: '/brand/glasgow-breakdown-recovery-logo.png',
     content: `# Why We Do What We Do: Our Recovery Philosophy
 
-A breakdown or accident rarely happens at a convenient time. It is dark, it is raining, you are late, or you are simply shaken up. Our philosophy at Crash Assist Recovery starts from that reality.
+A breakdown or accident rarely happens at a convenient time. It is dark, it is raining, you are late, or you are simply shaken up. Our philosophy at Glasgow Breakdown Recovery starts from that reality.
 
 ## Speed Without Cutting Corners
 
@@ -1503,7 +1503,7 @@ Need us now? Call **+44 7564 016582**, available 24/7 across Scotland.`,
     slug: 'meet-the-fleet-flatbed-recovery-trucks',
     excerpt: 'A look at the flatbed recovery vehicles we use to transport everything from everyday cars to specialist 4x4s.',
     category: 'Company News',
-    cover_image_url: '/brand/crash-assist-logo-web.png',
+    cover_image_url: '/brand/glasgow-breakdown-recovery-logo.png',
     content: `# Meet the Fleet: Our Flatbed Recovery Trucks
 
 Our recovery vehicles are flatbed trucks, not standard tow trucks. That distinction matters more than most drivers realise.
@@ -1535,14 +1535,14 @@ Call us on **+44 7564 016582** for recovery any time, day or night.`,
     slug: 'fully-insured-fully-certified',
     excerpt: 'Why it matters that your recovery operator carries proper insurance and certification, and what to check for.',
     category: 'Company News',
-    cover_image_url: '/brand/crash-assist-logo-web.png',
+    cover_image_url: '/brand/glasgow-breakdown-recovery-logo.png',
     content: `# Fully Insured, Fully Certified: What That Means for You
 
 When someone else is loading and transporting your vehicle, insurance and certification are not small print, they are the difference between peace of mind and a costly dispute.
 
 ## What "Fully Insured" Actually Covers
 
-Crash Assist Recovery carries goods-in-transit insurance, meaning your vehicle is covered while it is on our truck, not just while it is being driven. We also carry public liability cover for the recovery scene itself.
+Glasgow Breakdown Recovery carries goods-in-transit insurance, meaning your vehicle is covered while it is on our truck, not just while it is being driven. We also carry public liability cover for the recovery scene itself.
 
 ## Certified Operators
 
@@ -1565,7 +1565,7 @@ We are happy to confirm our insurance and certification details on request, befo
     slug: 'save-our-number-before-you-need-us',
     excerpt: 'A few minutes of preparation now can save you a stressful, confusing phone call later. Here is what to sort out today.',
     category: 'Company News',
-    cover_image_url: '/brand/crash-assist-logo-web.png',
+    cover_image_url: '/brand/glasgow-breakdown-recovery-logo.png',
     content: `# Save Our Number: What to Do Before You Ever Need Us
 
 Nobody plans to break down or have an accident. That is exactly why a little preparation makes such a difference when it happens.
@@ -1591,12 +1591,12 @@ A torch, a warning triangle, a reflective vest and a phone charger cost very lit
 If you do break down or are involved in an accident, call us on **+44 7564 016582**. We are available 24/7, every day of the year, across Central Scotland.`,
   },
   {
-    title: 'Crash Assist Recovery: Company Information and How to Reach Us',
+    title: 'Glasgow Breakdown Recovery: Company Information and How to Reach Us',
     slug: 'company-information-how-to-reach-us',
-    excerpt: 'Everything you need to know about contacting Crash Assist Recovery, from our emergency line to our registered company details.',
+    excerpt: 'Everything you need to know about contacting Glasgow Breakdown Recovery, from our emergency line to our registered company details.',
     category: 'Company News',
-    cover_image_url: '/brand/crash-assist-logo-web.png',
-    content: `# Crash Assist Recovery: Company Information and How to Reach Us
+    cover_image_url: '/brand/glasgow-breakdown-recovery-logo.png',
+    content: `# Glasgow Breakdown Recovery: Company Information and How to Reach Us
 
 For customers who want the practical details in one place, here is how to reach us and who we are.
 
@@ -1610,7 +1610,7 @@ If your situation is not urgent, use the callback form on our [contact page](/co
 
 ## Company Details
 
-Crash Assist Recovery is operated by Crash Assist Limited, registered in Scotland under company number SC870113.
+Glasgow Breakdown Recovery is operated by Glasgow Breakdown Recovery Limited, registered in Scotland under company number SC870113.
 
 ## Coverage Area
 
@@ -1948,7 +1948,7 @@ A wheel-lift truck raises just the front or rear wheels, towing the vehicle on i
 
 ## Why We Use Flatbeds
 
-Crash Assist Recovery operates flatbed trucks as standard. It is the safest method for the widest range of vehicles, and it avoids the risk of causing further damage to a vehicle that already has an issue.
+Glasgow Breakdown Recovery operates flatbed trucks as standard. It is the safest method for the widest range of vehicles, and it avoids the risk of causing further damage to a vehicle that already has an issue.
 
 ## Not Sure Which You Need?
 
@@ -2127,7 +2127,7 @@ If you call your breakdown provider after an accident, they may not be equipped 
 
 ## What We Offer
 
-Crash Assist Recovery handles both breakdown and accident recovery, so you do not need to work out which category your situation falls into before calling.
+Glasgow Breakdown Recovery handles both breakdown and accident recovery, so you do not need to work out which category your situation falls into before calling.
 
 Whatever has happened, call **+44 7564 016582** and we will take it from there.`,
   },

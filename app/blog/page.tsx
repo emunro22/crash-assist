@@ -6,7 +6,7 @@ import { getBlogPosts, type BlogPost } from '@/lib/db'
 
 export const metadata: Metadata = {
   title: 'Blog & Guides',
-  description: 'Expert guides on vehicle recovery, accident claims, road safety and breakdown prevention from Crash Assist Recovery.',
+  description: 'Expert guides on vehicle recovery, accident claims, road safety and breakdown prevention from Glasgow Breakdown Recovery.',
 }
 
 export const revalidate = 3600
@@ -27,7 +27,7 @@ export default async function BlogPage() {
             <div className="section-tag">Knowledge Hub</div>
             <h1 className="section-title mb-4">
               Recovery Guides<br />
-              <span className="text-orange-500">& Advice</span>
+              <span className="text-blue-500">& Advice</span>
             </h1>
             <p className="section-body max-w-xl">
               Expert guides on vehicle recovery, accident claims, road safety and breakdown prevention.

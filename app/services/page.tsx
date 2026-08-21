@@ -6,7 +6,7 @@ import { services } from '@/lib/services-data'
 
 export const metadata: Metadata = {
   title: 'Our Services',
-  description: 'Full range of emergency vehicle recovery services from Crash Assist Recovery. Accident recovery, breakdown, motorway, flatbed towing, claims assistance and more.',
+  description: 'Full range of emergency vehicle recovery services from Glasgow Breakdown Recovery. Accident recovery, breakdown, motorway, flatbed towing, claims assistance and more.',
 }
 
 export default function ServicesPage() {
@@ -19,7 +19,7 @@ export default function ServicesPage() {
             <div className="section-tag">What We Do</div>
             <h1 className="section-title mb-6">
               Our Recovery<br />
-              <span className="text-orange-500">Services</span>
+              <span className="text-blue-500">Services</span>
             </h1>
             <p className="section-body max-w-xl">
               Comprehensive vehicle recovery and accident assistance services across Scotland.
@@ -37,24 +37,24 @@ export default function ServicesPage() {
                   href={`/services/${service.slug}`}
                   className="group bg-zinc-950 hover:bg-zinc-900 p-8 transition-colors duration-300 relative overflow-hidden"
                 >
-                  <div className="absolute left-0 top-0 bottom-0 w-1 bg-orange-500 scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top" />
+                  <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-500 scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top" />
                   <div className="flex items-start gap-5">
                     <div className="text-4xl flex-shrink-0">{service.icon}</div>
                     <div>
                       <span className="badge text-xs mb-3">{service.category}</span>
-                      <h2 className="font-heading font-black text-2xl text-white uppercase group-hover:text-orange-500 transition-colors mb-3">
+                      <h2 className="font-heading font-black text-2xl text-white uppercase group-hover:text-blue-500 transition-colors mb-3">
                         {service.title}
                       </h2>
                       <p className="text-zinc-500 text-sm leading-relaxed mb-4">{service.description}</p>
                       <ul className="space-y-1.5 mb-5">
                         {service.features.slice(0, 3).map(f => (
                           <li key={f} className="flex items-center gap-2 text-xs text-zinc-400">
-                            <span className="w-1.5 h-1.5 rounded-full bg-orange-500/60 flex-shrink-0" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-blue-500/60 flex-shrink-0" />
                             {f}
                           </li>
                         ))}
                       </ul>
-                      <div className="flex items-center gap-2 text-orange-500 text-xs font-semibold uppercase tracking-wide">
+                      <div className="flex items-center gap-2 text-blue-500 text-xs font-semibold uppercase tracking-wide">
                         Learn more
                         <svg className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />

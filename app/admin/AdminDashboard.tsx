@@ -75,9 +75,9 @@ export default function AdminDashboard() {
       {/* Top bar */}
       <header className="bg-zinc-900 border-b border-zinc-800 px-6 py-4 flex items-center justify-between sticky top-0 z-10">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-orange-500 flex items-center justify-center font-heading font-black text-white text-sm">CA</div>
+          <div className="w-8 h-8 bg-blue-500 flex items-center justify-center font-heading font-black text-white text-sm">GB</div>
           <div className="font-heading font-black text-white uppercase text-sm">
-            Crash Assist <span className="text-orange-500">Admin</span>
+            Glasgow Breakdown <span className="text-blue-500">Admin</span>
           </div>
         </div>
         <button onClick={handleLogout} disabled={loggingOut} className="admin-btn-secondary text-xs disabled:opacity-60">
@@ -95,7 +95,7 @@ export default function AdminDashboard() {
           ].map(s => (
             <div key={s.label} className="bg-zinc-900 border border-zinc-800 p-4 text-center">
               <div className="text-2xl mb-1">{s.icon}</div>
-              <div className="font-heading font-black text-3xl text-orange-500">{s.value}</div>
+              <div className="font-heading font-black text-3xl text-blue-500">{s.value}</div>
               <div className="text-zinc-500 text-xs uppercase tracking-wide">{s.label}</div>
             </div>
           ))}

@@ -3,6 +3,6 @@ import type { MetadataRoute } from 'next'
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: '*', allow: '/', disallow: '/admin' },
-    sitemap: 'https://crashassistrecovery.co.uk/sitemap.xml',
+    sitemap: 'https://glasgowbreakdownrecovery.co.uk/sitemap.xml',
   }
 }

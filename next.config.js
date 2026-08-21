@@ -11,8 +11,8 @@ const nextConfig = {
     return [
       {
         source: '/:path*',
-        has: [{ type: 'host', value: 'www.crashassistrecovery.co.uk' }],
-        destination: 'https://crashassistrecovery.co.uk/:path*',
+        has: [{ type: 'host', value: 'www.glasgowbreakdownrecovery.co.uk' }],
+        destination: 'https://glasgowbreakdownrecovery.co.uk/:path*',
         permanent: true,
       },
     ]

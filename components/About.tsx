@@ -35,15 +35,15 @@ export default function About() {
             <div className="relative aspect-[5/6] overflow-hidden">
               <Image
                 src="/gallery/ranger-flatbed-recovery-dusk.jpg"
-                alt="Crash Assist Recovery flatbed truck on the job"
+                alt="Glasgow Breakdown Recovery flatbed truck on the job"
                 fill
                 loading="lazy"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent" />
-              <div className="absolute top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-orange-500" />
-              <div className="absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-orange-500" />
+              <div className="absolute top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-blue-500" />
+              <div className="absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-blue-500" />
             </div>
 
             {/* Floating stat card */}
@@ -52,11 +52,11 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
-              className="absolute -bottom-6 -right-6 bg-orange-500 p-6 shadow-2xl"
+              className="absolute -bottom-6 -right-6 bg-blue-500 p-6 shadow-2xl"
             >
               <div className="font-heading text-5xl font-black text-white leading-none">15</div>
-              <div className="font-heading text-lg font-bold text-orange-100 uppercase">Years</div>
-              <div className="text-orange-200 text-xs">of excellence</div>
+              <div className="font-heading text-lg font-bold text-blue-100 uppercase">Years</div>
+              <div className="text-blue-200 text-xs">of excellence</div>
             </motion.div>
           </motion.div>
 
@@ -70,11 +70,11 @@ export default function About() {
             <div className="section-tag">About Us</div>
             <h2 className="section-title mb-6">
               Built on Trust.<br />
-              <span className="text-orange-500">Driven by</span><br />
+              <span className="text-blue-500">Driven by</span><br />
               Results.
             </h2>
             <p className="section-body mb-8">
-              Crash Assist Recovery was founded on a simple principle: when you are stranded and stressed,
+              Glasgow Breakdown Recovery was founded on a simple principle: when you are stranded and stressed,
               you deserve fast, reliable help from professionals who genuinely care about your safety.
             </p>
             <p className="section-body mb-10">
@@ -87,8 +87,8 @@ export default function About() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
               {features.map((f) => (
                 <li key={f} className="flex items-start gap-3 text-sm text-zinc-300">
-                  <span className="mt-0.5 w-4 h-4 flex-shrink-0 flex items-center justify-center bg-orange-500/15 rounded-sm">
-                    <svg className="w-2.5 h-2.5 text-orange-500" fill="currentColor" viewBox="0 0 20 20">
+                  <span className="mt-0.5 w-4 h-4 flex-shrink-0 flex items-center justify-center bg-blue-500/15 rounded-sm">
+                    <svg className="w-2.5 h-2.5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </span>
@@ -101,7 +101,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-px bg-zinc-800">
               {stats.map((s) => (
                 <div key={s.label} className="bg-zinc-900 p-4">
-                  <div className="font-heading text-3xl font-black text-orange-500 leading-none mb-1">{s.value}</div>
+                  <div className="font-heading text-3xl font-black text-blue-500 leading-none mb-1">{s.value}</div>
                   <div className="text-white text-sm font-semibold">{s.label}</div>
                   <div className="text-zinc-500 text-xs">{s.desc}</div>
                 </div>

@@ -22,8 +22,8 @@ export default function BlogCard({ post }: { post: BlogPost }) {
               className="object-cover group-hover:scale-105 transition-transform duration-500"
             />
           ) : (
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-zinc-800 flex items-center justify-center">
-              <svg className="w-16 h-16 text-orange-500/30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-zinc-800 flex items-center justify-center">
+              <svg className="w-16 h-16 text-blue-500/30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
             </div>
@@ -38,11 +38,11 @@ export default function BlogCard({ post }: { post: BlogPost }) {
         {/* Content */}
         <div className="p-5">
           <p className="text-zinc-600 text-xs uppercase tracking-wider mb-2">{formatDate(post.created_at)}</p>
-          <h3 className="font-heading font-black text-lg text-white uppercase leading-tight mb-3 group-hover:text-orange-500 transition-colors duration-200 line-clamp-2">
+          <h3 className="font-heading font-black text-lg text-white uppercase leading-tight mb-3 group-hover:text-blue-500 transition-colors duration-200 line-clamp-2">
             {post.title}
           </h3>
           <p className="text-zinc-500 text-sm leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
-          <div className="flex items-center gap-1.5 text-orange-500 text-xs font-semibold uppercase tracking-wide">
+          <div className="flex items-center gap-1.5 text-blue-500 text-xs font-semibold uppercase tracking-wide">
             Read more
             <svg className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />

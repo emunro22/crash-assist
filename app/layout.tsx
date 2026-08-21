@@ -20,26 +20,26 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://crashassistrecovery.co.uk'),
+  metadataBase: new URL('https://glasgowbreakdownrecovery.co.uk'),
   title: {
-    default: 'Crash Assist Recovery | 24/7 Emergency Vehicle Recovery Scotland',
-    template: '%s | Crash Assist Recovery',
+    default: 'Glasgow Breakdown Recovery | 24/7 Emergency Vehicle Recovery Scotland',
+    template: '%s | Glasgow Breakdown Recovery',
   },
   description:
     "Scotland's trusted 24/7 emergency vehicle recovery and accident assistance specialists. Fast response across Glasgow, Edinburgh and Central Scotland. Call us anytime, we never close.",
   keywords:
-    'crash assist recovery, vehicle recovery Scotland, accident recovery Glasgow, breakdown recovery Scotland, 24 hour recovery, tow truck Glasgow, motorway recovery Scotland, emergency recovery',
+    'glasgow breakdown recovery, vehicle recovery Scotland, accident recovery Glasgow, breakdown recovery Scotland, 24 hour recovery, tow truck Glasgow, motorway recovery Scotland, emergency recovery',
   openGraph: {
-    title: 'Crash Assist Recovery | 24/7 Emergency Vehicle Recovery Scotland',
+    title: 'Glasgow Breakdown Recovery | 24/7 Emergency Vehicle Recovery Scotland',
     description:
       "Scotland's trusted 24/7 emergency vehicle recovery and accident assistance specialists. Fast response across Glasgow, Edinburgh and Central Scotland.",
     type: 'website',
     locale: 'en_GB',
-    siteName: 'Crash Assist Recovery',
+    siteName: 'Glasgow Breakdown Recovery',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crash Assist Recovery | 24/7 Emergency Vehicle Recovery Scotland',
+    title: 'Glasgow Breakdown Recovery | 24/7 Emergency Vehicle Recovery Scotland',
     description:
       "Scotland's trusted 24/7 emergency vehicle recovery and accident assistance specialists.",
   },

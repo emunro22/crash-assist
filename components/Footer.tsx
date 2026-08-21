@@ -48,16 +48,16 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
               <Image
-                src="/brand/crash-assist-logo-web.png"
-                alt="Crash Assist Recovery"
+                src="/brand/glasgow-breakdown-recovery-logo.png"
+                alt="Glasgow Breakdown Recovery"
                 width={56}
                 height={48}
                 className="h-11 w-auto flex-shrink-0"
               />
               <div className="font-heading font-black uppercase text-base leading-none">
-                <span className="text-white">Crash Assist</span>
+                <span className="text-white">Glasgow Breakdown</span>
                 <br />
-                <span className="text-orange-500 text-xs tracking-widest">RECOVERY</span>
+                <span className="text-blue-500 text-xs tracking-widest">RECOVERY</span>
               </div>
             </div>
             <p className="text-zinc-500 text-sm leading-relaxed mb-6">
@@ -70,11 +70,11 @@ export default function Footer() {
                 </svg>
                 +44 7564 016582
               </a>
-              <a href="mailto:info@crashassistrecovery.co.uk" className="flex items-center gap-2.5 text-zinc-400 hover:text-orange-500 transition-colors">
+              <a href="mailto:info@glasgowbreakdownrecovery.co.uk" className="flex items-center gap-2.5 text-zinc-400 hover:text-orange-500 transition-colors">
                 <svg className="w-4 h-4 text-orange-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                info@crashassistrecovery.co.uk
+                info@glasgowbreakdownrecovery.co.uk
               </a>
               <div className="flex items-start gap-2.5 text-zinc-400">
                 <svg className="w-4 h-4 text-orange-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -89,13 +89,13 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h3 className="font-heading font-bold text-white uppercase text-sm tracking-wider mb-5 flex items-center gap-2">
-              <span className="w-4 h-0.5 bg-orange-500" />
+              <span className="w-4 h-0.5 bg-blue-500" />
               Services
             </h3>
             <ul className="space-y-2.5">
               {services.map((s) => (
                 <li key={s.href}>
-                  <Link href={s.href} className="text-zinc-500 hover:text-orange-500 text-sm transition-colors flex items-center gap-2">
+                  <Link href={s.href} className="text-zinc-500 hover:text-blue-400 text-sm transition-colors flex items-center gap-2">
                     <span className="w-1 h-1 bg-zinc-700 rounded-full flex-shrink-0" />
                     {s.label}
                   </Link>
@@ -107,20 +107,20 @@ export default function Footer() {
           {/* Areas */}
           <div>
             <h3 className="font-heading font-bold text-white uppercase text-sm tracking-wider mb-5 flex items-center gap-2">
-              <span className="w-4 h-0.5 bg-orange-500" />
+              <span className="w-4 h-0.5 bg-blue-500" />
               Areas
             </h3>
             <ul className="space-y-2.5">
               {areas.map((a) => (
                 <li key={a.href}>
-                  <Link href={a.href} className="text-zinc-500 hover:text-orange-500 text-sm transition-colors flex items-center gap-2">
+                  <Link href={a.href} className="text-zinc-500 hover:text-blue-400 text-sm transition-colors flex items-center gap-2">
                     <span className="w-1 h-1 bg-zinc-700 rounded-full flex-shrink-0" />
                     {a.label}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href="/areas" className="text-orange-500 hover:text-orange-400 text-sm transition-colors font-medium">
+                <Link href="/areas" className="text-blue-400 hover:text-blue-300 text-sm transition-colors font-medium">
                   View all areas →
                 </Link>
               </li>
@@ -130,7 +130,7 @@ export default function Footer() {
           {/* Hours */}
           <div>
             <h3 className="font-heading font-bold text-white uppercase text-sm tracking-wider mb-5 flex items-center gap-2">
-              <span className="w-4 h-0.5 bg-orange-500" />
+              <span className="w-4 h-0.5 bg-blue-500" />
               Availability
             </h3>
             <div className="bg-zinc-900 border border-zinc-800 p-4 mb-4">
@@ -154,10 +154,10 @@ export default function Footer() {
               </div>
             </div>
             <ul className="space-y-2.5 text-sm">
-              <li><Link href="/blog" className="text-zinc-500 hover:text-orange-500 transition-colors">Blog & Guides</Link></li>
-              <li><Link href="/work" className="text-zinc-500 hover:text-orange-500 transition-colors">Our Work</Link></li>
-              <li><Link href="/contact" className="text-zinc-500 hover:text-orange-500 transition-colors">Contact Us</Link></li>
-              <li><Link href="/claims" className="text-zinc-500 hover:text-orange-500 transition-colors">Accident Claims</Link></li>
+              <li><Link href="/blog" className="text-zinc-500 hover:text-blue-400 transition-colors">Blog & Guides</Link></li>
+              <li><Link href="/work" className="text-zinc-500 hover:text-blue-400 transition-colors">Our Work</Link></li>
+              <li><Link href="/contact" className="text-zinc-500 hover:text-blue-400 transition-colors">Contact Us</Link></li>
+              <li><Link href="/claims" className="text-zinc-500 hover:text-blue-400 transition-colors">Accident Claims</Link></li>
             </ul>
           </div>
         </div>
@@ -166,10 +166,10 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-zinc-900 py-6">
         <div className="container flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-600">
-          <p>© {new Date().getFullYear()} Crash Assist Limited. Company No. SC870113. Registered in Scotland.</p>
+          <p>© {new Date().getFullYear()} Glasgow Breakdown Recovery Limited. Company No. SC870113. Registered in Scotland.</p>
           <div className="flex gap-5">
-            <Link href="/privacy" className="hover:text-orange-500 transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-orange-500 transition-colors">Terms of Service</Link>
+            <Link href="/privacy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-blue-400 transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const items = [
 export default function Ticker() {
   const repeated = [...items, ...items]
   return (
-    <div className="bg-orange-500 py-3 overflow-hidden border-y border-orange-600">
+    <div className="bg-blue-500 py-3 overflow-hidden border-y border-blue-600">
       <div className="flex whitespace-nowrap animate-ticker">
         {repeated.map((item, i) => (
           <span key={i} className="inline-flex items-center mx-8 text-white font-heading font-bold uppercase text-sm tracking-widest">

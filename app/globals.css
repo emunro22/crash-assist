@@ -51,12 +51,12 @@
   }
 
   .section-tag {
-    @apply inline-flex items-center gap-3 text-orange-500 font-semibold text-xs uppercase tracking-[0.25em] mb-5;
+    @apply inline-flex items-center gap-3 text-blue-400 font-semibold text-xs uppercase tracking-[0.25em] mb-5;
   }
 
   .section-tag::before {
     content: '';
-    @apply block w-10 h-0.5 bg-orange-500;
+    @apply block w-10 h-0.5 bg-blue-500;
   }
 
   .section-title {
@@ -77,21 +77,21 @@
   }
 
   .card {
-    @apply bg-zinc-900 border border-zinc-800 hover:border-orange-500/40 transition-all duration-300 rounded-sm;
+    @apply bg-zinc-900 border border-zinc-800 hover:border-blue-500/40 transition-all duration-300 rounded-sm;
   }
 
   .orange-line {
-    @apply block w-12 h-0.5 bg-orange-500;
+    @apply block w-12 h-0.5 bg-blue-500;
   }
 
   .badge {
-    @apply inline-flex items-center gap-1.5 bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-sm;
+    @apply inline-flex items-center gap-1.5 bg-blue-500/10 text-blue-300 border border-blue-500/20 text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-sm;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #DE1415 0%, #F17979 100%);
+    background: linear-gradient(135deg, #1172E7 0%, #F7900A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -102,11 +102,15 @@
   }
 
   .glow-orange {
-    box-shadow: 0 0 30px rgba(222, 20, 21, 0.3);
+    box-shadow: 0 0 30px rgba(247, 144, 10, 0.3);
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 30px rgba(17, 114, 231, 0.35);
   }
 
   .border-gradient {
-    border-image: linear-gradient(135deg, #DE1415, #F17979) 1;
+    border-image: linear-gradient(135deg, #1172E7, #F7900A) 1;
   }
 }
 

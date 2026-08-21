@@ -1,4 +1,4 @@
-# Crash Assist Recovery — Setup Guide
+# Glasgow Breakdown Recovery — Setup Guide
 
 ## Push to GitHub
 
@@ -6,17 +6,17 @@ The git repo is initialized and committed. To push to GitHub:
 
 **Option A — GitHub CLI (recommended):**
 ```bash
-cd crash-assist-recovery
+cd glasgow-breakdown-recovery
 gh auth login          # authenticate once
-gh repo create crash-assist-recovery --public --source=. --remote=origin --push
+gh repo create glasgow-breakdown-recovery --public --source=. --remote=origin --push
 ```
 
 **Option B — Manual:**
 1. Go to https://github.com/new
-2. Create a public repo named `crash-assist-recovery`
+2. Create a public repo named `glasgow-breakdown-recovery`
 3. Then run:
 ```bash
-cd crash-assist-recovery
+cd glasgow-breakdown-recovery
 git push -u origin main
 ```
 
@@ -32,7 +32,7 @@ Set these in Vercel → Project Settings → Environment Variables:
 | `ADMIN_PASSWORD` | Your chosen admin portal password |
 | `ADMIN_SESSION_SECRET` | Random 32+ char string for token signing |
 | `RESEND_API_KEY` | From resend.com dashboard |
-| `RESEND_FROM_EMAIL` | Verified sender email (e.g. noreply@crashassistrecovery.co.uk) |
+| `RESEND_FROM_EMAIL` | Verified sender email (e.g. noreply@glasgowbreakdownrecovery.co.uk) |
 | `WHATSAPP_ACCESS_TOKEN` | Meta/WhatsApp Business API token (optional) |
 | `WHATSAPP_PHONE_NUMBER_ID` | WhatsApp Business phone number ID (optional) |
 | `WHATSAPP_APP_SECRET` | Webhook signature secret (optional) |
@@ -43,7 +43,7 @@ Set these in Vercel → Project Settings → Environment Variables:
 ## Local Development
 
 ```bash
-cd crash-assist-recovery
+cd glasgow-breakdown-recovery
 npm install
 cp .env.example .env.local
 # Fill in .env.local with your values

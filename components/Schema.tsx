@@ -4,16 +4,16 @@ export default function Schema() {
     '@graph': [
       {
         '@type': 'LocalBusiness',
-        '@id': 'https://crashassistrecovery.co.uk/#business',
-        name: 'Crash Assist Recovery',
-        legalName: 'Crash Assist Limited',
+        '@id': 'https://glasgowbreakdownrecovery.co.uk/#business',
+        name: 'Glasgow Breakdown Recovery',
+        legalName: 'Glasgow Breakdown Recovery Limited',
         identifier: 'SC870113',
         description:
           "Scotland's trusted 24/7 emergency vehicle recovery and accident assistance specialists. Fast response across Glasgow, Edinburgh and Central Scotland.",
-        url: 'https://crashassistrecovery.co.uk',
+        url: 'https://glasgowbreakdownrecovery.co.uk',
         telephone: '+447564016582',
-        email: 'info@crashassistrecovery.co.uk',
-        image: 'https://crashassistrecovery.co.uk/og-image.jpg',
+        email: 'info@glasgowbreakdownrecovery.co.uk',
+        image: 'https://glasgowbreakdownrecovery.co.uk/og-image.jpg',
         priceRange: '££',
         areaServed: [
           { '@type': 'City', name: 'Glasgow' },
@@ -26,7 +26,7 @@ export default function Schema() {
           opens: '00:00',
           closes: '23:59',
         },
-        hasMap: 'https://www.google.com/maps/search/Crash+Assist+Recovery+Scotland',
+        hasMap: 'https://www.google.com/maps/search/Glasgow+Breakdown+Recovery+Scotland',
         knowsAbout: [
           'Vehicle Recovery',
           'Accident Recovery',

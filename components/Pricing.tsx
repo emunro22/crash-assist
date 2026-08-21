@@ -50,7 +50,7 @@ export default function Pricing() {
           <div className="section-tag justify-center">Pricing</div>
           <h2 className="section-title">
             Transparent,<br />
-            <span className="text-orange-500">Up-Front Pricing</span>
+            <span className="text-blue-500">Up-Front Pricing</span>
           </h2>
           <p className="section-body">
             No hidden fees, no surprises. Every job is quoted clearly on the phone before we
@@ -70,7 +70,7 @@ export default function Pricing() {
               key={tier.title}
               variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
               className={`card p-8 flex flex-col ${
-                tier.featured ? 'border-orange-500/60 bg-zinc-900 relative' : ''
+                tier.featured ? 'border-blue-500/60 bg-zinc-900 relative' : ''
               }`}
             >
               {tier.featured && (
@@ -79,15 +79,15 @@ export default function Pricing() {
               <div className="text-4xl mb-5">{tier.icon}</div>
               <h3 className="font-heading text-xl font-black text-white uppercase mb-4">{tier.title}</h3>
               <div className="flex items-baseline gap-2 mb-1">
-                <strong className="font-heading text-4xl font-black text-orange-500">{tier.price}</strong>
+                <strong className="font-heading text-4xl font-black text-blue-500">{tier.price}</strong>
                 <span className="text-zinc-500 text-sm">{tier.note}</span>
               </div>
               <p className="text-zinc-500 text-sm mb-6">{tier.detail}</p>
               <ul className="space-y-3 flex-1">
                 {tier.items.map((it) => (
                   <li key={it} className="flex items-start gap-3 text-sm text-zinc-300">
-                    <span className="mt-0.5 w-4 h-4 flex-shrink-0 flex items-center justify-center bg-orange-500/15 rounded-sm">
-                      <svg className="w-2.5 h-2.5 text-orange-500" fill="currentColor" viewBox="0 0 20 20">
+                    <span className="mt-0.5 w-4 h-4 flex-shrink-0 flex items-center justify-center bg-blue-500/15 rounded-sm">
+                      <svg className="w-2.5 h-2.5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                     </span>
@@ -100,7 +100,7 @@ export default function Pricing() {
         </motion.div>
 
         <div className="flex items-start gap-3 max-w-2xl mx-auto mt-10 text-zinc-500 text-sm">
-          <svg className="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
           <p>

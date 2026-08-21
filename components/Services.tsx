@@ -74,12 +74,12 @@ export default function Services() {
             <div className="section-tag">What We Do</div>
             <h2 className="section-title">
               Complete Recovery<br />
-              <span className="text-orange-500">Services</span>
+              <span className="text-blue-500">Services</span>
             </h2>
           </div>
           <div>
             <p className="section-body">
-              From minor breakdowns to major motorway incidents, Crash Assist Recovery has the expertise,
+              From minor breakdowns to major motorway incidents, Glasgow Breakdown Recovery has the expertise,
               equipment and availability to handle any vehicle emergency across Scotland.
             </p>
             <Link href="/services" className="btn-outline mt-6 text-sm">
@@ -105,15 +105,15 @@ export default function Services() {
                 href={`/services/${service.slug}`}
                 className="group flex flex-col gap-4 bg-zinc-950 p-6 hover:bg-zinc-900 transition-colors duration-300 h-full relative overflow-hidden"
               >
-                {/* Orange left border on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-orange-500 scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top" />
+                {/* Blue left border on hover */}
+                <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-blue-500 scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top" />
 
                 <div className="text-3xl">{service.icon}</div>
-                <h3 className="font-heading text-xl font-black text-white uppercase group-hover:text-orange-500 transition-colors duration-200">
+                <h3 className="font-heading text-xl font-black text-white uppercase group-hover:text-blue-500 transition-colors duration-200">
                   {service.title}
                 </h3>
                 <p className="text-zinc-500 text-sm leading-relaxed flex-1">{service.description}</p>
-                <div className="flex items-center gap-2 text-orange-500 text-xs font-semibold uppercase tracking-wide opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                <div className="flex items-center gap-2 text-blue-500 text-xs font-semibold uppercase tracking-wide opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                   Learn more
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />

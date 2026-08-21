@@ -85,7 +85,7 @@ export default function BlogPostManager({ posts, onRefresh }: Props) {
             <input className="admin-input" value={form.category} onChange={e => setForm(f => ({ ...f, category: e.target.value }))} />
           </div>
           <div className="flex items-center gap-3 pt-6">
-            <input type="checkbox" id="published" checked={form.published} onChange={e => setForm(f => ({ ...f, published: e.target.checked }))} className="w-4 h-4 accent-orange-500" />
+            <input type="checkbox" id="published" checked={form.published} onChange={e => setForm(f => ({ ...f, published: e.target.checked }))} className="w-4 h-4 accent-blue-500" />
             <label htmlFor="published" className="text-zinc-300 text-sm">Published</label>
           </div>
         </div>

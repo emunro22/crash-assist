@@ -16,7 +16,7 @@ export const services: Service[] = [
     title: 'Accident Recovery',
     headline: '24/7 Professional Accident Recovery',
     description: 'Fast, safe vehicle recovery from road traffic accidents across Scotland. We manage the scene, protect your vehicle and coordinate with all parties.',
-    longDescription: `When you're involved in a road traffic accident, the last thing you need is to worry about your vehicle. Crash Assist Recovery provides rapid, professional accident recovery services across Scotland 24 hours a day, 7 days a week, 365 days a year.\n\nOur experienced team arrives quickly, assesses the scene for safety, and uses specialist equipment to carefully recover your vehicle, whether it's a minor bump or a serious collision. We work closely with the police, insurance companies and repair garages to make the entire process as stress-free as possible.\n\nFrom Glasgow city centre to remote motorway stretches, we've seen and handled it all. No job is too complex.`,
+    longDescription: `When you're involved in a road traffic accident, the last thing you need is to worry about your vehicle. Glasgow Breakdown Recovery provides rapid, professional accident recovery services across Scotland 24 hours a day, 7 days a week, 365 days a year.\n\nOur experienced team arrives quickly, assesses the scene for safety, and uses specialist equipment to carefully recover your vehicle, whether it's a minor bump or a serious collision. We work closely with the police, insurance companies and repair garages to make the entire process as stress-free as possible.\n\nFrom Glasgow city centre to remote motorway stretches, we've seen and handled it all. No job is too complex.`,
     features: [
       'Scene safety assessment on arrival',
       'Specialist loading equipment for all vehicle types',
@@ -34,7 +34,7 @@ export const services: Service[] = [
       },
       {
         question: 'Do you work with all insurance companies?',
-        answer: 'Yes, Crash Assist Recovery works with all major UK insurance providers. We can handle the communication directly if you prefer, reducing the stress on you after an accident.',
+        answer: 'Yes, Glasgow Breakdown Recovery works with all major UK insurance providers. We can handle the communication directly if you prefer, reducing the stress on you after an accident.',
       },
       {
         question: 'What happens to my car after recovery?',
@@ -53,7 +53,7 @@ export const services: Service[] = [
     title: 'Breakdown Recovery',
     headline: 'Roadside Breakdown Assistance',
     description: 'Broken down on the side of the road? We will reach you fast and get your vehicle recovered or repaired on the spot.',
-    longDescription: `Vehicle breakdowns never happen at a convenient time. Whether your engine has given up on a quiet backstreet or you have run out of fuel on the motorway, Crash Assist Recovery is ready to help immediately.\n\nOur recovery vehicles are fully equipped to handle a wide range of breakdown scenarios. In many cases, our technicians can carry out roadside repairs to get you moving again without the need for a tow. When that is not possible, we will safely transport your vehicle to your preferred garage.`,
+    longDescription: `Vehicle breakdowns never happen at a convenient time. Whether your engine has given up on a quiet backstreet or you have run out of fuel on the motorway, Glasgow Breakdown Recovery is ready to help immediately.\n\nOur recovery vehicles are fully equipped to handle a wide range of breakdown scenarios. In many cases, our technicians can carry out roadside repairs to get you moving again without the need for a tow. When that is not possible, we will safely transport your vehicle to your preferred garage.`,
     features: [
       'Rapid roadside response',
       'On-the-spot minor repairs where possible',
@@ -86,7 +86,7 @@ export const services: Service[] = [
     title: 'Motorway Recovery',
     headline: 'Fast Motorway Emergency Recovery',
     description: 'Specialist motorway recovery for the M8, M74, M77, M73, M80 and all Scottish motorway network. Rapid response, full compliance.',
-    longDescription: `Motorway breakdowns and accidents present unique challenges that require specialist training and equipment. Crash Assist Recovery holds all necessary certifications for motorway recovery operations across Scotland's busy motorway network.\n\nWe operate on all of Scotland's major motorways including the M8, M74, M77, M73, M80, M876 and the A-roads leading to them. Our team is trained in live-lane working protocols and uses the highest-specification vehicles to safely recover cars, vans, motorcycles and light commercial vehicles.`,
+    longDescription: `Motorway breakdowns and accidents present unique challenges that require specialist training and equipment. Glasgow Breakdown Recovery holds all necessary certifications for motorway recovery operations across Scotland's busy motorway network.\n\nWe operate on all of Scotland's major motorways including the M8, M74, M77, M73, M80, M876 and the A-roads leading to them. Our team is trained in live-lane working protocols and uses the highest-specification vehicles to safely recover cars, vans, motorcycles and light commercial vehicles.`,
     features: [
       'Certified motorway recovery operators',
       'Full compliance with Highways England protocols',
@@ -100,7 +100,7 @@ export const services: Service[] = [
     faqs: [
       {
         question: 'Is there an extra charge for motorway recovery?',
-        answer: 'No. Unlike some providers, Crash Assist Recovery does not apply a motorway surcharge. You receive the same transparent pricing regardless of where you have broken down.',
+        answer: 'No. Unlike some providers, Glasgow Breakdown Recovery does not apply a motorway surcharge. You receive the same transparent pricing regardless of where you have broken down.',
       },
       {
         question: 'How do I safely call for help on a motorway?',
@@ -119,7 +119,7 @@ export const services: Service[] = [
     title: 'Flatbed Towing',
     headline: 'Safe Flatbed Vehicle Transportation',
     description: 'Full flatbed transport for cars, vans, prestige vehicles and modified cars that cannot be conventional towed.',
-    longDescription: `Not every vehicle can be towed using a traditional A-frame or wheel-lift. Low-profile sports cars, all-wheel-drive vehicles, prestige cars and severely damaged vehicles all require flatbed transportation to avoid further damage.\n\nCrash Assist Recovery's modern flatbed fleet ensures your vehicle is loaded using a hydraulic tilt-bed system and secured with professional strapping throughout the journey. Your vehicle arrives at its destination in exactly the same condition it left.`,
+    longDescription: `Not every vehicle can be towed using a traditional A-frame or wheel-lift. Low-profile sports cars, all-wheel-drive vehicles, prestige cars and severely damaged vehicles all require flatbed transportation to avoid further damage.\n\nGlasgow Breakdown Recovery's modern flatbed fleet ensures your vehicle is loaded using a hydraulic tilt-bed system and secured with professional strapping throughout the journey. Your vehicle arrives at its destination in exactly the same condition it left.`,
     features: [
       'Modern hydraulic tilt-bed flatbeds',
       'Safe for all-wheel-drive and 4x4 vehicles',
@@ -148,7 +148,7 @@ export const services: Service[] = [
     title: 'Accident Claims Assistance',
     headline: 'Expert Accident Claims Support',
     description: 'We make it easy to navigate insurance claims after an accident. Our team guides you through every step from documentation to settlement.',
-    longDescription: `Filing an insurance claim after a road traffic accident can feel overwhelming, especially when you are already dealing with the stress of the accident itself. Crash Assist Recovery provides expert accident claims assistance to help you get the compensation and repairs you deserve.\n\nFrom gathering photographic evidence at the scene to liaising with insurers and solicitors, our team handles the paperwork so you can focus on recovering.`,
+    longDescription: `Filing an insurance claim after a road traffic accident can feel overwhelming, especially when you are already dealing with the stress of the accident itself. Glasgow Breakdown Recovery provides expert accident claims assistance to help you get the compensation and repairs you deserve.\n\nFrom gathering photographic evidence at the scene to liaising with insurers and solicitors, our team handles the paperwork so you can focus on recovering.`,
     features: [
       'Scene documentation and photography',
       'Insurance liaison on your behalf',
@@ -177,7 +177,7 @@ export const services: Service[] = [
     title: 'Long Distance Recovery',
     headline: 'UK-Wide Long Distance Recovery',
     description: 'Need your vehicle recovered from anywhere in the UK? We offer long-distance recovery to get your vehicle home, wherever you break down.',
-    longDescription: `Breaking down far from home is stressful enough without having to worry about finding a reliable local recovery service you have never heard of. Crash Assist Recovery offers long-distance recovery across the entire UK, so you can trust a team you know even when you are miles from Scotland.\n\nWhether you have broken down in England, Wales or anywhere else in the UK, we will come to you or arrange trusted partner recovery, then transport your vehicle back to Scotland or your chosen destination.`,
+    longDescription: `Breaking down far from home is stressful enough without having to worry about finding a reliable local recovery service you have never heard of. Glasgow Breakdown Recovery offers long-distance recovery across the entire UK, so you can trust a team you know even when you are miles from Scotland.\n\nWhether you have broken down in England, Wales or anywhere else in the UK, we will come to you or arrange trusted partner recovery, then transport your vehicle back to Scotland or your chosen destination.`,
     features: [
       'UK-wide recovery capability',
       'Partner network for remote locations',
@@ -206,7 +206,7 @@ export const services: Service[] = [
     title: 'Motorcycle Recovery',
     headline: 'Specialist Motorcycle Recovery',
     description: 'Dedicated motorcycle recovery with specialist equipment to safely transport your bike without damage.',
-    longDescription: `Motorcycles require specialist recovery equipment and handling techniques to avoid damage during loading and transportation. Crash Assist Recovery operates dedicated motorcycle recovery vehicles with purpose-built loading ramps, wheel chocks and securing straps designed specifically for motorcycles.\n\nWhether you have had an accident or suffered a mechanical failure, we treat your motorcycle with the same care you do.`,
+    longDescription: `Motorcycles require specialist recovery equipment and handling techniques to avoid damage during loading and transportation. Glasgow Breakdown Recovery operates dedicated motorcycle recovery vehicles with purpose-built loading ramps, wheel chocks and securing straps designed specifically for motorcycles.\n\nWhether you have had an accident or suffered a mechanical failure, we treat your motorcycle with the same care you do.`,
     features: [
       'Purpose-built motorcycle transport vehicles',
       'Specialist wheel chock securing systems',
@@ -235,7 +235,7 @@ export const services: Service[] = [
     title: 'Commercial Vehicle Recovery',
     headline: 'Van & Light Commercial Recovery',
     description: 'Fast recovery for vans, light trucks, minibuses and commercial vehicles. We understand the cost of downtime and move fast.',
-    longDescription: `When a commercial vehicle breaks down, every minute of downtime costs money. Crash Assist Recovery understands the urgency of commercial breakdowns and prioritises fast dispatch for all commercial vehicle recovery calls.\n\nWe recover and transport all types of light commercial vehicles up to 7.5 tonnes, including transit vans, Sprinters, Transporters, flatbed trucks and minibuses. Our heavy-duty recovery fleet handles anything up to the legal limit for our licences.`,
+    longDescription: `When a commercial vehicle breaks down, every minute of downtime costs money. Glasgow Breakdown Recovery understands the urgency of commercial breakdowns and prioritises fast dispatch for all commercial vehicle recovery calls.\n\nWe recover and transport all types of light commercial vehicles up to 7.5 tonnes, including transit vans, Sprinters, Transporters, flatbed trucks and minibuses. Our heavy-duty recovery fleet handles anything up to the legal limit for our licences.`,
     features: [
       'Light commercial vehicles up to 7.5t',
       'Transit vans, Sprinters and Transporters',
