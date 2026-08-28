@@ -4,6 +4,8 @@ import { areas } from '@/lib/areas-data'
 import { motorways } from '@/lib/motorways-data'
 import { postcodeDistricts } from '@/lib/postcodes-data'
 import { getBlogPosts } from '@/lib/db'
+import { nearMeAngles } from '@/lib/near-me-data'
+import { motorwayNearMeAngles } from '@/lib/motorway-near-me-data'
 
 const base = 'https://glasgowbreakdownrecovery.co.uk'
 
@@ -43,6 +45,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }))
 
+  const areaNearMeUrls: MetadataRoute.Sitemap = areas.flatMap(a =>
+    nearMeAngles.map(angle => ({
+      url: `${base}/areas/${a.slug}/${angle.slug}`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }))
+  )
+
+  const motorwayNearMeUrls: MetadataRoute.Sitemap = motorways.flatMap(m =>
+    motorwayNearMeAngles.map(angle => ({
+      url: `${base}/motorways/${m.slug}/${angle.slug}`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }))
+  )
+
   return [
     { url: base, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${base}/services`, changeFrequency: 'monthly', priority: 0.9 },
@@ -57,6 +75,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...areaUrls,
     ...motorwayUrls,
     ...postcodeUrls,
+    ...areaNearMeUrls,
+    ...motorwayNearMeUrls,
     ...blogPosts,
   ]
 }

@@ -4,14 +4,18 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import type { Motorway } from '@/lib/motorways-data'
 import { getAreaBySlug } from '@/lib/areas-data'
+import { motorwayNearMeAngles, getMotorwayAngleBySlug } from '@/lib/motorway-near-me-data'
 import { motorways } from '@/lib/motorways-data'
-import { motorwayNearMeAngles } from '@/lib/motorway-near-me-data'
+import { getServiceBySlug } from '@/lib/services-data'
 
-export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
+export default function NearMeMotorwayPage({ motorway, angleSlug }: { motorway: Motorway; angleSlug: string }) {
+  const angle = getMotorwayAngleBySlug(angleSlug)!
+  const data = angle.build(motorway)
   const servedAreas = motorway.areasServed
     .map((slug) => getAreaBySlug(slug))
     .filter((a): a is NonNullable<typeof a> => Boolean(a))
-
+  const relatedService = getServiceBySlug(data.relatedServiceSlug)
+  const otherAngles = motorwayNearMeAngles.filter((a) => a.slug !== angle.slug)
   const otherMotorways = motorways.filter((m) => m.slug !== motorway.slug).slice(0, 4)
 
   return (
@@ -20,20 +24,16 @@ export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
       <section className="relative pt-32 pb-20 bg-zinc-950 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-transparent" />
         <div className="container relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <Link href="/motorways" className="inline-flex items-center gap-2 text-zinc-500 hover:text-blue-500 text-sm mb-8 transition-colors">
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+            <Link href={`/motorways/${motorway.slug}`} className="inline-flex items-center gap-2 text-zinc-500 hover:text-blue-500 text-sm mb-8 transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
-              All Motorways
+              {motorway.name} Coverage
             </Link>
-            <div className="section-tag mb-4">Motorway Coverage</div>
-            <h1 className="section-title mb-6">{motorway.headline}</h1>
-            <p className="section-body max-w-2xl mb-8">{motorway.description}</p>
+            <div className="section-tag mb-4">{motorway.name}</div>
+            <h1 className="section-title mb-6">{data.h1}</h1>
+            <p className="section-body max-w-2xl mb-8">{data.subheading}</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="tel:+447564016582" className="btn-primary">
                 Emergency Call: +44 7564 016582
@@ -49,68 +49,41 @@ export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
         <div className="container">
           <div className="grid lg:grid-cols-[2fr_1fr] gap-16">
             <div>
-              {/* Long description */}
               <div className="prose-crash">
-                {motorway.longDescription.split('\n\n').map((para, i) => (
-                  <p key={i}>{para}</p>
+                <p>{data.intro}</p>
+                {data.paragraphs.map((p, i) => (
+                  <p key={i}>{p}</p>
                 ))}
               </div>
 
               {/* FAQs */}
-              {motorway.faqs.length > 0 && (
-                <div className="mt-12">
-                  <h2 className="font-heading text-3xl font-black text-white uppercase mb-6">
-                    {motorway.name} Recovery <span className="text-blue-500">FAQs</span>
-                  </h2>
-                  <div className="space-y-4">
-                    {motorway.faqs.map((faq, i) => (
-                      <div key={i} className="border border-zinc-800 p-5">
-                        <h3 className="font-heading font-bold text-white uppercase text-sm mb-3">{faq.question}</h3>
-                        <p className="text-zinc-400 text-sm leading-relaxed">{faq.answer}</p>
-                      </div>
-                    ))}
-                  </div>
+              <div className="mt-12">
+                <h2 className="font-heading text-3xl font-black text-white uppercase mb-6">
+                  {motorway.name} <span className="text-blue-500">FAQs</span>
+                </h2>
+                <div className="space-y-4">
+                  {data.faqs.map((faq, i) => (
+                    <div key={i} className="border border-zinc-800 p-5">
+                      <h3 className="font-heading font-bold text-white uppercase text-sm mb-3">{faq.question}</h3>
+                      <p className="text-zinc-400 text-sm leading-relaxed">{faq.answer}</p>
+                    </div>
+                  ))}
                 </div>
-              )}
+              </div>
             </div>
 
             {/* Sidebar */}
             <div className="space-y-6">
               {/* Features */}
               <div className="bg-zinc-900 border border-zinc-800 p-6">
-                <h3 className="font-heading font-black text-white uppercase text-lg mb-5">{motorway.name} Coverage</h3>
+                <h3 className="font-heading font-black text-white uppercase text-lg mb-5">Why Choose Us</h3>
                 <ul className="space-y-3">
-                  {motorway.features.map((f) => (
+                  {data.features.map((f) => (
                     <li key={f} className="flex items-start gap-3 text-sm text-zinc-300">
                       <svg className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                       {f}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Junctions */}
-              <div className="bg-zinc-900 border border-zinc-800 p-6">
-                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Key Junctions</h3>
-                <ul className="space-y-2">
-                  {motorway.junctions.map((j) => (
-                    <li key={j} className="text-zinc-400 text-sm font-mono">{j}</li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Popular searches */}
-              <div className="bg-zinc-900 border border-zinc-800 p-6">
-                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Popular Searches</h3>
-                <ul className="space-y-2">
-                  {motorwayNearMeAngles.map((angle) => (
-                    <li key={angle.slug}>
-                      <Link href={`/motorways/${motorway.slug}/${angle.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
-                        <span className="w-1 h-1 rounded-full bg-blue-500" />
-                        {angle.navLabel} — {motorway.name}
-                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -123,6 +96,42 @@ export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
                 <a href="tel:+447564016582" className="block bg-white text-orange-600 font-heading font-black uppercase text-center py-3 px-6 hover:bg-zinc-100 transition-colors">
                   +44 7564 016582
                 </a>
+              </div>
+
+              {/* Related service + full motorway page */}
+              <div className="bg-zinc-900 border border-zinc-800 p-6">
+                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">More About the {motorway.name}</h3>
+                <ul className="space-y-2">
+                  <li>
+                    <Link href={`/motorways/${motorway.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
+                      <span className="w-1 h-1 rounded-full bg-blue-500" />
+                      Full {motorway.name} coverage details
+                    </Link>
+                  </li>
+                  {relatedService && (
+                    <li>
+                      <Link href={`/services/${relatedService.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
+                        <span className="w-1 h-1 rounded-full bg-blue-500" />
+                        {data.relatedServiceLabel}
+                      </Link>
+                    </li>
+                  )}
+                </ul>
+              </div>
+
+              {/* Other angles for this motorway */}
+              <div className="bg-zinc-900 border border-zinc-800 p-6">
+                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Other Searches for the {motorway.name}</h3>
+                <ul className="space-y-2">
+                  {otherAngles.map((a) => (
+                    <li key={a.slug}>
+                      <Link href={`/motorways/${motorway.slug}/${a.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
+                        <span className="w-1 h-1 rounded-full bg-blue-500" />
+                        {a.navLabel}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               {/* Areas served */}

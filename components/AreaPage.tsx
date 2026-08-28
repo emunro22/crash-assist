@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import type { Area } from '@/lib/areas-data'
+import { nearMeAngles } from '@/lib/near-me-data'
 
 export default function AreaPage({ area }: { area: Area }) {
   return (
@@ -96,6 +97,21 @@ export default function AreaPage({ area }: { area: Area }) {
                     </Link>
                   ))}
                 </div>
+              </div>
+
+              {/* Popular searches */}
+              <div className="bg-zinc-900 border border-zinc-800 p-6">
+                <h3 className="font-heading font-bold text-white uppercase text-sm mb-4">Popular Searches</h3>
+                <ul className="space-y-2">
+                  {nearMeAngles.map((angle) => (
+                    <li key={angle.slug}>
+                      <Link href={`/areas/${area.slug}/${angle.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
+                        <span className="w-1 h-1 rounded-full bg-blue-500" />
+                        {angle.navLabel} — {area.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               {/* CTA */}
