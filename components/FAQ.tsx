@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import FAQSchema from './FAQSchema'
 
 const faqs = [
   {
@@ -97,6 +98,7 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
 export default function FAQ() {
   return (
     <section className="section bg-zinc-950">
+      <FAQSchema faqs={faqs} />
       <div className="container">
         <div className="grid lg:grid-cols-[1fr_2fr] gap-16">
           {/* Left */}

@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `Vehicle Recovery in ${postcode.code}`,
     description: `24/7 emergency vehicle recovery and accident assistance covering the ${postcode.code} postcode district in ${postcode.areaName}.`,
+    alternates: { canonical: `/postcodes/${postcode.slug}` },
   }
 }
 

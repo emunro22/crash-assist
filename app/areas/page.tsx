@@ -8,6 +8,7 @@ import { motorways } from '@/lib/motorways-data'
 export const metadata: Metadata = {
   title: 'Areas We Cover',
   description: 'Glasgow Breakdown Recovery covers Glasgow, Edinburgh, Paisley, Hamilton, Motherwell, Livingston, Falkirk, Stirling, Ayr and all of Central Scotland.',
+  alternates: { canonical: '/areas' },
 }
 
 export default function AreasPage() {

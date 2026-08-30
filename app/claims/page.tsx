@@ -6,6 +6,7 @@ import CallbackForm from '@/components/CallbackForm'
 export const metadata: Metadata = {
   title: 'Accident Claims Assistance',
   description: 'Expert accident claims assistance after a road traffic accident in Scotland. We guide you through the insurance process. No win no fee available.',
+  alternates: { canonical: '/claims' },
 }
 
 const steps = [

@@ -7,6 +7,7 @@ import { motorways } from '@/lib/motorways-data'
 export const metadata: Metadata = {
   title: 'Motorways We Cover',
   description: 'Glasgow Breakdown Recovery covers the M8, M74, M77, M73, M80, M9, M876 and M90 with 24/7 emergency recovery for breakdowns and accidents.',
+  alternates: { canonical: '/motorways' },
 }
 
 export default function MotorwaysPage() {

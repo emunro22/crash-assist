@@ -7,6 +7,7 @@ import { getBlogPosts, type BlogPost } from '@/lib/db'
 export const metadata: Metadata = {
   title: 'Blog & Guides',
   description: 'Expert guides on vehicle recovery, accident claims, road safety and breakdown prevention from Glasgow Breakdown Recovery.',
+  alternates: { canonical: '/blog' },
 }
 
 export const revalidate = 3600

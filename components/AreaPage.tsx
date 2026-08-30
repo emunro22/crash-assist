@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import type { Area } from '@/lib/areas-data'
 import { nearMeAngles } from '@/lib/near-me-data'
+import FAQSchema from './FAQSchema'
 
 export default function AreaPage({ area }: { area: Area }) {
   return (
@@ -51,6 +52,7 @@ export default function AreaPage({ area }: { area: Area }) {
               {/* FAQs */}
               {area.faqs.length > 0 && (
                 <div className="mt-12">
+                  <FAQSchema faqs={area.faqs} />
                   <h2 className="font-heading text-3xl font-black text-white uppercase mb-6">
                     {area.name} Recovery <span className="text-blue-500">FAQs</span>
                   </h2>

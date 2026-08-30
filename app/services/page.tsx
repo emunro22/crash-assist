@@ -7,6 +7,7 @@ import { services } from '@/lib/services-data'
 export const metadata: Metadata = {
   title: 'Our Services',
   description: 'Full range of emergency vehicle recovery services from Glasgow Breakdown Recovery. Accident recovery, breakdown, motorway, flatbed towing, claims assistance and more.',
+  alternates: { canonical: '/services' },
 }
 
 export default function ServicesPage() {

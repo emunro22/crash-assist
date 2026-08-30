@@ -6,6 +6,7 @@ import CallbackForm from '@/components/CallbackForm'
 export const metadata: Metadata = {
   title: 'Contact Us',
   description: "Get in touch with Glasgow Breakdown Recovery. Available 24/7 for emergency vehicle recovery across Scotland. Call +44 7564 016582.",
+  alternates: { canonical: '/contact' },
 }
 
 export default function ContactPage() {

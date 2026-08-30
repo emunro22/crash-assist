@@ -5,6 +5,7 @@ import Link from 'next/link'
 import type { Service } from '@/lib/services-data'
 import BrandPanel from './BrandPanel'
 import FAQ from './FAQ'
+import FAQSchema from './FAQSchema'
 
 export default function ServicePage({ service }: { service: Service }) {
   return (
@@ -64,6 +65,7 @@ export default function ServicePage({ service }: { service: Service }) {
               {/* Service-specific FAQs */}
               {service.faqs.length > 0 && (
                 <div className="mt-12">
+                  <FAQSchema faqs={service.faqs} />
                   <h2 className="font-heading text-3xl font-black text-white uppercase mb-6">
                     Frequently Asked <span className="text-blue-500">Questions</span>
                   </h2>

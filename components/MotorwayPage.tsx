@@ -6,6 +6,7 @@ import type { Motorway } from '@/lib/motorways-data'
 import { getAreaBySlug } from '@/lib/areas-data'
 import { motorways } from '@/lib/motorways-data'
 import { motorwayNearMeAngles } from '@/lib/motorway-near-me-data'
+import FAQSchema from './FAQSchema'
 
 export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
   const servedAreas = motorway.areasServed
@@ -59,6 +60,7 @@ export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
               {/* FAQs */}
               {motorway.faqs.length > 0 && (
                 <div className="mt-12">
+                  <FAQSchema faqs={motorway.faqs} />
                   <h2 className="font-heading text-3xl font-black text-white uppercase mb-6">
                     {motorway.name} Recovery <span className="text-blue-500">FAQs</span>
                   </h2>

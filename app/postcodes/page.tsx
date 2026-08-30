@@ -8,6 +8,7 @@ import { getPostcodesByArea } from '@/lib/postcodes-data'
 export const metadata: Metadata = {
   title: 'Postcodes We Cover',
   description: 'Browse every postcode district covered by Glasgow Breakdown Recovery across Glasgow, Edinburgh and Central Scotland.',
+  alternates: { canonical: '/postcodes' },
 }
 
 export default function PostcodesPage() {

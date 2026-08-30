@@ -8,6 +8,7 @@ import { getStaticGalleryImages } from '@/lib/gallery-fs'
 export const metadata: Metadata = {
   title: 'Our Work',
   description: 'See Glasgow Breakdown Recovery in action. Gallery of our vehicle recovery, accident response and transportation work across Scotland.',
+  alternates: { canonical: '/work' },
 }
 
 export const revalidate = 3600
