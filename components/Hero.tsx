@@ -23,7 +23,7 @@ const SLIDES = [
 const stats = [
   { value: '24/7', label: 'Always On' },
   { value: '45 min', label: 'Avg Response' },
-  { value: '10,000+', label: 'Recoveries' },
+  { value: '500+', label: 'Recoveries' },
   { value: '15+', label: 'Years Exp.' },
 ]
 
@@ -109,20 +109,20 @@ export default function Hero() {
           </div>
 
           {/* Stats bar */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 max-w-xs sm:max-w-md border border-zinc-700/60 overflow-hidden backdrop-blur-sm">
+          <div className="grid grid-cols-2 sm:grid-cols-4 max-w-xs sm:max-w-lg border border-zinc-700/60 overflow-hidden backdrop-blur-sm">
             {stats.map((stat, i) => (
               <div
                 key={stat.label}
-                className={`bg-zinc-950/70 py-3 px-3 sm:px-4 text-center border-zinc-700/60 ${
+                className={`flex flex-col items-center justify-center gap-1 bg-zinc-950/70 py-4 px-2 sm:px-4 text-center border-zinc-700/60 ${
                   i % 2 === 0 ? 'border-r' : ''
                 } ${i < 2 ? 'border-b sm:border-b-0' : ''} ${
                   i !== stats.length - 1 ? 'sm:border-r' : ''
                 }`}
               >
-                <div className="font-heading text-xl sm:text-2xl font-black text-orange-500 leading-none">
+                <div className="font-heading text-lg sm:text-2xl font-black text-orange-500 leading-none whitespace-nowrap">
                   {stat.value}
                 </div>
-                <div className="text-zinc-400 text-[11px] sm:text-xs uppercase tracking-wide mt-1">
+                <div className="text-zinc-400 text-[11px] sm:text-xs uppercase tracking-wide whitespace-nowrap">
                   {stat.label}
                 </div>
               </div>
