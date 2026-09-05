@@ -278,7 +278,7 @@ export const services: Service[] = [
     faqs: [
       {
         question: 'What counts as an emergency recovery call?',
-        answer: 'Anything involving immediate danger — a vehicle in a live lane, blocking a road, or a driver left somewhere unsafe. Tell us the situation on the phone and we will assess and dispatch accordingly.',
+        answer: 'Anything involving immediate danger: a vehicle in a live lane, blocking a road, or a driver left somewhere unsafe. Tell us the situation on the phone and we will assess and dispatch accordingly.',
       },
       {
         question: 'Will I be prioritised over other jobs on the road?',
@@ -315,11 +315,11 @@ export const services: Service[] = [
       },
       {
         question: 'Do you charge more for a call at 3am than 3pm?',
-        answer: 'No — pricing is identical whatever time you call, including bank holidays and Christmas Day.',
+        answer: 'No, pricing is identical whatever time you call, including bank holidays and Christmas Day.',
       },
       {
         question: 'How far from Central Scotland do you cover overnight?',
-        answer: 'Our fastest response is within roughly 30 miles of base, but we take calls from further afield too — just tell us your location and we will confirm a price and ETA.',
+        answer: 'Our fastest response is within roughly 30 miles of base, but we take calls from further afield too. Just tell us your location and we will confirm a price and ETA.',
       },
     ],
     category: 'Emergency Services',
@@ -330,10 +330,10 @@ export const services: Service[] = [
     title: 'Electric Vehicle Recovery',
     headline: 'Flatbed-Only EV Recovery',
     description: 'EV recovery on flatbed only, as manufacturers require. No towing, no drivetrain damage, no risk to the battery pack. Teslas, hybrids and all electric models transported safely to your home, dealer or charge point. Glasgow, Edinburgh and Scotland-wide.',
-    longDescription: `Electric and hybrid vehicles cannot be towed with a conventional A-frame or wheel-lift — manufacturers are explicit about this, because towing with the wheels turning can damage the motor and, in some cases, put the battery pack at risk. Every EV recovery we carry out goes on a flatbed, with all four wheels off the road, exactly as the manufacturer requires.\n\nWe regularly recover Teslas, hybrids and fully electric models from every major manufacturer, delivering to your home, a dealership, a specialist EV garage or the nearest charge point if the issue is simply a flat battery. Our drivers understand the extra care EVs need when loading and securing, including isolation points and low ground clearance on some models.`,
+    longDescription: `Electric and hybrid vehicles cannot be towed with a conventional A-frame or wheel-lift. Manufacturers are explicit about this, because towing with the wheels turning can damage the motor and, in some cases, put the battery pack at risk. Every EV recovery we carry out goes on a flatbed, with all four wheels off the road, exactly as the manufacturer requires.\n\nWe regularly recover Teslas, hybrids and fully electric models from every major manufacturer, delivering to your home, a dealership, a specialist EV garage or the nearest charge point if the issue is simply a flat battery. Our drivers understand the extra care EVs need when loading and securing, including isolation points and low ground clearance on some models.`,
     features: [
       'Flatbed only, as required by EV and hybrid manufacturers',
-      'No towing — zero risk to motor or battery pack',
+      'No towing, zero risk to motor or battery pack',
       'Teslas, hybrids and all fully electric models',
       'Low ground clearance loading experience',
       'Delivery to home, dealer, specialist garage or charge point',
@@ -344,11 +344,11 @@ export const services: Service[] = [
     faqs: [
       {
         question: 'Can my electric car be towed instead of flatbedded?',
-        answer: 'No — nearly all EV and hybrid manufacturers require flatbed-only recovery, since towing with the wheels turning can damage the motor or drivetrain. We always flatbed electric vehicles.',
+        answer: 'No, nearly all EV and hybrid manufacturers require flatbed-only recovery, since towing with the wheels turning can damage the motor or drivetrain. We always flatbed electric vehicles.',
       },
       {
         question: 'What if my EV has simply run out of charge?',
-        answer: 'We can transport it to the nearest suitable charge point, your home charger, or a dealership — whichever makes most sense for you.',
+        answer: 'We can transport it to the nearest suitable charge point, your home charger, or a dealership, whichever makes most sense for you.',
       },
       {
         question: 'Do you have experience with low-clearance EVs?',
@@ -377,7 +377,7 @@ export const services: Service[] = [
     faqs: [
       {
         question: 'Will a standard tow truck damage my lowered car?',
-        answer: 'It can — the approach angle on a standard tow truck is often too steep for lowered or modified vehicles. We use hydraulic tilt-bed flatbeds specifically to avoid that risk.',
+        answer: 'It can: the approach angle on a standard tow truck is often too steep for lowered or modified vehicles. We use hydraulic tilt-bed flatbeds specifically to avoid that risk.',
       },
       {
         question: 'Are you insured to carry high-value vehicles?',
@@ -443,7 +443,7 @@ export const services: Service[] = [
       },
       {
         question: 'Can you recover a car that won\'t start at all?',
-        answer: "Yes, that's one of our most common jobs — whether it's a flat battery, mechanical fault or non-runner, we'll load it and take it wherever you need.",
+        answer: "Yes, that's one of our most common jobs, whether it's a flat battery, mechanical fault or non-runner. We'll load it and take it wherever you need.",
       },
     ],
     category: 'Breakdown',
@@ -454,7 +454,7 @@ export const services: Service[] = [
     title: 'Van Recovery',
     headline: 'Van Recovery, Glasgow & Edinburgh',
     description: 'Van recovery across Glasgow, Edinburgh and Central Scotland. Transits, Sprinters, Transporters and Lutons recovered with tools and load kept secure. Priority dispatch on fleet accounts. Clear price quoted on the phone before we set off.',
-    longDescription: `A van breakdown is rarely just about the vehicle — there is usually a load, tools or a schedule riding on it too. Glasgow Breakdown Recovery recovers Transits, Sprinters, Transporters, Lutons and similar light commercials across Glasgow, Edinburgh and Central Scotland, taking care to keep the load and any tools on board secure throughout.\n\nTrade and business customers can set up a fleet account for priority dispatch and monthly invoicing, but one-off call-outs are just as welcome, with a clear price agreed on the phone before we come out.`,
+    longDescription: `A van breakdown is rarely just about the vehicle: there is usually a load, tools or a schedule riding on it too. Glasgow Breakdown Recovery recovers Transits, Sprinters, Transporters, Lutons and similar light commercials across Glasgow, Edinburgh and Central Scotland, taking care to keep the load and any tools on board secure throughout.\n\nTrade and business customers can set up a fleet account for priority dispatch and monthly invoicing, but one-off call-outs are just as welcome, with a clear price agreed on the phone before we come out.`,
     features: [
       'Transits, Sprinters, Transporters and Lutons',
       'Load and tools kept secure during recovery',
@@ -501,7 +501,7 @@ export const services: Service[] = [
       },
       {
         question: 'Is a jump start included in a normal call-out?',
-        answer: 'Yes, it is part of our standard breakdown response — there is no separate charge for attempting a jump start.',
+        answer: 'Yes, it is part of our standard breakdown response, and there is no separate charge for attempting a jump start.',
       },
     ],
     category: 'Breakdown',
@@ -539,12 +539,12 @@ export const services: Service[] = [
   {
     slug: 'winching-service',
     title: 'Winching Service',
-    headline: 'Winch Recovery — Stuck, Not Broken',
+    headline: 'Winch Recovery: Stuck, Not Broken',
     description: 'Winch recovery for vehicles off the carriageway, in ditches, on verges or stuck on soft ground. Proper gear and correct recovery points used so nothing gets bent. £40 winch fee applied only where needed. Covering Central Scotland, 24/7.',
     longDescription: `Sometimes a vehicle isn't broken down at all, it's just stuck. A verge that gave way in the rain, a wheel dropped into a ditch, or a car bogged down on soft ground after leaving the road all need winching rather than a straightforward tow. Using the wrong technique or the wrong recovery point can bend a chassis rail or tear a bumper clean off.\n\nOur trucks carry proper winching equipment and our drivers know where the correct rated recovery points are on most vehicles, so your car comes back onto solid ground without new damage being added to the old problem. A £40 winch fee applies only when winching is actually required, on top of standard recovery.`,
     features: [
       'Proper winching equipment on every truck',
-      'Correct, rated recovery points used — no bent bumpers',
+      'Correct, rated recovery points used, no bent bumpers',
       'Vehicles in ditches, verges and soft ground',
       'Off-road and field recovery experience',
       '£40 winch fee, applied only when winching is needed',
@@ -617,7 +617,7 @@ export const services: Service[] = [
       },
       {
         question: 'Is there a minimum number of vehicles for an account?',
-        answer: 'No fixed minimum — we set up accounts for single-vehicle garages right through to larger commercial fleets.',
+        answer: 'No fixed minimum: we set up accounts for single-vehicle garages right through to larger commercial fleets.',
       },
     ],
     category: 'Commercial',
@@ -730,18 +730,18 @@ export const services: Service[] = [
       'Jump starts and tyre changes included',
       'Local recovery from £60 plus £1.50 per mile',
       'Price confirmed before dispatch',
-      'No call centre — direct to the team',
+      'No call centre, direct to the team',
       'Delivery to your home, garage or destination of choice',
       'Available 24 hours a day',
     ],
     faqs: [
       {
         question: 'How much does breakdown recovery cost in Glasgow?',
-        answer: 'Local recovery starts from £60 plus £1.50 per mile, confirmed on the phone before we dispatch — no surprises on arrival.',
+        answer: 'Local recovery starts from £60 plus £1.50 per mile, confirmed on the phone before we dispatch, so there are no surprises on arrival.',
       },
       {
         question: 'Can you fix my car at the roadside instead of towing it?',
-        answer: 'In many cases yes — battery issues, flat tyres and minor mechanical problems can often be sorted on the spot. If not, we recover the vehicle to a garage.',
+        answer: 'In many cases yes: battery issues, flat tyres and minor mechanical problems can often be sorted on the spot. If not, we recover the vehicle to a garage.',
       },
     ],
     category: 'Glasgow',
@@ -766,7 +766,7 @@ export const services: Service[] = [
     faqs: [
       {
         question: 'Do I need to be a member to use your breakdown service?',
-        answer: 'No, there is no membership required. You call, we quote a price, and we come out — as a one-off or as often as you need.',
+        answer: 'No, there is no membership required. You call, we quote a price, and we come out, whether as a one-off or as often as you need.',
       },
       {
         question: 'Do you cover West Lothian as well as Edinburgh itself?',

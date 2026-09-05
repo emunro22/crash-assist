@@ -109,7 +109,7 @@ export default function AreaPage({ area }: { area: Area }) {
                     <li key={angle.slug}>
                       <Link href={`/areas/${area.slug}/${angle.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
                         <span className="w-1 h-1 rounded-full bg-blue-500" />
-                        {angle.navLabel} — {area.name}
+                        {angle.navLabel}: {area.name}
                       </Link>
                     </li>
                   ))}

@@ -347,7 +347,7 @@ Vehicles break down and accidents happen at the worst possible times, midnight o
 
 ## When Breakdowns Actually Happen
 
-Statistics from across the UK show that a disproportionate number of breakdowns and accidents occur during:
+Breakdowns and accidents are disproportionately likely to happen during:
 
 - **Evening and night hours (6pm–6am)**, reduced visibility and fatigue are factors
 - **Weekend nights**, higher traffic volumes on certain roads
@@ -371,7 +371,7 @@ Glasgow Breakdown Recovery maintains this standard every single day of the year.
 
 In an emergency, every minute counts. A prolonged wait on a dark roadside, particularly on a motorway, in bad weather or in an isolated rural area, is genuinely dangerous. Hypothermia, being struck by passing vehicles and the psychological impact of isolation are all real risks.
 
-Our target response time across Central Scotland is 45–60 minutes. We hit this target the vast majority of the time. When we cannot, we communicate proactively with you throughout your wait.
+We confirm a realistic ETA on the phone before dispatching, based on where you are and where our nearest truck is, rather than quoting an optimistic figure to get you off the call. If anything changes, we communicate proactively throughout your wait.
 
 ## What to Look For in a 24/7 Recovery Service
 
@@ -403,7 +403,7 @@ The vast majority of vehicle breakdowns are preventable. Understanding the most 
 
 ## 1. Battery Failure
 
-Battery failure is the single most common cause of breakdown calls in the UK, accounting for approximately 1 in 5 callouts. Batteries typically last 3–5 years before performance deteriorates.
+Battery failure is one of the most common reasons drivers call us out. Batteries typically last 3–5 years before performance deteriorates.
 
 **Warning signs:** Slow engine cranking, dashboard warning light, electrical accessories functioning poorly.
 
@@ -467,15 +467,7 @@ One of the most common questions we receive is: "How long until you get here?" T
 
 ## Average Response Times
 
-Glasgow Breakdown Recovery's average response times by area:
-
-- **Glasgow city centre:** 30–40 minutes
-- **Glasgow suburbs:** 40–55 minutes
-- **Edinburgh:** 60–75 minutes
-- **Central Scotland (Falkirk, Livingston, Hamilton):** 45–60 minutes
-- **Ayrshire:** 50–70 minutes
-- **Rural areas:** 60–90 minutes
-- **Remote motorway locations:** 45–60 minutes from dispatch
+Response times vary genuinely by area, since they depend on how far our nearest truck actually is. As a guide: central Glasgow postcodes typically see us in around 30–45 minutes, being closest to our base, while Edinburgh, Perth and more distant parts of our coverage area run longer, and remote or extended-coverage areas such as Loch Lomond and Argyll and Bute don't have a fixed figure at all, we confirm those on the phone. Check your [local area page](/areas) for the specific average we quote there, and we'll always confirm a realistic ETA when you call, not an optimistic one just to get you off the phone.
 
 ## What Affects Recovery Time
 
@@ -508,7 +500,7 @@ When our recovery driver arrives:
 3. **Loading**: Typically takes 15–30 minutes depending on vehicle condition
 4. **Transportation**: Delivery time varies by destination distance
 
-The full process from your call to vehicle delivery is typically 1.5–3 hours for local recoveries and up to 4–5 hours for longer distance recoveries.
+The full process from your call to vehicle delivery depends on distance and destination, we'll give you a realistic estimate for the whole job when you call, not just the time to reach you.
 
 ## How to Make Recovery Faster
 
@@ -1259,7 +1251,7 @@ Test this. Call the number at an unusual time. Does a real person answer? Many c
 
 Ask directly: "What is your average response time at 2am on a Sunday?" Any credible service should be able to give you a realistic answer. Be wary of services that promise unrealistically fast times without caveats.
 
-Glasgow Breakdown Recovery's typical response time is 45–60 minutes across Central Scotland at any hour.
+Glasgow Breakdown Recovery gives you a realistic, area-specific estimate on the call itself, rather than a single number that doesn't reflect how far our nearest truck actually is.
 
 ### 3. Local Knowledge
 
@@ -1290,7 +1282,7 @@ Avoid services that are vague about pricing. Clarity upfront prevents disputes a
 
 ### 7. Reputation and Reviews
 
-Check Google Reviews, Trustpilot and Facebook for consistent, genuine customer feedback. Look for recent reviews, patterns matter more than one or two outliers.
+Check Google Reviews and Trustpilot for consistent, genuine customer feedback. Look for recent reviews, patterns matter more than one or two outliers.
 
 ## Questions to Ask Any Recovery Service
 

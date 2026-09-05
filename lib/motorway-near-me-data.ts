@@ -42,7 +42,7 @@ const quickRecoveryNearMotorway: MotorwayNearMeAngle = {
     const v = variant(motorway.slug, 3)
     const intros = [
       `Being stuck on the hard shoulder of the ${motorway.name} is not somewhere you want to linger. Glasgow Breakdown Recovery dispatches the moment you call, with drivers who work this motorway regularly and know exactly how to reach a live lane or refuge area safely.`,
-      `Speed matters more on a motorway than almost anywhere else. When you call us about a breakdown on the ${motorway.name}, we arrange the nearest available truck straight away — no call-centre delay, no hand-off between dispatchers.`,
+      `Speed matters more on a motorway than almost anywhere else. When you call us about a breakdown on the ${motorway.name}, we arrange the nearest available truck straight away: no call-centre delay, no hand-off between dispatchers.`,
       `Quick recovery on the ${motorway.name} means getting a vehicle-trained driver to you and off the carriageway as fast as it can safely be done. We cover the ${motorway.name} along its full length, so a truck is often already close by.`,
     ]
     return {
@@ -61,7 +61,7 @@ const quickRecoveryNearMotorway: MotorwayNearMeAngle = {
         `Fast dispatch to the ${motorway.name}`,
         'Motorway-trained recovery operators',
         'Coordination with Traffic Scotland where needed',
-        'No call-centre delay — direct dispatch',
+        'No call-centre delay, direct dispatch',
         '24/7 availability, including rush hour',
       ],
       faqs: [
@@ -91,15 +91,15 @@ const breakdownRecoveryNearMotorway: MotorwayNearMeAngle = {
     const areas = areaNames(motorway)
     const v = variant(motorway.slug, 3)
     const intros = [
-      `A breakdown on the ${motorway.name} needs a different response to one on a quiet side street — live traffic, limited hard shoulder in places, and no safe spot to simply wait it out. Glasgow Breakdown Recovery handles motorway breakdowns on the ${motorway.name} as routine work.`,
-      `Whatever's gone wrong with your vehicle on the ${motorway.name} — a flat tyre, an engine fault, a warning light that's brought you to a stop — we recover cars, vans and commercial vehicles from this motorway every week.`,
+      `A breakdown on the ${motorway.name} needs a different response to one on a quiet side street: live traffic, limited hard shoulder in places, and no safe spot to simply wait it out. Glasgow Breakdown Recovery handles motorway breakdowns on the ${motorway.name} as routine work.`,
+      `Whatever's gone wrong with your vehicle on the ${motorway.name}, whether it's a flat tyre, an engine fault, or a warning light that's brought you to a stop, we recover cars, vans and commercial vehicles from this motorway every week.`,
       `The ${motorway.name} is one of the routes we cover most closely. If you've broken down there, Glasgow Breakdown Recovery will get a truck to you and your vehicle off the carriageway safely.`,
     ]
     return {
       title: `Breakdown Recovery Near the ${motorway.name}`,
-      metaDescription: `Breakdown recovery on the ${motorway.name} — cars, vans and commercial vehicles. 24/7 dispatch. Call Glasgow Breakdown Recovery on +44 7564 016582.`,
+      metaDescription: `Breakdown recovery on the ${motorway.name}: cars, vans and commercial vehicles. 24/7 dispatch. Call Glasgow Breakdown Recovery on +44 7564 016582.`,
       h1: `Breakdown Recovery Near the ${motorway.name}`,
-      subheading: `Vehicle breakdowns on the ${motorway.name} — recovered safely, day or night`,
+      subheading: `Vehicle breakdowns on the ${motorway.name}, recovered safely, day or night`,
       intro: intros[v],
       paragraphs: [
         `We handle everything from a simple flat battery to a vehicle that needs winching clear of a live lane. Our trucks carry the equipment needed for cars, vans and light commercials on the ${motorway.name}.`,
@@ -117,7 +117,7 @@ const breakdownRecoveryNearMotorway: MotorwayNearMeAngle = {
       faqs: [
         {
           question: `What counts as a breakdown on the ${motorway.name}?`,
-          answer: 'Anything that leaves you unable to safely continue driving — a mechanical fault, a flat tyre, a dashboard warning, or simply running out of fuel. We recover all of these.',
+          answer: 'Anything that leaves you unable to safely continue driving: a mechanical fault, a flat tyre, a dashboard warning, or simply running out of fuel. We recover all of these.',
         },
         {
           question: `Can you recover vans and small commercials from the ${motorway.name}?`,
@@ -141,18 +141,18 @@ const hour24RecoveryNearMotorway: MotorwayNearMeAngle = {
     const areas = areaNames(motorway)
     const v = variant(motorway.slug, 3)
     const intros = [
-      `Motorway breakdowns don't stick to daylight hours, and the ${motorway.name} is no exception. Glasgow Breakdown Recovery covers this motorway around the clock — a 3am call-out gets the same response as one at midday.`,
+      `Motorway breakdowns don't stick to daylight hours, and the ${motorway.name} is no exception. Glasgow Breakdown Recovery covers this motorway around the clock: a 3am call-out gets the same response as one at midday.`,
       `Overnight breakdowns on the ${motorway.name} carry extra risk simply because visibility is lower and traffic doesn't slow down. We're available 24/7 to get you off the carriageway whatever the hour.`,
       `Whether it's rush hour or the middle of the night, a breakdown on the ${motorway.name} gets the same priority from us. There's no "night rate" and no delay waiting for a day-shift dispatcher.`,
     ]
     return {
       title: `24 Hour Recovery Near the ${motorway.name}`,
-      metaDescription: `24/7 recovery on the ${motorway.name} — nights, weekends and holidays covered. Call Glasgow Breakdown Recovery on +44 7564 016582 any time.`,
+      metaDescription: `24/7 recovery on the ${motorway.name}: nights, weekends and holidays covered. Call Glasgow Breakdown Recovery on +44 7564 016582 any time.`,
       h1: `24 Hour Recovery Near the ${motorway.name}`,
-      subheading: `Round-the-clock cover on the ${motorway.name} — nights, weekends, holidays`,
+      subheading: `Round-the-clock cover on the ${motorway.name}, nights, weekends, holidays`,
       intro: intros[v],
       paragraphs: [
-        `There's no out-of-hours surcharge for a night-time call-out on the ${motorway.name} — pricing and response speed stay the same whatever time you call.`,
+        `There's no out-of-hours surcharge for a night-time call-out on the ${motorway.name}: pricing and response speed stay the same whatever time you call.`,
         areas.length
           ? `We work the ${motorway.name} through the night as well as through the day, covering the route past ${areas.join(', ')}.`
           : `We work the ${motorway.name} through the night as well as through the day, along its full length.`,
@@ -167,11 +167,11 @@ const hour24RecoveryNearMotorway: MotorwayNearMeAngle = {
       faqs: [
         {
           question: `Are you available on the ${motorway.name} overnight?`,
-          answer: `Yes, we're genuinely 24/7 — overnight breakdowns on the ${motorway.name} are handled with the same priority as daytime ones.`,
+          answer: `Yes, we're genuinely 24/7: overnight breakdowns on the ${motorway.name} are handled with the same priority as daytime ones.`,
         },
         {
           question: 'Is there an extra charge for a night-time or holiday call-out?',
-          answer: 'No — our pricing is the same regardless of the time or day you call.',
+          answer: 'No, our pricing is the same regardless of the time or day you call.',
         },
         {
           question: `What if I break down on the ${motorway.name} during rush hour?`,
@@ -197,9 +197,9 @@ const accidentRecoveryNearMotorway: MotorwayNearMeAngle = {
     ]
     return {
       title: `Accident Recovery Near the ${motorway.name}`,
-      metaDescription: `Accident recovery on the ${motorway.name} — coordinated with Police Scotland when needed. 24/7 dispatch. Call Glasgow Breakdown Recovery on +44 7564 016582.`,
+      metaDescription: `Accident recovery on the ${motorway.name}: coordinated with Police Scotland when needed. 24/7 dispatch. Call Glasgow Breakdown Recovery on +44 7564 016582.`,
       h1: `Accident Recovery Near the ${motorway.name}`,
-      subheading: `Collision recovery on the ${motorway.name} — coordinated and 24/7`,
+      subheading: `Collision recovery on the ${motorway.name}, coordinated and 24/7`,
       intro: intros[v],
       paragraphs: [
         `Once a collision scene on the ${motorway.name} is safe, we recover the vehicle to a garage, storage facility, or another location of your choice, and can liaise with your insurer on the paperwork if needed.`,

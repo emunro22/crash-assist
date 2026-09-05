@@ -176,7 +176,7 @@ export const areas: Area[] = [
     description: 'Emergency breakdown and accident recovery around Loch Lomond, including Balloch, Luss, Tarbet and Arrochar. We cover the loch-side roads and beyond, just call for a quote.',
     longDescription: `Loch Lomond's roads present their own challenges: the winding, single-carriageway A82 hugging the west shore, narrow loch-side lanes, and heavy seasonal tourist traffic through the National Park. We regularly recover vehicles from Balloch, Luss, Tarbet, Arrochar and the villages along the loch.\n\nBecause this is a more rural, extended part of our coverage, response times vary by exact location, call us and we'll confirm an ETA and price straight away. We cover anywhere in the area, just call for a quote.`,
     postcodes: ['G83'],
-    responseTime: 'extended coverage — call for a quote',
+    responseTime: 'extended coverage, call for a quote',
     nearbyAreas: ['glasgow', 'stirling', 'argyll-and-bute'],
     features: ['A82 loch-side route coverage', 'Luss, Tarbet and Arrochar coverage', 'Loch Lomond National Park rural recovery', 'Tourist and seasonal traffic experience', 'Extended coverage, call for a quote', '24/7 availability'],
     faqs: [
@@ -191,7 +191,7 @@ export const areas: Area[] = [
     description: 'Extended recovery coverage across Argyll and Bute, including Helensburgh, Dunoon, Inveraray and Oban. We cover anywhere in the region, just call for a quote.',
     longDescription: `Argyll and Bute is one of Scotland's largest and most rural council areas, stretching from Helensburgh and the Gareloch through Dunoon, Inveraray and up to Oban and the sea lochs beyond. Single-track roads, ferry-linked communities and long distances between towns mean recovery here needs to be arranged in advance where possible.\n\nGlasgow Breakdown Recovery extends its coverage into Argyll and Bute as part of our wider service area. Response times depend on exactly where you are, so call us with your location and we'll give you an honest ETA and price. We cover anywhere, just call for a quote.`,
     postcodes: ['G84', 'PA23', 'PA24', 'PA32', 'PA34'],
-    responseTime: 'extended coverage — call for a quote',
+    responseTime: 'extended coverage, call for a quote',
     nearbyAreas: ['loch-lomond', 'glasgow'],
     features: ['Helensburgh and Gareloch coverage', 'Dunoon and Cowal peninsula access', 'Inveraray and Loch Fyne coverage', 'Oban and West Highland routes', 'Single-track and rural road experience', 'Extended coverage, call for a quote'],
     faqs: [

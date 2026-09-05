@@ -111,7 +111,7 @@ export default function MotorwayPage({ motorway }: { motorway: Motorway }) {
                     <li key={angle.slug}>
                       <Link href={`/motorways/${motorway.slug}/${angle.slug}`} className="text-zinc-400 hover:text-blue-500 text-sm transition-colors flex items-center gap-2">
                         <span className="w-1 h-1 rounded-full bg-blue-500" />
-                        {angle.navLabel} — {motorway.name}
+                        {angle.navLabel}: {motorway.name}
                       </Link>
                     </li>
                   ))}

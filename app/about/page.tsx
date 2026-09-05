@@ -8,7 +8,7 @@ const About = dynamic(() => import('@/components/About'))
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    "Glasgow Breakdown Recovery Limited (Company No. SC870113) — Scotland's 24/7 vehicle recovery and accident assistance specialists, serving Glasgow, Edinburgh and Central Scotland since 2009.",
+    "Glasgow Breakdown Recovery Limited (Company No. SC870113): Scotland's 24/7 vehicle recovery and accident assistance specialists, serving Glasgow, Edinburgh and Central Scotland since 2009.",
   alternates: { canonical: '/about' },
 }
 
